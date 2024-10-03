@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Namu;
+  src: url("NAMU-1400.01a84502.otf");
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("Inter_18pt-Black.4e691b49.ttf");
+}
+
+.font1 {
+  font-family: Namu, san-serif;
+  font-size: 42px;
+}
+
+.font2 {
+  font-family: Inter, san-serif;
+  font-size: 42px;
+}
+
+.font3 {
+  font-size: 42px;
+}
+/*# sourceMappingURL=index.971c2ea4.css.map */
