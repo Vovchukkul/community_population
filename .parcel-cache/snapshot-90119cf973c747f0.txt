@@ -44,7 +44,7 @@
 89/home/volodymyr/ttt/community_population/src/styles/utils/fonts/Inter_24pt-ThinItalic.ttf1727972033978849215 0
 95/home/volodymyr/ttt/community_population/src/styles/utils/fonts/Inter_28pt-ExtraLightItalic.ttf1727972033996854577 0
 63/home/volodymyr/ttt/community_population/src/styles/utils/fonts1727972034019861386 1
-69/home/volodymyr/ttt/community_population/src/styles/utils/mixins.scss1727972034022862273 0
+69/home/volodymyr/ttt/community_population/src/styles/utils/mixins.scss1728029276365265143 0
 57/home/volodymyr/ttt/community_population/src/styles/utils1727972034022862273 1
 51/home/volodymyr/ttt/community_population/src/styles1727972033854812280 1
 60/home/volodymyr/ttt/community_population/src/scripts/main.js1728026479288462077 0
@@ -2366,7 +2366,7 @@
 93/home/volodymyr/ttt/community_population/node_modules/@parcel/packager-css/src/CSSPackager.js499162500000000000 0
 92/home/volodymyr/ttt/community_population/node_modules/@swc/helpers/esm/_non_iterable_rest.js456789000000000000 0
 79/home/volodymyr/ttt/community_population/node_modules/@parcel/core/src/requests1727972374983902188 1
-61/home/volodymyr/ttt/community_population/src/styles/main.scss1728028008878327599 0
+61/home/volodymyr/ttt/community_population/src/styles/main.scss1728031724327709249 0
 84/home/volodymyr/ttt/community_population/node_modules/@parcel/profiler/lib/Tracer.js499162500000000000 0
 97/home/volodymyr/ttt/community_population/node_modules/caniuse-lite/data/features/web-bluetooth.js499162500000000000 0
 90/home/volodymyr/ttt/community_population/node_modules/@parcel/bundler-default/package.json1727972381852664623 0
@@ -4328,7 +4328,7 @@
 81/home/volodymyr/ttt/community_population/node_modules/@babel/code-frame/README.md456789000000000000 0
 84/home/volodymyr/ttt/community_population/node_modules/@babel/code-frame/package.json1727972381967643999 0
 88/home/volodymyr/ttt/community_population/node_modules/@babel/code-frame/lib/index.js.map456789000000000000 0
-55/home/volodymyr/ttt/community_population/src/index.html1728026892757955055 0
+55/home/volodymyr/ttt/community_population/src/index.html1728031121563164000 0
 99/home/volodymyr/ttt/community_population/node_modules/@swc/helpers/_/_iterable_to_array_limit_loose1727972374768941146 1
 84/home/volodymyr/ttt/community_population/node_modules/@babel/code-frame/lib/index.js456789000000000000 0
 96/home/volodymyr/ttt/community_population/node_modules/@parcel/core/test/PublicDependency.test.js499162500000000000 0
