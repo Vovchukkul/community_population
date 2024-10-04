@@ -38,3 +38,44 @@
     cursor: pointer;
   }
 }
+
+.left_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 100%;
+
+  &_title {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: $namu_font;
+    background: linear-gradient(to right, black, gray);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    min-width: 296px;
+  }
+
+  &_subtitle {
+    margin: 0;
+    font-family: $inter_font;
+    font-weight: 200;
+    font-size: 18px;
+    color: rgba(23, 23, 23, 1);
+    margin-bottom: 14px;
+    min-width: 296px;
+  }
+
+  &_btn {
+    background-color: $primary-btn-color;
+    border: none;
+    border-radius: 5px;
+    width: 189px;
+    height: 39px;
+    color: $main-text-color;
+    font-family: $namu_font;
+    font-size: 14px;
+  }
+}
