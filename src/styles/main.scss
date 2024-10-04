@@ -1,13 +1,40 @@
 @import './utils/variables.scss';
+@import './utils/mixins.scss';
 
-.font1 {
-  font-family: $namu_font;
-  font-size: 42px;
+.container {
+  @include contentPaddingInline;
+  margin-top: 32px;
 }
-.font2 {
-  font-family: $inter_font;
-  font-size: 42px;
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-.font3 {
-  font-size: 42px;
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  
+  &_logo {
+    width: 50px;
+    height: 55px;
+  }
+
+  &_switch {
+    color: #7d7d7d;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: $namu_font;
+  }
+
+  &_active {
+    color: black;
+  }
+
+  &_span {
+    cursor: pointer;
+  }
 }

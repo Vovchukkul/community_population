@@ -1,6 +1,6 @@
 @font-face {
   font-family: Namu;
-  src: url("NAMU-1400.01a84502.otf");
+  src: url("NAMU-1600.d38fb804.otf");
 }
 
 @font-face {
@@ -8,17 +8,53 @@
   src: url("Inter_18pt-Black.4e691b49.ttf");
 }
 
-.font1 {
+.container {
+  margin-top: 32px;
+  padding-inline: 32px;
+}
+
+@media (width >= 767px) {
+  .container {
+    padding-inline: 72px;
+  }
+}
+
+@media (width >= 1920px) {
+  .container {
+    padding-inline: 118px;
+  }
+}
+
+.header {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.top-bar {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.top-bar_logo {
+  width: 50px;
+  height: 55px;
+}
+
+.top-bar_switch {
+  color: #7d7d7d;
   font-family: Namu, san-serif;
-  font-size: 42px;
+  font-size: 18px;
+  font-weight: 300;
 }
 
-.font2 {
-  font-family: Inter, san-serif;
-  font-size: 42px;
+.top-bar_active {
+  color: #000;
 }
 
-.font3 {
-  font-size: 42px;
+.top-bar_span {
+  cursor: pointer;
 }
 /*# sourceMappingURL=index.971c2ea4.css.map */
