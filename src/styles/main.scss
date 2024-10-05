@@ -61,11 +61,8 @@
   }
 
   &_subtitle {
+    @include subtitle();
     margin: 0;
-    font-family: $inter_font;
-    font-weight: 200;
-    font-size: 18px;
-    color: rgba(23, 23, 23, 1);
     margin-bottom: 14px;
     min-width: 296px;
   }
@@ -210,20 +207,12 @@
   }
 
   &_title {
-    font-family: $namu_normal_font;
-    font-family: 300;
-    font-size: 24px;
-    background: linear-gradient(to right, black 0%, gray 50%, white 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    @include title();
     margin-bottom: 14px;
   }
 
   &_subtitle {
-    font-family: $inter_font;
-    font-size: 18px;
-    font-weight: 200;
+    @include subtitle();
     color: rgba(0, 0, 0, 1);
     margin-bottom: 24px;
   }
@@ -275,15 +264,7 @@
   }
 
   &_btn {
-    margin: 0 auto;
-    margin-bottom: 24px;
-    border: 1px solid rgba(23, 23, 23, 1);
-    box-sizing: border-box;
-    height: 39px;
-    width: 189px;
-    border-radius: 8px;
-    font-size: 14px;
-    font-family: $namu_font;
+    @include button();
   }
 }
 
@@ -294,34 +275,18 @@
   margin-bottom: 32px;
 
   &_title {
-    font-family: $namu_normal_font;
-    font-family: 300;
-    font-size: 24px;
-    background: linear-gradient(to right, black 0%, gray 50%, white 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    @include title();
     margin-bottom: 14px;
   }
 
   &_subtitle {
-    font-family: $inter_font;
-    font-size: 18px;
-    font-weight: 200;
+    @include subtitle();
     color: rgba(0, 0, 0, 1);
     margin-bottom: 24px;
   }
 
   &_btn {
-    margin: 0 auto;
-    margin-bottom: 24px;
-    border: 1px solid rgba(23, 23, 23, 1);
-    box-sizing: border-box;
-    height: 39px;
-    width: 189px;
-    border-radius: 8px;
-    font-size: 14px;
-    font-family: $namu_font;
+    @include button();
   }
 }
 
@@ -331,13 +296,7 @@
   justify-content: left;
 
   &_title {
-    font-family: $namu_normal_font;
-    font-family: 300;
-    font-size: 24px;
-    background: linear-gradient(to right, black 0%, gray 50%, white 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    @include title();
     margin-bottom: 14px;
   }
 

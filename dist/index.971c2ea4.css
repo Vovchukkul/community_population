@@ -322,12 +322,13 @@ input, textarea {
 }
 
 .population_title {
-  font-family: Namu_s, san-serif;
-  font-family: 300;
   color: #0000;
   background: linear-gradient(to right, #000 0%, gray 50%, #fff 100%) text;
+  min-width: 296px;
   margin-bottom: 14px;
+  font-family: Namu_s, san-serif;
   font-size: 24px;
+  font-weight: 300;
 }
 
 .population_subtitle {
@@ -399,12 +400,13 @@ input, textarea {
 }
 
 .contacts_title {
-  font-family: Namu_s, san-serif;
-  font-family: 300;
   color: #0000;
   background: linear-gradient(to right, #000 0%, gray 50%, #fff 100%) text;
+  min-width: 296px;
   margin-bottom: 14px;
+  font-family: Namu_s, san-serif;
   font-size: 24px;
+  font-weight: 300;
 }
 
 .contacts_subtitle {
@@ -433,12 +435,13 @@ input, textarea {
 }
 
 .info_title {
-  font-family: Namu_s, san-serif;
-  font-family: 300;
   color: #0000;
   background: linear-gradient(to right, #000 0%, gray 50%, #fff 100%) text;
+  min-width: 296px;
   margin-bottom: 14px;
+  font-family: Namu_s, san-serif;
   font-size: 24px;
+  font-weight: 300;
 }
 
 .info_blocks {

@@ -45,3 +45,33 @@
     padding-inline: 118px;
   }
 }
+
+@mixin title() {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: $namu_normal_font;
+  background: linear-gradient(to right, black 0%, gray 50%, white 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  min-width: 296px;
+}
+
+@mixin button() {
+  margin: 0 auto;
+  margin-bottom: 24px;
+  border: 1px solid rgba(23, 23, 23, 1);
+  box-sizing: border-box;
+  height: 39px;
+  width: 189px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: $namu_font;
+}
+
+@mixin subtitle() {
+  font-family: $inter_font;
+  font-weight: 200;
+  font-size: 18px;
+  color: rgba(23, 23, 23, 1);
+}
