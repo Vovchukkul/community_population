@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: 'Namu_s';
+  src: url('./utils/fonts/NAMU-1990.otf');
+}
+
+@font-face {
   font-family: 'Inter';
   src: url('./utils/fonts/Inter_18pt-Light.ttf');
 }
@@ -14,4 +19,5 @@ $dark-button-color: #3A3A3A;
 $gray-btn-color: #F3F3F3;
 
 $namu_font: 'Namu', san-serif;
+$namu_normal_font: 'Namu_s', san-serif;
 $inter_font: 'Inter', san-serif;
