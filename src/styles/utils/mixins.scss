@@ -4,8 +4,14 @@
   }
 }
 
+@mixin onExtendedMobile {
+  @media (min-width: 576px) {
+    @content;
+  }
+}
+
 @mixin onTablet {
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     @content;
   }
 }
@@ -28,8 +34,20 @@
   }
 }
 
+@mixin onDesktop {
+  @media (min-width: 1600px) {
+    @content;
+  }
+}
+
 @mixin onBigDesktop {
   @media (min-width: 1920px) {
+    @content;
+  }
+}
+
+@mixin onFullHD {
+  @media (min-width: 2560px) {
     @content;
   }
 }
