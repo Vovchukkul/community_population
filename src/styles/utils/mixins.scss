@@ -1,17 +1,25 @@
+// 375, 576, 768, 960, 1024, 1280, 1440, 1600, 1920, 2560
+
 @mixin onMobile {
   @media (min-width: 375px) {
     @content;
   }
 }
 
+@mixin onMobileExtended {
+  @media (min-width: 576px) {
+    @content;
+  }
+}
+
 @mixin onTablet {
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     @content;
   }
 }
 
 @mixin onBigTablet {
-  @media (min-width: 991px) {
+  @media (min-width: 960px) {
     @content;
   }
 }
@@ -29,7 +37,19 @@
 }
 
 @mixin onBigDesktop {
+  @media (min-width: 1600px) {
+    @content;
+  }
+}
+
+@mixin onExtendedDesktop {
   @media (min-width: 1920px) {
+    @content;
+  }
+}
+
+@mixin onFullHD {
+  @media (min-width: 2560px) {
     @content;
   }
 }
