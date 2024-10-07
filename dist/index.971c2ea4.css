@@ -252,7 +252,6 @@ input, textarea {
 
 .right_side {
   width: 100%;
-  height: 100vh;
   position: relative;
 }
 
@@ -469,6 +468,16 @@ input, textarea {
   }
 }
 
+.main {
+  margin-top: 120px;
+}
+
+@media (width >= 1920px) {
+  .main {
+    margin-top: 326px;
+  }
+}
+
 .population {
   z-index: 1000;
   padding-top: 32px;
@@ -476,11 +485,15 @@ input, textarea {
   flex-direction: column;
   justify-content: center;
   width: 100vw;
-  margin-top: -320px;
   margin-left: -32px;
   padding-inline: 32px;
   display: flex;
   position: relative;
+}
+
+.population_wrap {
+  flex-direction: column;
+  display: flex;
 }
 
 @media (width >= 768px) {
@@ -491,7 +504,22 @@ input, textarea {
 
 @media (width >= 1920px) {
   .population {
+    background-color: #0000;
     padding-inline: 118px;
+  }
+}
+
+.population_hidden {
+  display: none;
+}
+
+@media (width >= 1920px) {
+  .population_hidden {
+    display: block;
+  }
+
+  .population_mobile_btn {
+    display: none;
   }
 }
 
@@ -499,6 +527,15 @@ input, textarea {
   flex-direction: column;
   justify-content: left;
   display: flex;
+}
+
+@media (width >= 1920px) {
+  .population_month {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 490px;
+    margin-bottom: 148px;
+  }
 }
 
 .population_title {
@@ -511,6 +548,14 @@ input, textarea {
   font-weight: 300;
 }
 
+@media (width >= 1920px) {
+  .population_title {
+    width: 530px;
+    margin-bottom: 24px;
+    font-size: 83px;
+  }
+}
+
 .population_subtitle {
   color: #000;
   margin-bottom: 24px;
@@ -519,12 +564,27 @@ input, textarea {
   font-weight: 200;
 }
 
+@media (width >= 1920px) {
+  .population_subtitle {
+    margin-bottom: 82px;
+    font-size: 32px;
+  }
+}
+
 .population_blocks {
   flex-wrap: wrap;
   justify-content: center;
   gap: 6px;
   margin-bottom: 24px;
   display: flex;
+}
+
+@media (width >= 1920px) {
+  .population_blocks {
+    column-gap: 36px;
+    max-width: 1000px;
+    margin-bottom: 0;
+  }
 }
 
 .population_block {
@@ -540,15 +600,27 @@ input, textarea {
   display: flex;
 }
 
-.population_block:first-child, .population_block:nth-child(4) {
+@media (width >= 1920px) {
+  .population_block {
+    border-radius: 21px;
+    width: 353px;
+    height: 133px;
+  }
+
+  .population_block:nth-child(2n) {
+    width: 453px;
+  }
+}
+
+.population_block:nth-child(3n+1) {
   background-color: #3a3a3a;
 }
 
-.population_block:nth-child(2), .population_block:nth-child(5) {
+.population_block:nth-child(3n+2) {
   background-color: #127cff;
 }
 
-.population_block:nth-child(3), .population_block:nth-child(6) {
+.population_block:nth-child(3n+3) {
   color: #3a3a3a;
   background-color: #f3f3f3;
 }
@@ -557,8 +629,20 @@ input, textarea {
   font-size: 20px;
 }
 
+@media (width >= 1920px) {
+  .population_number {
+    font-size: 54px;
+  }
+}
+
 .population_sub {
   font-size: 12px;
+}
+
+@media (width >= 1920px) {
+  .population_sub {
+    font-size: 32px;
+  }
 }
 
 .population_btn {
@@ -570,6 +654,17 @@ input, textarea {
   margin: 0 auto 24px;
   font-family: Namu, san-serif;
   font-size: 14px;
+}
+
+@media (width >= 1920px) {
+  .population_btn {
+    border-width: 2px;
+    border-radius: 12px;
+    width: 374px;
+    height: 88px;
+    margin: 0;
+    font-size: 32px;
+  }
 }
 
 .contacts {
@@ -606,6 +701,17 @@ input, textarea {
   margin: 0 auto 24px;
   font-family: Namu, san-serif;
   font-size: 14px;
+}
+
+@media (width >= 1920px) {
+  .contacts_btn {
+    border-width: 2px;
+    border-radius: 12px;
+    width: 374px;
+    height: 88px;
+    margin: 0;
+    font-size: 32px;
+  }
 }
 
 .info {
@@ -712,5 +818,55 @@ input, textarea {
   color: #fff;
   font-family: Namu_s, san-serif;
   font-size: 14px;
+}
+
+.s {
+  flex-direction: column;
+  width: 1680px;
+  height: 700px;
+  margin-top: 0;
+  display: flex;
+}
+
+.s_wrap {
+  width: 589px;
+  margin: 0 auto;
+}
+
+.s_title {
+  width: 589px;
+}
+
+.s_subtitle {
+  margin-bottom: 48px;
+}
+
+.s_blocks {
+  align-self: center;
+  gap: 32px;
+  width: 1680px;
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
+.s_block:nth-child(3n+1) {
+  flex-grow: 1;
+}
+
+.s_block:nth-child(3n+3), .s_block:nth-child(3n+2) {
+  flex-grow: 2;
+}
+
+.s_block:nth-child(4n+1) {
+  background-color: #3a3a3a;
+}
+
+.s_block:nth-child(3n+3) {
+  color: #3a3a3a;
+  background-color: #f3f3f3;
+}
+
+.s_btn {
+  align-self: center;
 }
 /*# sourceMappingURL=index.971c2ea4.css.map */

@@ -85,6 +85,15 @@
   border-radius: 8px;
   font-size: 14px;
   font-family: $namu_font;
+
+  @include onBigDesktop {
+    height: 88px;
+    width: 374px;
+    font-size: 32px;
+    border-radius: 12px;
+    border-width: 2px;
+    margin: 0 0 0;
+  }
 }
 
 @mixin subtitle() {
