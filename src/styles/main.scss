@@ -6,6 +6,10 @@
   @include contentPaddingInline;
   overflow: hidden;
   margin-top: 32px;
+
+  @include onBigDesktop {
+    margin-top: 0;
+  }
 }
 
 .header {
@@ -15,14 +19,27 @@
 }
 
 .top-bar {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 24px;
+
+  @include onBigDesktop {
+    align-items: start;
+    margin-bottom: 73px;
+    margin-top: 72px;
+    z-index: 100000;
+  }
   
   &_logo {
     width: 50px;
     height: 55px;
+
+    @include onBigDesktop {
+      width: 133px;
+      height: 147px;
+    }
   }
 
   &_switch {
@@ -30,6 +47,10 @@
     font-weight: 300;
     font-size: 18px;
     font-family: $namu_font;
+
+    @include onBigDesktop {
+      font-size: 24px;
+    }
   }
 
   &_active {
@@ -41,11 +62,25 @@
   }
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include onBigDesktop {
+    flex-direction: row;
+  }
+}
+
 .left_side {
   display: flex;
   flex-direction: column;
   justify-content: left;
   width: 100%;
+
+  @include onBigDesktop {
+    margin-left: 472px;
+  }
 
   &_title {
     margin: 0;
@@ -58,6 +93,12 @@
     background-clip: text;
     color: transparent;
     min-width: 296px;
+
+    @include onBigDesktop {
+      font-size: 84px;
+      min-width: 959px;
+      margin-bottom: 24px;
+    }
   }
 
   &_subtitle {
@@ -65,6 +106,13 @@
     margin: 0;
     margin-bottom: 14px;
     min-width: 296px;
+
+    @include onBigDesktop {
+      font-size: 32px;
+      margin-bottom: 72px;
+      min-width: none;
+      width: 518px;
+    }
   }
 
   &_btn {
@@ -76,6 +124,13 @@
     color: $main-text-color;
     font-family: $namu_font;
     font-size: 14px;
+
+    @include onBigDesktop {
+      border-radius: 12px;
+      width: 429px;
+      height: 88px;
+      font-size: 32px;
+    }
   }
 }
 
@@ -99,6 +154,15 @@
     margin-left: 150px;
     position: relative;
     z-index: -10;
+
+    @include onBigDesktop {
+      width: 876px;
+      height: 876px;
+      margin-top: -300px;
+      margin-left: 0;
+      position: relative;
+      right: -300px;
+    }
   }
 
   &_s_circle {
@@ -111,6 +175,15 @@
     margin-right: 80px;
     position: relative;
     z-index: -5;
+
+    @include onBigDesktop {
+      width: 1192px;
+      height: 1192px;
+      margin-right: 0;
+      right: -10px;
+      top: -650px;
+      margin-top: 0;
+    }
   }
 
   &_t_circle {
@@ -123,6 +196,19 @@
     position: relative;
     margin-left: -130px;
     z-index: -1;
+    filter: blur(50px);
+
+    @include onBigDesktop {
+      width: 632px;
+      height: 632px;
+      margin-left: 0;
+      margin-top: 0;
+      top: -1400px;
+      right: 200px;
+      z-index: -10;
+      background: rgba(18, 124, 255, 0.9);
+      filter: blur(100px);
+    }
   }
 
   &_block_wrapper {
@@ -163,6 +249,12 @@
       width: 2px;
       height: 150px;
       background: linear-gradient(180deg, #127CFF 0%, rgba(18, 124, 255, 0) 100%);
+      
+
+      @include onBigDesktop {
+        width: 7px;
+        height: 582px;
+      }
     }
   }
 
@@ -173,16 +265,95 @@
     &::after {
       height: 30px;
       bottom: -30px;
+
+      @include onBigDesktop {
+        height: 582px;
+        width: 7px;
+        bottom: -582px;
+      }
+    }
+
+    &_number {
+      @include onBigDesktop {
+        font-size: 68px;
+      }
+    }
+
+    &_sub {
+      @include onBigDesktop {
+        font-size: 42px;
+      }
+    }
+
+    @include onBigDesktop {
+      border-radius: 26px;
+      width: 444px;
+      height: 168px;
+      margin-top: -2550px;
+      margin-left: -70px;
+      z-index: 50;
     }
   }
 
   &_s_block {
     margin-top: 50px;
+
+    &::after {
+      @include onBigDesktop {
+        bottom: -582px;
+      }
+    }
+
+    &_number {
+      @include onBigDesktop {
+        font-size: 48px;
+      }
+    }
+
+    &_sub {
+      @include onBigDesktop {
+        font-size: 30px;
+      }
+    }
+
+    @include onBigDesktop {
+      border-radius: 18px;
+      width: 324px;
+      height: 117px;
+      margin-left: 430px;
+      margin-top: -50px;
+    }
   }
 
   &_t_block {
     margin-left: 170px;
     margin-top: -20px;
+
+    &::after {
+      @include onBigDesktop {
+        bottom: -582px;
+      }
+    }
+
+    &_number {
+      @include onBigDesktop {
+        font-size: 48px;
+      }
+    }
+
+    &_sub {
+      @include onBigDesktop {
+        font-size: 30px;
+      }
+    }
+
+    @include onBigDesktop {
+      width: 310px;
+      height: 117px;
+      border-radius: 18px;
+      margin-top: 200px;
+      margin-left: 230px;
+    }
   }
 }
 
