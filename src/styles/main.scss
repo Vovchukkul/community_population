@@ -383,6 +383,12 @@
   @include contentPaddingInline;
 
   @include onBigDesktop {
+    padding-inline: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  @include onBigDesktop {
     background-color: transparent;
   }
 
@@ -513,15 +519,32 @@
   justify-content: left;
   margin-bottom: 32px;
 
+  @include onBigDesktop {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 148px;
+  }
+
   &_title {
     @include title();
     margin-bottom: 14px;
+
+    @include onBigDesktop {
+      font-size: 83px;
+      margin-bottom: 46px;
+    }
   }
 
   &_subtitle {
     @include subtitle();
     color: rgba(0, 0, 0, 1);
     margin-bottom: 24px;
+
+    @include onBigDesktop {
+      font-size: 32px;
+      margin-bottom: 124px;
+    }
   }
 
   &_btn {
@@ -534,9 +557,28 @@
   flex-direction: column;
   justify-content: left;
 
+  @include onBigDesktop {
+    margin-bottom: 151px;
+  }
+
   &_title {
     @include title();
     margin-bottom: 14px;
+
+    @include onBigDesktop {
+      font-size: 84px;
+      margin-bottom: 111px;
+      max-width: 1263px;
+    }
+  }
+
+  &_wrap {
+    display: flex;
+    flex-direction: column;
+
+    @include onBigDesktop {
+      width: 100%;
+    }
   }
 
   &_blocks {
@@ -548,6 +590,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @include onBigDesktop {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 82px;
+    }
   }
 
   &_name {
@@ -563,6 +611,15 @@
     font-size: 20px;
     color: rgba(0, 0, 0, 1);
     margin-bottom: 6px;
+
+    @include onBigDesktop {
+      border-radius: 21px;
+      font-size: 54px;
+      height: 133px;
+      justify-content: start;
+      padding-inline: 32px;
+      margin-bottom: 32px;
+    }
   }
 
   &_block {
@@ -572,6 +629,12 @@
     row-gap: 6px;
     column-gap: 6px;
     margin-bottom: 24px;
+
+    @include onBigDesktop {
+      row-gap: 32px;
+      column-gap: 32px;
+      margin-bottom: 0;
+    }
   }
 
   &_subblock {
@@ -585,14 +648,30 @@
     width: 145px;
     height: 48px;
     color: rgba(255, 255, 255, 1);
+
+    @include onBigDesktop {
+      width: 384px;
+      height: 133px;
+      border-radius: 31px;
+      align-items: start;
+      padding-inline: 32px;
+    }
   }
 
   &_number {
     font-size: 20px;
+
+    @include onBigDesktop {
+      font-size: 54px;
+    }
   }
 
   &_sub {
     font-size: 12px;
+
+    @include onBigDesktop {
+      font-size: 32px;
+    }
   }
 }
 
@@ -617,10 +696,22 @@
   padding-top: 29px;
   padding-bottom: 32px;
 
+  @include onBigDesktop {
+    margin-left: -118px;
+    padding-inline: 118px;
+    padding-top: 114px;
+    padding-bottom: 168px;
+  }
+
   &_img {
     width: 60px;
     height: 66px;
     margin-bottom: 35px;
+
+    @include onBigDesktop {
+      width: 133px;
+      height: 147px;
+    }
   }
 
   &_wrap {
@@ -633,57 +724,86 @@
     font-family: $namu_normal_font;
     font-size: 14px;
     color: rgba(255, 255, 255, 1);
+
+    @include onBigDesktop {
+      font-size: 32px;
+    }
   }
 }
 
 .s {
-  display: flex;
-  flex-direction: column;
-  height: 700px;
-  width: 1680px;
-  margin-top: 0;
-
-  &_wrap {
-    width: 589px;
-    margin: 0 auto;
-  }
-
-  &_title {
-    width: 589px;
-  }
-
-  &_subtitle {
-    margin-bottom: 48px;
-  }
-
-  &_blocks {
-    align-self: center;
-    margin-bottom: 60px;
+  @include onBigDesktop {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
     width: 1680px;
-    max-width: 100%;
-    gap: 32px;
-  }
+    margin-top: 0;
 
-  &_block {
-    &:nth-child(3n + 1) {
-      flex-grow: 1;
-    }
-    &:nth-child(3n + 3),
-    &:nth-child(3n + 2) {
-      flex-grow: 2;
+    &_wrap {
+      width: 589px;
+      margin: 0 auto;
     }
 
-    &:nth-child(4n + 1) {
-      background-color: $dark-button-color;
+    &_title {
+      width: 589px;
     }
 
-    &:nth-child(3n + 3) {
-      background-color: $gray-btn-color;
-      color: rgba(58, 58, 58, 1);
+    &_subtitle {
+      margin-bottom: 48px;
     }
-  }
 
-  &_btn {
-    align-self: center;
+    &_blocks {
+      margin-bottom: 60px;
+      width: 1680px;
+      max-width: 100%;
+      gap: 32px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &_block {
+      align-items: start;
+      padding-inline: 32px;
+      &:nth-child(4n + 1) {
+        flex-grow: 1;
+      }
+      &:nth-child(4n + 2),
+      &:nth-child(4n + 3) {
+        flex-grow: 2;
+      }
+
+      &:nth-child(4) {
+        flex-grow: 2;
+      }
+
+      &:nth-child(n + 4) {
+        height: 255px;
+      }
+
+      &:nth-child(4n + 1) {
+        background-color: $dark-button-color;
+      }
+
+      &:nth-child(3n + 1) {
+        background-color: $gray-btn-color;
+        color: rgba(58, 58, 58, 1);
+      }
+
+      &:nth-child(4n + 1) {
+        background-color: $dark-button-color;
+        color: rgba(255, 255, 255, 1);
+      } 
+
+      &:nth-child(4n + 2) {
+        background-color: $primary-btn-color;
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+
+    &_btn {
+      align-self: center;
+      height: 88px;
+      margin-top: -190px;
+    }
   }
 }
