@@ -5,7 +5,19 @@
 }
 
 @mixin onExtendedMobile {
+  @media (min-width: 510px) {
+    @content;
+  }
+}
+
+@mixin onBigMobile {
   @media (min-width: 576px) {
+    @content;
+  }
+}
+
+@mixin onSmallTablet {
+  @media (min-width: 640px) {
     @content;
   }
 }
@@ -17,6 +29,12 @@
 }
 
 @mixin onBigTablet {
+  @media (min-width: 854px) {
+    @content;
+  }
+}
+
+@mixin onExtendedTablet {
   @media (min-width: 991px) {
     @content;
   }
@@ -34,7 +52,7 @@
   }
 }
 
-@mixin onDesktop {
+@mixin onExtendedDesktop {
   @media (min-width: 1600px) {
     @content;
   }

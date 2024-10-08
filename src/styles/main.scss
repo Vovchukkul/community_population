@@ -66,6 +66,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   @include onBigDesktop {
     flex-direction: row;
@@ -93,6 +94,7 @@
     background-clip: text;
     color: transparent;
     min-width: 296px;
+    max-width: 500px;
 
     @include onBigDesktop {
       font-size: 84px;
@@ -106,6 +108,7 @@
     margin: 0;
     margin-bottom: 14px;
     min-width: 296px;
+    max-width: 296px;
 
     @include onBigDesktop {
       font-size: 32px;
@@ -137,6 +140,8 @@
 .right_side {
   width: 100%;
   position: relative;
+
+  margin-left: calc(100%/2 - 100px);
 
   &_circle_wrapper {
     position: relative;
@@ -575,6 +580,11 @@
   &_wrap {
     display: flex;
     flex-direction: column;
+    width: 100%;
+
+    @include onSmallDesktop {
+      width: 100%;
+    }
 
     @include onBigDesktop {
       width: 100%;
@@ -584,12 +594,12 @@
   &_blocks {
     display: flex;
     flex-direction: column;
-  }
-
-  &_blocks {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
+
+    @include onBigMobile {
+      flex-direction: row;
+      gap: 15px;
+    }
 
     @include onBigDesktop {
       flex-direction: row;
@@ -611,6 +621,13 @@
     font-size: 20px;
     color: rgba(0, 0, 0, 1);
     margin-bottom: 6px;
+    max-width: 296px;
+    align-self: center;
+
+    @include onBigMobile {
+      width: 100%;
+      max-width: none;
+    }
 
     @include onBigDesktop {
       border-radius: 21px;
@@ -629,6 +646,29 @@
     row-gap: 6px;
     column-gap: 6px;
     margin-bottom: 24px;
+
+    @include onExtendedMobile {
+      max-width: 400px;
+      align-items: center;
+      align-self: center;
+    }
+
+    @include onBigMobile {
+      max-width: none;
+      justify-content: initial;
+      width: 100%;
+    }
+
+    @include onSmallTablet {
+      justify-content: space-between;
+    }
+
+    @include onSmallDesktop {
+      width: 100%;
+      row-gap: 16px;
+      column-gap: 16px;
+      margin-bottom: 0;
+    }
 
     @include onBigDesktop {
       row-gap: 32px;
@@ -649,8 +689,15 @@
     height: 48px;
     color: rgba(255, 255, 255, 1);
 
+    @include onBigMobile {
+      width: 100%;
+    }
+
+    @include onTablet {
+      width: 48%;
+    }
+
     @include onBigDesktop {
-      width: 384px;
       height: 133px;
       border-radius: 31px;
       align-items: start;

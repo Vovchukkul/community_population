@@ -172,6 +172,7 @@ input, textarea {
 .wrapper {
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   display: flex;
 }
 
@@ -198,6 +199,7 @@ input, textarea {
   color: #0000;
   background: linear-gradient(to right, #000, gray) text;
   min-width: 296px;
+  max-width: 500px;
   margin: 0 0 8px;
   font-family: Namu_s, san-serif;
   font-size: 28px;
@@ -215,6 +217,7 @@ input, textarea {
 .left_side_subtitle {
   color: #171717;
   min-width: 296px;
+  max-width: 296px;
   margin: 0 0 14px;
   font-family: Inter, san-serif;
   font-size: 18px;
@@ -252,6 +255,7 @@ input, textarea {
 
 .right_side {
   width: 100%;
+  margin-left: calc(50% - 100px);
   position: relative;
 }
 
@@ -771,7 +775,14 @@ input, textarea {
 
 .info_wrap {
   flex-direction: column;
+  width: 100%;
   display: flex;
+}
+
+@media (width >= 1199px) {
+  .info_wrap {
+    width: 100%;
+  }
 }
 
 @media (width >= 1920px) {
@@ -784,6 +795,13 @@ input, textarea {
   flex-direction: column;
   justify-content: center;
   display: flex;
+}
+
+@media (width >= 576px) {
+  .info_blocks {
+    flex-direction: row;
+    gap: 15px;
+  }
 }
 
 @media (width >= 1920px) {
@@ -800,13 +818,22 @@ input, textarea {
   border: none;
   border-radius: 8px;
   justify-content: center;
+  align-self: center;
   align-items: center;
   width: 100%;
+  max-width: 296px;
   height: 48px;
   margin-bottom: 6px;
   font-family: Namu_s, san-serif;
   font-size: 20px;
   display: flex;
+}
+
+@media (width >= 576px) {
+  .info_name {
+    width: 100%;
+    max-width: none;
+  }
 }
 
 @media (width >= 1920px) {
@@ -826,6 +853,36 @@ input, textarea {
   gap: 6px;
   margin-bottom: 24px;
   display: flex;
+}
+
+@media (width >= 510px) {
+  .info_block {
+    align-self: center;
+    align-items: center;
+    max-width: 400px;
+  }
+}
+
+@media (width >= 576px) {
+  .info_block {
+    justify-content: initial;
+    width: 100%;
+    max-width: none;
+  }
+}
+
+@media (width >= 640px) {
+  .info_block {
+    justify-content: space-between;
+  }
+}
+
+@media (width >= 1199px) {
+  .info_block {
+    gap: 16px;
+    width: 100%;
+    margin-bottom: 0;
+  }
 }
 
 @media (width >= 1920px) {
@@ -848,11 +905,22 @@ input, textarea {
   display: flex;
 }
 
+@media (width >= 576px) {
+  .info_subblock {
+    width: 100%;
+  }
+}
+
+@media (width >= 768px) {
+  .info_subblock {
+    width: 48%;
+  }
+}
+
 @media (width >= 1920px) {
   .info_subblock {
     border-radius: 31px;
     align-items: start;
-    width: 384px;
     height: 133px;
     padding-inline: 32px;
   }
