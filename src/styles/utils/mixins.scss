@@ -70,6 +70,7 @@
   }
 }
 
+
 @mixin contentPaddingInline() {
   padding-inline: 32px;
 
@@ -91,6 +92,22 @@
   background-clip: text;
   color: transparent;
   min-width: 296px;
+
+  @include onSmallTablet() {
+    font-size: 32px;
+  }
+
+  @include onExtendedTablet() {
+    font-size: 44px;
+  }
+
+  @include onExtendedDesktop() {
+    font-size: 64px;
+  }
+
+  @include onBigDesktop() {
+    font-size: 83px;
+  }
 }
 
 @mixin button() {
@@ -119,4 +136,21 @@
   font-weight: 200;
   font-size: 18px;
   color: rgba(23, 23, 23, 1);
+  max-width: 1400px;
+
+  @include onSmallTablet() {
+    font-size: 20px;
+  }
+
+  @include onExtendedTablet() {
+    font-size: 24px;
+  }
+
+  @include onExtendedDesktop() {
+    font-size: 28px;
+  }
+
+  @include onBigDesktop() {
+    font-size: 32px;
+  }
 }
