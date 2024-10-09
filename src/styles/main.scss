@@ -419,7 +419,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: $namu_font;
+    font-family: $namu_normal_font;
     color: #F3F3F3;
     font-weight: 300;
     z-index: 100;
@@ -720,6 +720,11 @@
   margin-left: -32px;
   padding-top: 32px;
 
+  @include onBiggestScreen {
+    position: relative;
+    left: 160px;
+  }
+
   @include onTablet {
     padding-inline: 0;
     margin-left: -72px;
@@ -734,6 +739,7 @@
 
   @include onBigDesktop {
     width: 100%;
+    margin-left: -118px;
   }
 
   @include onDesktop {
@@ -783,7 +789,8 @@
 
     @include onBigDesktop {
       flex-direction: row;
-      justify-content: space-between;
+      // justify-content: space-between;
+      justify-content: center;
       height: 490px;
       margin-bottom: 148px;
       gap: 60px
@@ -1302,141 +1309,9 @@
       display: block;
     }
   }
+
+  @include onBiggestScreen {
+    position: relative;
+    left: -40px;
+  }
 }
-
-/* region start*/
-// .container {
-//   @include contentPaddingInline;
-//   overflow: hidden;
-//   margin-top: 32px;
-
-//   @include onBigDesktop {
-//     margin-top: 0;
-//   }
-// }
-
-// .header {
-//   display: flex;
-//   justify-content: center;
-//   flex-direction: column;
-// }
-
-// .top-bar {
-//   position: relative;
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   margin-bottom: 24px;
-
-//   @include onBigDesktop {
-//     align-items: start;
-//     margin-bottom: 73px;
-//     margin-top: 72px;
-//     z-index: 100000;
-//   }
-  
-//   &_logo {
-//     width: 50px;
-//     height: 55px;
-
-//     @include onBigDesktop {
-//       width: 133px;
-//       height: 147px;
-//     }
-//   }
-
-//   &_switch {
-//     color: #7d7d7d;
-//     font-weight: 300;
-//     font-size: 18px;
-//     font-family: $namu_font;
-
-//     @include onBigDesktop {
-//       font-size: 24px;
-//     }
-//   }
-
-//   &_active {
-//     color: black;
-//   }
-
-//   &_span {
-//     cursor: pointer;
-//   }
-// }
-
-// .wrapper {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-
-//   @include onTablet {
-//     flex-direction: row;
-//   }
-// }
-
-// .left_side {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: left;
-//   width: 100%;
-
-//   @include onBigDesktop {
-//     margin-left: 272px;
-//   }
-
-//   &_title {
-//     margin: 0;
-//     margin-bottom: 8px;
-//     font-size: 28px;
-//     font-weight: 300;
-//     font-family: $namu_normal_font;
-//     background: linear-gradient(to right, black, gray);
-//     -webkit-background-clip: text;
-//     background-clip: text;
-//     color: transparent;
-//     min-width: 296px;
-//     max-width: 500px;
-
-//     @include onBigDesktop {
-//       font-size: 84px;
-//       min-width: 959px;
-//       margin-bottom: 24px;
-//     }
-//   }
-
-//   &_subtitle {
-//     @include subtitle();
-//     margin: 0;
-//     margin-bottom: 14px;
-//     min-width: 296px;
-//     max-width: 296px;
-
-//     @include onBigDesktop {
-//       font-size: 32px;
-//       margin-bottom: 72px;
-//       min-width: none;
-//       width: 518px;
-//     }
-//   }
-
-//   &_btn {
-//     background-color: $primary-btn-color;
-//     border: none;
-//     border-radius: 5px;
-//     width: 189px;
-//     height: 39px;
-//     color: $main-text-color;
-//     font-family: $namu_font;
-//     font-size: 14px;
-
-//     @include onBigDesktop {
-//       border-radius: 12px;
-//       width: 429px;
-//       height: 88px;
-//       font-size: 32px;
-//     }
-//   }
-// }
-/* region end*/
