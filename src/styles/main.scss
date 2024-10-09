@@ -819,15 +819,16 @@
     row-gap: 6px;
     column-gap: 6px;
     margin-bottom: 24px;
+    min-width: 300px;
 
     @include onTablet {
       width: 100%;
       align-content: center;
-      column-gap: 15px;
+      column-gap: 10px;
     }
 
     @include onExtendedTablet {
-      column-gap: 20px;
+      column-gap: 15px;
     }
 
     @include onSmallDesktop {
@@ -841,7 +842,7 @@
     @include onBigDesktop {
       align-content: initial;
       flex-wrap: wrap;
-      column-gap: 36px;
+      column-gap: 34px;
       margin-bottom: 0px;
     }
 
@@ -1221,7 +1222,13 @@
 }
 
 .s {
+  @include onTablet {
+    display: flex;
+    flex-direction: row-reverse;
+  }
   @include onBigDesktop {
+    justify-content: center;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     height: 1000px;
@@ -1292,7 +1299,7 @@
     &_btn {
       align-self: center;
       height: 88px;
-      margin-top: -190px;
+      display: block;
     }
   }
 }
