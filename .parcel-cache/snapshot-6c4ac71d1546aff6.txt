@@ -1,4 +1,4 @@
-6570
+6654
 68C:\Users\Win10Pro\ttt\community_population\node_modules\async\dir.js133728755151645584 0
 91C:\Users\Win10Pro\ttt\community_population\src\styles\utils\fonts\Inter_24pt-ThinItalic.ttf133699650800000000 0
 86C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\src\assetUtils.js133728755151965594 0
@@ -10,14 +10,14 @@
 76C:\Users\Win10Pro\ttt\community_population\node_modules\array-union\index.js133728755133974868 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\lmdb\dependencies\lz4\lib\lz4.c133728755151575585 0
 120C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\sort.d.ts133728755151955616 0
-47C:\Users\Win10Pro\ttt\community_population\dist133729357153336214 1
+47C:\Users\Win10Pro\ttt\community_population\dist133729365651980676 1
 87C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\regions\AX.js133728755153915586 0
 108C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\css-tree\lib\syntax\scope\value.js133728755165220725 0
 79C:\Users\Win10Pro\ttt\community_population\node_modules\js-yaml\lib\type\str.js133728755150575604 0
 101C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\getrandomvalues.js133728755167700741 0
 46C:\Users\Win10Pro\ttt\community_population\src133728754606114947 1
 96C:\Users\Win10Pro\ttt\community_population\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb133728755162390750 1
-55C:\Users\Win10Pro\ttt\community_population\node_modules133728755191980725 1
+55C:\Users\Win10Pro\ttt\community_population\node_modules133729362722279290 1
 98C:\Users\Win10Pro\ttt\community_population\node_modules\css-tree\lib\tokenizer\OffsetToLocation.js133728755164480730 0
 75C:\Users\Win10Pro\ttt\community_population\node_modules\type-fest\readme.md133728755135214897 0
 62C:\Users\Win10Pro\ttt\community_population\src\styles\main.css133728004835829015 0
@@ -25,9 +25,10 @@
 114C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\justify-content-space-evenly.js133728755170120743 0
 116C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\cjs\_class_static_private_field_destructure.cjs133728755163580728 0
 90C:\Users\Win10Pro\ttt\community_population\node_modules\type-fest\source\set-optional.d.ts133728755151225621 0
+157C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\community_population.59712999.js133729362765482879 0
 74C:\Users\Win10Pro\ttt\community_population\node_modules\fs-extra\lib\empty133728755139764882 1
 83C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\package-manager\lib133728755154145589 1
-60C:\Users\Win10Pro\ttt\community_population\package-lock.json133728755191640729 0
+60C:\Users\Win10Pro\ttt\community_population\package-lock.json133729361474299922 0
 72C:\Users\Win10Pro\ttt\community_population\node_modules\lmdb\SECURITY.md133728755161970732 0
 76C:\Users\Win10Pro\ttt\community_population\node_modules\globals\globals.json133728755135364882 0
 79C:\Users\Win10Pro\ttt\community_population\node_modules\mdn-data\css\types.json133728755149385622 0
@@ -54,7 +55,7 @@
 105C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\rust\parcel-node-bindings.darwin-x64.node133728755168690739 0
 91C:\Users\Win10Pro\ttt\community_population\src\styles\utils\fonts\Inter_24pt-BoldItalic.ttf133699650800000000 0
 105C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\dist133728755152345630 1
-55C:\Users\Win10Pro\ttt\community_population\package.json133725078136342237 0
+55C:\Users\Win10Pro\ttt\community_population\package.json133729365407452011 0
 75C:\Users\Win10Pro\ttt\community_population\node_modules\readdirp\index.d.ts133728755140004914 0
 84C:\Users\Win10Pro\ttt\community_population\node_modules\nth-check\lib\parse.d.ts.map133728755145635592 0
 89C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\_\_iterable_to_array133728755158465590 1
@@ -68,7 +69,7 @@
 93C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\dist\unpacker\feature.js133728755166400737 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\regions\MW.js133728755172070730 0
 52C:\Users\Win10Pro\ttt\community_population\README.md133724409516214941 0
-63C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel133728755190890742 1
+63C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel133729361473599650 1
 82C:\Users\Win10Pro\ttt\community_population\node_modules\filenamify\filenamify.d.ts133728755139754900 0
 86C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\codeframe\package.json133728755150435602 0
 83C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\config-default\test133728755134814869 1
@@ -118,6 +119,7 @@
 90C:\Users\Win10Pro\ttt\community_population\src\styles\utils\fonts\Inter_18pt-ExtraBold.ttf133699650800000000 0
 105C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\css-tree\lib\tokenizer\index.js133728755163860732 0
 89C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\av1.js133728755153545591 0
+140C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\5c133729362766252858 1
 63C:\Users\Win10Pro\ttt\community_population\src\styles\main.scss133729356875423852 0
 99C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\src\SVGOOptimizer.js133728755135234896 0
 83C:\Users\Win10Pro\ttt\community_population\node_modules\commander\typings\esm.d.mts133728755144405605 0
@@ -248,6 +250,7 @@
 104C:\Users\Win10Pro\ttt\community_population\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\tooltag133728755147185609 0
 84C:\Users\Win10Pro\ttt\community_population\node_modules\csso\lib\clean\WhiteSpace.js133728755158245587 0
 108C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Ratio.cjs133728755158235587 0
+147C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\NAMU-1990.af3a6877.otf133729362765522889 0
 65C:\Users\Win10Pro\ttt\community_population\node_modules\env-paths133728755136664886 1
 95C:\Users\Win10Pro\ttt\community_population\node_modules\svgo\plugins\convertOneStopGradients.js133728755154115579 0
 101C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\packager-js\lib\GlobalOutputFormat.js133728755141765246 0
@@ -320,6 +323,7 @@
 73C:\Users\Win10Pro\ttt\community_population\node_modules\make-dir\index.js133728755133974868 0
 80C:\Users\Win10Pro\ttt\community_population\node_modules\entities\lib\encode.d.ts133728755149475584 0
 122C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\node_modules\entities\lib\generated\decode-data-html.js133728755139464892 0
+147C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\main_logo.c0a147ad.svg133729362765522889 0
 64C:\Users\Win10Pro\ttt\community_population\node_modules\chokidar133728755147345603 1
 133C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\1-mergeAtrule.js133728755134454889 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\source-map-js\lib\base64-vlq.js133728755134924879 0
@@ -504,19 +508,27 @@
 73C:\Users\Win10Pro\ttt\community_population\src\images\icons\main_logo.svg133724418898862674 0
 127C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\workers\test\integration\workerfarm\resolve-shared-reference.js133728755151355609 0
 60C:\Users\Win10Pro\ttt\community_population\node_modules\.bin133728755179200740 1
+62C:\Users\Win10Pro\ttt\community_population\node_modules\.cache133729362722289293 1
+90C:\Users\Win10Pro\ttt\community_population\node_modules\sass\types\logger\source_span.d.ts133728755159305593 0
+100C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\feature-policy.js133728755166380742 0
+106C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\background-clip-text.js133728755154315583 0
+68C:\Users\Win10Pro\ttt\community_population\node_modules\lmdb\read.js133728755161145591 0
+87C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\regions\TG.js133728755174410738 0
+109C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\test\fixtures\config\subfolder\.parcelrc133728755142825255 0
+79C:\Users\Win10Pro\ttt\community_population\node_modules\semver\functions\cmp.js133728755136124888 0
 109C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\types.ts133728755157875612 0
 110C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Comment.cjs133728755145775601 0
 81C:\Users\Win10Pro\ttt\community_population\node_modules\chokidar\esm\package.json133728755139544924 0
 78C:\Users\Win10Pro\ttt\community_population\node_modules\json5\lib\unicode.d.ts133728755147225599 0
 92C:\Users\Win10Pro\ttt\community_population\node_modules\css-tree\cjs\syntax\atrule\media.cjs133728755157195633 0
-74C:\Users\Win10Pro\ttt\community_population\node_modules\.package-lock.json133728755191980725 0
+74C:\Users\Win10Pro\ttt\community_population\node_modules\.package-lock.json133729361474659651 0
 125C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Value.js133728755160925610 0
 83C:\Users\Win10Pro\ttt\community_population\node_modules\svgo\plugins\removeXMLNS.js133728755157965603 0
 62C:\Users\Win10Pro\ttt\community_population\node_modules\@lezer133728755114654881 1
 78C:\Users\Win10Pro\ttt\community_population\node_modules\nth-check\lib\parse.js133728755139294902 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\.bin\update-browserslist-db.ps1133728755179230720 0
 115C:\Users\Win10Pro\ttt\community_population\node_modules\dom-serializer\node_modules\entities\lib\maps\entities.json133728755139974879 0
-61C:\Users\Win10Pro\ttt\community_population\node_modules\@lmdb133728755190890742 1
+61C:\Users\Win10Pro\ttt\community_population\node_modules\@lmdb133729361473609650 1
 75C:\Users\Win10Pro\ttt\community_population\node_modules\micromatch\index.js133728755134224877 0
 111C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\css-tree\lib\parser\parse-selector.js133728755164440734 0
 79C:\Users\Win10Pro\ttt\community_population\node_modules\object-assign\readme.md133728755135594873 0
@@ -525,7 +537,7 @@
 72C:\Users\Win10Pro\ttt\community_population\node_modules\async\forever.js133728755155915584 0
 65C:\Users\Win10Pro\ttt\community_population\node_modules\@mischnic133728755114424876 1
 87C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\cjs\_construct.cjs133728755163650731 0
-73C:\Users\Win10Pro\ttt\community_population\node_modules\@msgpackr-extract133728755190870729 1
+73C:\Users\Win10Pro\ttt\community_population\node_modules\@msgpackr-extract133729361473599650 1
 78C:\Users\Win10Pro\ttt\community_population\node_modules\msgpackr\node-index.js133728755145415591 0
 74C:\Users\Win10Pro\ttt\community_population\node_modules\svgo\lib\svgo.d.ts133728755149655592 0
 86C:\Users\Win10Pro\ttt\community_population\node_modules\commander\package-support.json133728755141604910 0
@@ -535,7 +547,7 @@
 77C:\Users\Win10Pro\ttt\community_population\node_modules\trim-repeated\license133728755134814869 0
 95C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\dragndrop.js133728755165950757 0
 78C:\Users\Win10Pro\ttt\community_population\node_modules\universalify\README.md133728755135594873 0
-60C:\Users\Win10Pro\ttt\community_population\node_modules\@swc133728755190900726 1
+60C:\Users\Win10Pro\ttt\community_population\node_modules\@swc133729361473579660 1
 117C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\package-manager\test\fixtures\packages\peers\index.js133728755147015632 0
 69C:\Users\Win10Pro\ttt\community_population\node_modules\escalade\dist133728755138284892 1
 86C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\cjs\_ts_param.cjs133728755164850751 0
@@ -726,6 +738,7 @@
 73C:\Users\Win10Pro\ttt\community_population\node_modules\jsonfile\utils.js133728755134814869 0
 69C:\Users\Win10Pro\ttt\community_population\node_modules\source-map-js133728755145425589 1
 66C:\Users\Win10Pro\ttt\community_population\node_modules\filenamify133728755140184907 1
+135C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\hooks133729362722959285 1
 100C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\css-tree\lib\syntax\atrule133728755164900727 1
 71C:\Users\Win10Pro\ttt\community_population\node_modules\pkg-dir\license133728755135604870 0
 92C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\dist\unpacker\agents.js133728755144145613 0
@@ -817,10 +830,6 @@
 79C:\Users\Win10Pro\ttt\community_population\node_modules\is-arrayish\.travis.yml133728755139764882 0
 81C:\Users\Win10Pro\ttt\community_population\node_modules\lightningcss\package.json133728755142805249 0
 68C:\Users\Win10Pro\ttt\community_population\node_modules\lightningcss133728755143395254 1
-107C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\css-tree\cjs\generator\create.cjs133728755147655593 0
-78C:\Users\Win10Pro\ttt\community_population\node_modules\picomatch\lib\parse.js133728755136724903 0
-76C:\Users\Win10Pro\ttt\community_population\node_modules\source-map\README.md133728755134094876 0
-73C:\Users\Win10Pro\ttt\community_population\node_modules\lines-and-columns133728755135534878 1
 72C:\Users\Win10Pro\ttt\community_population\node_modules\get-port\license133728755135574874 0
 91C:\Users\Win10Pro\ttt\community_population\node_modules\lmdb\dependencies\lz4\lib\lz4file.h133728755159475588 0
 95C:\Users\Win10Pro\ttt\community_population\node_modules\csso\lib\replace\property\background.js133728755155005595 0
@@ -830,6 +839,10 @@
 87C:\Users\Win10Pro\ttt\community_population\node_modules\semver\ranges\max-satisfying.js133728755149235605 0
 72C:\Users\Win10Pro\ttt\community_population\node_modules\escalade\license133728755133084886 0
 62C:\Users\Win10Pro\ttt\community_population\node_modules\stable133728755136534917 1
+107C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\css-tree\cjs\generator\create.cjs133728755147655593 0
+78C:\Users\Win10Pro\ttt\community_population\node_modules\picomatch\lib\parse.js133728755136724903 0
+73C:\Users\Win10Pro\ttt\community_population\node_modules\lines-and-columns133728755135534878 1
+76C:\Users\Win10Pro\ttt\community_population\node_modules\source-map\README.md133728755134094876 0
 64C:\Users\Win10Pro\ttt\community_population\node_modules\p-locate133728755136564886 1
 92C:\Users\Win10Pro\ttt\community_population\node_modules\msgpackr\dist\unpack-no-eval.cjs.map133728755154415587 0
 106C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\internationalization.js133728755169700729 0
@@ -1042,6 +1055,7 @@
 69C:\Users\Win10Pro\ttt\community_population\node_modules\utility-types133728755144685606 1
 99C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\border-radius.js133728755156705603 0
 101C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\custom-elements.js133728755165250731 0
+153C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\hooks\pre-commit.sample133729362722879325 0
 108C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\css-print-color-adjust.js133728755164170753 0
 76C:\Users\Win10Pro\ttt\community_population\node_modules\weak-lru-cache\tests133728755138424876 1
 75C:\Users\Win10Pro\ttt\community_population\node_modules\wrappy\package.json133728755133254879 0
@@ -1059,6 +1073,7 @@
 81C:\Users\Win10Pro\ttt\community_population\node_modules\weak-lru-cache\index.d.ts133728755140914900 0
 85C:\Users\Win10Pro\ttt\community_population\node_modules\escape-string-regexp\index.js133728755133854889 0
 79C:\Users\Win10Pro\ttt\community_population\node_modules\weak-lru-cache\index.js133728755135274875 0
+139C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\logs\refs133729362794602959 1
 78C:\Users\Win10Pro\ttt\community_population\node_modules\mdn-data\l10n\css.json133728755141955278 0
 103C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\esm\_object_destructuring_empty.js133728755166250727 0
 90C:\Users\Win10Pro\ttt\community_population\node_modules\utility-types\dist\mapped-types.js133728755137304880 0
@@ -1094,6 +1109,7 @@
 93C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\transformer-html\package.json133728755140324878 0
 88C:\Users\Win10Pro\ttt\community_population\node_modules\fs-extra\lib\json\output-json.js133728755148945598 0
 98C:\Users\Win10Pro\ttt\community_population\node_modules\utility-types\dist\aliases-and-guards.d.ts133728755145145590 0
+146C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\index.f75de5e1.js.map133729362765492879 0
 115C:\Users\Win10Pro\ttt\community_population\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_load.1133728755149595591 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\htmlnano\lib\modules\custom.cjs133728755139124876 0
 82C:\Users\Win10Pro\ttt\community_population\node_modules\svgo\plugins\reusePaths.js133728755158135599 0
@@ -1464,7 +1480,6 @@
 75C:\Users\Win10Pro\ttt\community_population\node_modules\svgo\lib\builtin.js133728755147275592 0
 104C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts.map133728755154705598 0
 72C:\Users\Win10Pro\ttt\community_population\node_modules\svgo\lib\path.js133728755148615570 0
-66C:\Users\Win10Pro\ttt\community_population\dist\index.971c2ea4.css133729356878994208 0
 99C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\test\fixtures\invalid-distpath133728755163850737 1
 77C:\Users\Win10Pro\ttt\community_population\node_modules\svgo\lib\svgo-node.js133728755149415597 0
 98C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\esm\_await_async_generator.js133728755165350749 0
@@ -1635,6 +1650,7 @@
 71C:\Users\Win10Pro\ttt\community_population\node_modules\semver\internal133728755152245605 1
 77C:\Users\Win10Pro\ttt\community_population\node_modules\htmlnano\package.json133728755153925587 0
 85C:\Users\Win10Pro\ttt\community_population\node_modules\csso\cjs\clean\WhiteSpace.cjs133728755153225587 0
+139C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\refs\tags133729362733188560 1
 101C:\Users\Win10Pro\ttt\community_population\node_modules\dom-serializer\node_modules\entities\lib\maps133728755141795265 1
 105C:\Users\Win10Pro\ttt\community_population\node_modules\ordered-binary\.nyc_output\processinfo\index.json133728755141404887 0
 75C:\Users\Win10Pro\ttt\community_population\node_modules\semver\package.json133728755153775585 0
@@ -1692,13 +1708,6 @@
 81C:\Users\Win10Pro\ttt\community_population\node_modules\semver\functions\clean.js133728755135064885 0
 89C:\Users\Win10Pro\ttt\community_population\node_modules\postcss-value-parser\package.json133728755139314891 0
 93C:\Users\Win10Pro\ttt\community_population\node_modules\htmlnano\lib\modules\mergeScripts.mjs133728755157835597 0
-90C:\Users\Win10Pro\ttt\community_population\node_modules\sass\types\logger\source_span.d.ts133728755159305593 0
-100C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\feature-policy.js133728755166380742 0
-106C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\background-clip-text.js133728755154315583 0
-68C:\Users\Win10Pro\ttt\community_population\node_modules\lmdb\read.js133728755161145591 0
-87C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\regions\TG.js133728755174410738 0
-109C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\test\fixtures\config\subfolder\.parcelrc133728755142825255 0
-79C:\Users\Win10Pro\ttt\community_population\node_modules\semver\functions\cmp.js133728755136124888 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\regions\KE.js133728755170130740 0
 114C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\jsAPI.js133728755150685646 0
 82C:\Users\Win10Pro\ttt\community_population\node_modules\semver\functions\coerce.js133728755137284882 0
@@ -1768,6 +1777,7 @@
 79C:\Users\Win10Pro\ttt\community_population\node_modules\sass\types\options.d.ts133728755158795592 0
 119C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\index.js133728755140164897 0
 115C:\Users\Win10Pro\ttt\community_population\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_load.c133728755153345649 0
+149C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\refs\remotes\origin133729362794622960 1
 129C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeUselessDefs.js133728755155405602 0
 104C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\transformer-babel\lib\babelErrorUtils.js133728755136304878 0
 73C:\Users\Win10Pro\ttt\community_population\node_modules\pify\package.json133728755133254879 0
@@ -1776,8 +1786,8 @@
 99C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\input-pattern.js133728755169590730 0
 72C:\Users\Win10Pro\ttt\community_population\node_modules\sass\types\value133728755159395596 1
 94C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\fontface.js133728755167190750 0
-91C:\Users\Win10Pro\ttt\community_population\node_modules\sass\types\value\argument_list.d.ts133728755157295600 0
 82C:\Users\Win10Pro\ttt\community_population\node_modules\make-dir\node_modules\.bin133728755179090739 1
+91C:\Users\Win10Pro\ttt\community_population\node_modules\sass\types\value\argument_list.d.ts133728755157295600 0
 91C:\Users\Win10Pro\ttt\community_population\node_modules\htmlparser2\lib\WritableStream.d.ts133728755145575607 0
 70C:\Users\Win10Pro\ttt\community_population\node_modules\immutable\dist133728755144105601 1
 72C:\Users\Win10Pro\ttt\community_population\node_modules\argparse\LICENSE133728755133144872 0
@@ -1801,6 +1811,7 @@
 87C:\Users\Win10Pro\ttt\community_population\node_modules\sass\types\legacy\importer.d.ts133728755158205622 0
 124C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Rule.js133728755159385597 0
 74C:\Users\Win10Pro\ttt\community_population\node_modules\nullthrows\LICENSE133728755134034888 0
+137C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\shallow133729362735138713 0
 86C:\Users\Win10Pro\ttt\community_population\node_modules\sass\types\legacy\options.d.ts133728755158725587 0
 90C:\Users\Win10Pro\ttt\community_population\node_modules\sass\types\legacy\plugin_this.d.ts133728755158905598 0
 112C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\css-tree\lib\syntax\node\MediaQuery.js133728755164160732 0
@@ -1833,6 +1844,7 @@
 97C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\shadowdomv1.js133728755173690755 0
 73C:\Users\Win10Pro\ttt\community_population\node_modules\readdirp\index.js133728755135194903 0
 72C:\Users\Win10Pro\ttt\community_population\node_modules\readdirp\LICENSE133728755133104867 0
+179C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\96\272519e77a5a19142d60cd80e69a33d3fc4d25133729362766402872 0
 109C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\runtime-js\src\helpers\browser\html-loader.js133728755147235585 0
 89C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\cjs\_ts_metadata.cjs133728755164820724 0
 108C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Block.cjs133728755141795265 0
@@ -1932,6 +1944,7 @@
 120C:\Users\Win10Pro\ttt\community_population\node_modules\posthtml\node_modules\posthtml-parser\dist\location-tracker.d.ts133728755139984880 0
 77C:\Users\Win10Pro\ttt\community_population\node_modules\browserslist\parse.js133728755139634892 0
 84C:\Users\Win10Pro\ttt\community_population\node_modules\css-tree\cjs\lexer\trace.cjs133728755160155601 0
+140C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\82133729362769222882 1
 75C:\Users\Win10Pro\ttt\community_population\node_modules\posthtml\lib\api.js133728755134144881 0
 125C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\config\mix.js133728755157855632 0
 104C:\Users\Win10Pro\ttt\community_population\node_modules\htmlnano\lib\modules\sortAttributesWithLists.cjs133728755150565587 0
@@ -2006,6 +2019,7 @@
 83C:\Users\Win10Pro\ttt\community_population\node_modules\cosmiconfig\dist\loaders.js133728755142145293 0
 141C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\definition-syntax\SyntaxError.js133728755160245599 0
 84C:\Users\Win10Pro\ttt\community_population\node_modules\domutils\lib\manipulation.js133728755138694880 0
+143C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\index.971c2ea4.css133729362765492879 0
 79C:\Users\Win10Pro\ttt\community_population\node_modules\parent-module\readme.md133728755135524883 0
 66C:\Users\Win10Pro\ttt\community_population\node_modules\parcel\lib133728755136144893 1
 76C:\Users\Win10Pro\ttt\community_population\node_modules\p-limit\package.json133728755134724886 0
@@ -2016,6 +2030,7 @@
 66C:\Users\Win10Pro\ttt\community_population\node_modules\parcel\src133728755138944889 1
 85C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\lib\compile.js.map133728755152095601 0
 68C:\Users\Win10Pro\ttt\community_population\node_modules\async\any.js133728755137044891 0
+145C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\logs\refs\heads133729362745928978 1
 73C:\Users\Win10Pro\ttt\community_population\node_modules\parcel\src\bin.js133728755135294876 0
 98C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\css-autofill.js133728755160795602 0
 88C:\Users\Win10Pro\ttt\community_population\node_modules\nth-check\lib\esm\parse.d.ts.map133728755145325591 0
@@ -2050,6 +2065,7 @@
 86C:\Users\Win10Pro\ttt\community_population\node_modules\mdn-data\css\types.schema.json133728755149635595 0
 85C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\lib\constants.js133728755155275610 0
 73C:\Users\Win10Pro\ttt\community_population\node_modules\p-limit\readme.md133728755135504896 0
+139C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\ORIG_HEAD133729362764602862 0
 127C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Raw.js133728755159155595 0
 104C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\mdn-data\css\units.schema.json133728755150245596 0
 82C:\Users\Win10Pro\ttt\community_population\node_modules\ordered-binary\.nyc_output133728755140214892 1
@@ -2174,6 +2190,7 @@
 109C:\Users\Win10Pro\ttt\community_population\node_modules\@msgpackr-extract\msgpackr-extract-win32-x64\index.js133728755132884875 0
 77C:\Users\Win10Pro\ttt\community_population\node_modules\node-addon-api\napi.h133728755143565254 0
 80C:\Users\Win10Pro\ttt\community_population\node_modules\argparse\lib\textwrap.js133728755138744892 0
+135C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\index.html133729362765492879 0
 89C:\Users\Win10Pro\ttt\community_population\node_modules\htmlparser2\lib\WritableStream.js133728755138954883 0
 102C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\cookie-store-api.js133728755159975605 0
 102C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\css-tree\lib\walker\index.js133728755163900731 0
@@ -2293,7 +2310,6 @@
 93C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\gamepad.js133728755167420728 0
 136C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\parcel_sourcemap_wasm_bg.wasm133728755158145593 0
 85C:\Users\Win10Pro\ttt\community_population\node_modules\mdn-data\api\inheritance.json133728755143585258 0
-77C:\Users\Win10Pro\ttt\community_population\dist\Inter_18pt-Light.6cb7d5cd.ttf133729356869738701 0
 90C:\Users\Win10Pro\ttt\community_population\node_modules\css-what\lib\commonjs\stringify.js133728755139504893 0
 75C:\Users\Win10Pro\ttt\community_population\node_modules\make-dir\index.d.ts133728755137034892 0
 124C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeEmptyAttrs.js133728755153885586 0
@@ -2335,7 +2351,6 @@
 93C:\Users\Win10Pro\ttt\community_population\node_modules\make-dir\node_modules\.bin\semver.ps1133728755179220735 0
 114C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Declaration.cjs133728755151475591 0
 78C:\Users\Win10Pro\ttt\community_population\node_modules\locate-path\index.d.ts133728755133864884 0
-84C:\Users\Win10Pro\ttt\community_population\dist\community_population.59712999.js.map133729356869738701 0
 84C:\Users\Win10Pro\ttt\community_population\node_modules\email-addresses\package.json133728755139954885 0
 115C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\_\_class_check_private_static_field_descriptor133728755151615606 1
 76C:\Users\Win10Pro\ttt\community_population\node_modules\locate-path\index.js133728755134734871 0
@@ -2754,6 +2769,7 @@
 88C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\_\_class_call_check133728755150925590 1
 80C:\Users\Win10Pro\ttt\community_population\node_modules\htmlparser2\package.json133728755139714904 0
 82C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\css-tree133728755165440723 1
+142C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\refs\remotes133729362794592959 1
 82C:\Users\Win10Pro\ttt\community_population\node_modules\htmlparser2\lib\index.d.ts133728755144545583 0
 107C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\mdn-data\css\at-rules.schema.json133728755139974879 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\htmlparser2\lib\Parser.d.ts.map133728755141735267 0
@@ -2763,6 +2779,7 @@
 90C:\Users\Win10Pro\ttt\community_population\node_modules\htmlparser2\lib\Tokenizer.d.ts.map133728755142305262 0
 123C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\Lexer.js133728755156915587 0
 95C:\Users\Win10Pro\ttt\community_population\node_modules\htmlparser2\lib\WritableStream.d.ts.map133728755142785262 0
+70C:\Users\Win10Pro\ttt\community_population\dist\main_logo.c0a147ad.svg133729365650770665 0
 78C:\Users\Win10Pro\ttt\community_population\node_modules\htmlnano\.eslintignore133728755133184885 0
 82C:\Users\Win10Pro\ttt\community_population\node_modules\concat-map\README.markdown133728755136984879 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\regions\CX.js133728755165390728 0
@@ -2782,9 +2799,9 @@
 92C:\Users\Win10Pro\ttt\community_population\node_modules\dom-serializer\lib\foreignNames.d.ts133728755144265609 0
 76C:\Users\Win10Pro\ttt\community_population\node_modules\htmlnano\lib\modules133728755158765596 1
 105C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\css-media-scripting.js133728755163630728 0
-69C:\Users\Win10Pro\ttt\community_population\dist\index.f75de5e1.js.map133729356869718694 0
 101C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\package-manager\src\installPackage.js133728755147265592 0
 102C:\Users\Win10Pro\ttt\community_population\node_modules\csso\cjs\restructure\2-initialMergeRuleset.cjs133728755135204919 0
+161C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\hooks\prepare-commit-msg.sample133729362722929283 0
 143C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\tokenizer\char-code-definitions.js133728755144535607 0
 76C:\Users\Win10Pro\ttt\community_population\node_modules\htmlnano\lib\presets133728755158645584 1
 77C:\Users\Win10Pro\ttt\community_population\node_modules\filenamify\index.d.ts133728755140324878 0
@@ -2793,7 +2810,6 @@
 92C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\hidden.js133728755168540735 0
 88C:\Users\Win10Pro\ttt\community_population\node_modules\htmlnano\lib\presets\ampSafe.mjs133728755156905594 0
 107C:\Users\Win10Pro\ttt\community_population\node_modules\htmlnano\lib\modules\deduplicateAttributeValues.cjs133728755139904909 0
-80C:\Users\Win10Pro\ttt\community_population\dist\community_population.59712999.js133729356869628737 0
 116C:\Users\Win10Pro\ttt\community_population\node_modules\csso\node_modules\css-tree\lib\syntax\node\index-generate.js133728755163560762 0
 113C:\Users\Win10Pro\ttt\community_population\node_modules\dom-serializer\node_modules\entities\lib\maps\legacy.json133728755140494893 0
 78C:\Users\Win10Pro\ttt\community_population\node_modules\async\internal\once.js133728755157855632 0
@@ -2897,6 +2913,7 @@
 70C:\Users\Win10Pro\ttt\community_population\node_modules\globby\license133728755134814869 0
 127C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\structure.js133728755159985599 0
 93C:\Users\Win10Pro\ttt\community_population\node_modules\css-tree\cjs\syntax\config\walker.cjs133728755161125610 0
+135C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\index133729362769122862 0
 74C:\Users\Win10Pro\ttt\community_population\node_modules\globals\index.d.ts133728755138824884 0
 71C:\Users\Win10Pro\ttt\community_population\node_modules\globals\license133728755133184885 0
 76C:\Users\Win10Pro\ttt\community_population\node_modules\globals\package.json133728755136654902 0
@@ -2968,6 +2985,7 @@
 83C:\Users\Win10Pro\ttt\community_population\node_modules\fs-extra\lib\util\utimes.js133728755150935593 0
 84C:\Users\Win10Pro\ttt\community_population\node_modules\fs-extra\lib\remove\index.js133728755145755588 0
 89C:\Users\Win10Pro\ttt\community_population\node_modules\fs-extra\lib\output-file\index.js133728755145025625 0
+154C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\Inter_18pt-Light.6cb7d5cd.ttf133729362765562886 0
 92C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\workers\lib\web\WebWorker.js133728755153155602 0
 86C:\Users\Win10Pro\ttt\community_population\node_modules\fs-extra\lib\move\move-sync.js133728755147435585 0
 79C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-image133728755134784886 1
@@ -3102,6 +3120,7 @@
 87C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\regions\IT.js133728755169830733 0
 131C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\definition-syntax\parse.js133728755158665589 0
 81C:\Users\Win10Pro\ttt\community_population\node_modules\dotenv\lib\env-options.js133728755139444885 0
+179C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\e3\70c6cbb3d4760188b388a85e5e1aa36c77c0f9133729362766352867 0
 86C:\Users\Win10Pro\ttt\community_population\node_modules\detect-libc\lib\detect-libc.js133728755138934884 0
 102C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\node_modules\dom-serializer\LICENSE133728755133384867 0
 89C:\Users\Win10Pro\ttt\community_population\node_modules\dom-serializer\lib\esm\index.d.ts133728755144645595 0
@@ -3828,7 +3847,7 @@
 103C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\node_modules\domutils\lib\feeds.d.ts133728755154135584 0
 85C:\Users\Win10Pro\ttt\community_population\node_modules\css-tree\cjs\syntax\index.cjs133728755155965596 0
 79C:\Users\Win10Pro\ttt\community_population\node_modules\color-name\package.json133728755133284883 0
-58C:\Users\Win10Pro\ttt\community_population\dist\index.html133729357153326218 0
+58C:\Users\Win10Pro\ttt\community_population\dist\index.html133729365651920671 0
 80C:\Users\Win10Pro\ttt\community_population\node_modules\css-tree\cjs\syntax\node133728755161155592 1
 78C:\Users\Win10Pro\ttt\community_population\node_modules\color-convert\route.js133728755139184921 0
 81C:\Users\Win10Pro\ttt\community_population\node_modules\css-tree\cjs\syntax\scope133728755160775598 1
@@ -3869,6 +3888,7 @@
 99C:\Users\Win10Pro\ttt\community_population\node_modules\css-tree\cjs\syntax\node\MediaQueryList.cjs133728755157595577 0
 88C:\Users\Win10Pro\ttt\community_population\node_modules\css-tree\cjs\syntax\node\Nth.cjs133728755157985580 0
 100C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\css3-boxsizing.js133728755165080735 0
+147C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\index.971c2ea4.css.map133729362765492879 0
 91C:\Users\Win10Pro\ttt\community_population\node_modules\css-tree\cjs\syntax\node\Number.cjs133728755158045594 0
 88C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\esm\_await_value.js133728755165380743 0
 95C:\Users\Win10Pro\ttt\community_population\node_modules\css-tree\cjs\syntax\node\Percentage.cjs133728755158505616 0
@@ -4065,6 +4085,7 @@
 108C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\node_modules\domutils\lib\esm\legacy.d.ts133728755154955577 0
 86C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\src\_defaults.mjs133728755168670750 0
 86C:\Users\Win10Pro\ttt\community_population\node_modules\async\internal\createTester.js133728755150815597 0
+179C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\f0\0fdb3600ddf53db795bbd89b38153bc59bc4d5133729362766562904 0
 112C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\node_modules\domutils\lib\esm\legacy.d.ts.map133728755150895590 0
 102C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\css-revert-value.js133728755164380727 0
 106C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\node_modules\domutils\lib\esm\legacy.js133728755140554873 0
@@ -4170,6 +4191,7 @@
 83C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\reporter-tracer\src133728755135014884 1
 89C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\src\_export_star.mjs133728755168830746 0
 88C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\lib\esm\attributes.js133728755139594902 0
+149C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\refs\heads\gh-pages133729362769252856 0
 113C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\index.js133728755155845619 0
 92C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\lib\esm\attributes.js.map133728755151535598 0
 71C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\fs\test133728755143095253 1
@@ -4189,6 +4211,7 @@
 91C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\lib\esm\pseudo-selectors133728755157595577 1
 88C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\lib\esm\sort.d.ts.map133728755154975587 0
 105C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\http-live-streaming.js133728755168710737 0
+157C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\hooks\pre-applypatch.sample133729362722859284 0
 108C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\css-content-visibility.js133728755161970732 0
 84C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\workers\lib\index.js133728755147295602 0
 83C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\lib\esm\types.js133728755148705593 0
@@ -4202,6 +4225,7 @@
 106C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\lib\esm\pseudo-selectors\filters.js.map133728755152605597 0
 102C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\lib\esm\pseudo-selectors\index.d.ts133728755157045603 0
 100C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\lib\esm\pseudo-selectors\index.js133728755144665582 0
+129C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git133729362769292863 1
 104C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\lib\esm\pseudo-selectors\pseudos.d.ts133728755157305597 0
 110C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\README.md133728755154755601 0
 106C:\Users\Win10Pro\ttt\community_population\node_modules\css-select\lib\esm\pseudo-selectors\pseudos.js.map133728755154815597 0
@@ -4211,6 +4235,7 @@
 80C:\Users\Win10Pro\ttt\community_population\node_modules\cosmiconfig\package.json133728755144695601 0
 77C:\Users\Win10Pro\ttt\community_population\node_modules\cosmiconfig\README.md133728755153015624 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\regions\BA.js133728755154105584 0
+124C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git133729362765472876 1
 92C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\test\fixtures\bundle.js133728755152775602 0
 90C:\Users\Win10Pro\ttt\community_population\node_modules\cosmiconfig\dist\cacheWrapper.d.ts133728755153175643 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\regions\UA.js133728755174810718 0
@@ -4287,6 +4312,7 @@
 75C:\Users\Win10Pro\ttt\community_population\node_modules\color-name\index.js133728755133994879 0
 74C:\Users\Win10Pro\ttt\community_population\node_modules\color-name\LICENSE133728755134824871 0
 76C:\Users\Win10Pro\ttt\community_population\node_modules\color-name\README.md133728755135634884 0
+144C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\COMMIT_EDITMSG133729362769182871 0
 82C:\Users\Win10Pro\ttt\community_population\node_modules\color-convert\CHANGELOG.md133728755133994879 0
 78C:\Users\Win10Pro\ttt\community_population\node_modules\color-convert\index.js133728755136114884 0
 79C:\Users\Win10Pro\ttt\community_population\node_modules\color-convert\README.md133728755138424876 0
@@ -4434,6 +4460,7 @@
 100C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\rel-noreferrer.js133728755173220739 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\regions\KN.js133728755170390739 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\regions\KR.js133728755170410735 0
+154C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\hooks\post-update.sample133729362722849282 0
 84C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\transformer-sass\src133728755135104910 1
 87C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\regions\KW.js133728755170440740 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\regions\KY.js133728755170460732 0
@@ -4524,6 +4551,7 @@
 102C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\array-find-index.js133728755150725594 0
 96C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\array-find.js133728755150955587 0
 96C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\array-flat.js133728755151255608 0
+139C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\logs\HEAD133729362769252856 0
 100C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\array-includes.js133728755151445591 0
 101C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\arrow-functions.js133728755151595584 0
 91C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\asmjs.js133728755152035598 0
@@ -4679,7 +4707,6 @@
 98C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\documenthead.js133728755165860727 0
 95C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\dom-range.js133728755165890740 0
 101C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\element-closest.js133728755166040724 0
-70C:\Users\Win10Pro\ttt\community_population\dist\main_logo.94513536.svg133729356869658718 0
 104C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\element-from-point.js133728755166050733 0
 89C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\eme.js133728755166090742 0
 105C:\Users\Win10Pro\ttt\community_population\node_modules\@babel\highlight\node_modules\color-name\index.js133728755137104893 0
@@ -4714,6 +4741,7 @@
 100C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\form-attribute.js133728755167200736 0
 101C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\form-validation.js133728755167270724 0
 97C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\geolocation.js133728755167560742 0
+147C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\main_logo.94513536.svg133729362765522889 0
 107C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\getboundingclientrect.js133728755167580741 0
 74C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\events\lib133728755142065259 1
 102C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\getcomputedstyle.js133728755167620730 0
@@ -4792,6 +4820,7 @@
 101C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\offscreencanvas.js133728755172450722 0
 95C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\_\_class_private_field_get133728755152705586 1
 96C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\ogg-vorbis.js133728755172470735 0
+147C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\NAMU-1600.3865aff5.otf133729362765532881 0
 89C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\ogv.js133728755172480725 0
 76C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\rust\LICENSE133728755133464881 0
 105C:\Users\Win10Pro\ttt\community_population\node_modules\caniuse-lite\data\features\once-event-listener.js133728755172530733 0
@@ -5019,6 +5048,7 @@
 79C:\Users\Win10Pro\ttt\community_population\node_modules\array-uniq\package.json133728755133254879 0
 77C:\Users\Win10Pro\ttt\community_population\node_modules\array-union\readme.md133728755135604870 0
 76C:\Users\Win10Pro\ttt\community_population\node_modules\argparse\argparse.js133728755135564880 0
+140C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\FETCH_HEAD133729362757942881 0
 74C:\Users\Win10Pro\ttt\community_population\node_modules\argparse\README.md133728755140654875 0
 78C:\Users\Win10Pro\ttt\community_population\node_modules\ansi-styles\index.d.ts133728755137274880 0
 94C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\transformer-babel\src\types.js133728755145735591 0
@@ -5241,6 +5271,7 @@
 94C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\src\_set_prototype_of.mjs133728755169600733 0
 103C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\src\_skip_first_generator_next.mjs133728755169610729 0
 99C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\src\_sliced_to_array_loose.mjs133728755169630728 0
+179C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\5c\f8a93aa276ade03214c156ff4dec12ab13fdf0133729362766262867 0
 93C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\src\_super_prop_base.mjs133728755169640737 0
 101C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\src\_tagged_template_literal.mjs133728755169650730 0
 107C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\src\_tagged_template_literal_loose.mjs133728755169670747 0
@@ -5277,6 +5308,7 @@
 108C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\esm\_class_private_field_destructure.js133728755165570735 0
 100C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\esm\_class_private_field_get.js133728755165580767 0
 107C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\esm\_class_private_field_loose_base.js133728755165600721 0
+159C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\hooks\pre-merge-commit.sample133729362722889317 0
 97C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-swc\src\SwcOptimizer.js133728755135234896 0
 106C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\esm\_class_private_field_loose_key.js133728755165610733 0
 100C:\Users\Win10Pro\ttt\community_population\node_modules\@swc\helpers\esm\_class_private_field_set.js133728755165620732 0
@@ -5485,6 +5517,7 @@
 140C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\aliases.d.ts133728755149815598 0
 82C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\workers\src\bus.js133728755137534944 0
 89C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\workers\src\childState.js133728755140914900 0
+141C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\description133729362722809275 0
 98C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\workers\src\core-worker.browser.js133728755143155268 0
 96C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\codeframe\test\codeframe.test.js133728755150135616 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\workers\src\cpuCount.js133728755145035648 0
@@ -5502,6 +5535,7 @@
 90C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\workers\lib\core-worker.js133728755143745265 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\workers\lib\cpuCount.js133728755144655591 0
 84C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\workers\lib\types.js133728755152565592 0
+163C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\logs\refs\remotes\origin\gh-pages133729362794622960 0
 79C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\workers\lib\web133728755153115597 1
 83C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\transformer-svg\lib133728755139554891 1
 91C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\workers\lib\web\WebChild.js133728755152805597 0
@@ -5652,8 +5686,10 @@
 85C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\source-map\index.d.ts133728755157935589 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\source-map\package.json133728755147125591 0
 96C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\source-map\parcel_sourcemap_node133728755157855632 1
+141C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\packed-refs133729362745819235 0
 84C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\source-map\README.md133728755148675604 0
 105C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-web133728755158185659 1
+142C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\pack133729362745988978 1
 118C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-web\package.json133728755147565603 0
 135C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-web\parcel_sourcemap_wasm_bg.wasm133728755158325604 0
 119C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\package.json133728755147325605 0
@@ -5725,6 +5761,7 @@
 113C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\runtime-js\lib\helpers\browser\prefetch-loader.js133728755151755588 0
 112C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\runtime-js\lib\helpers\browser\preload-loader.js133728755152115613 0
 96C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\runtime-browser-hmr\package.json133728755140654875 0
+140C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\96133729362766422853 1
 95C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\runtime-browser-hmr\src\loaders133728755139944929 1
 110C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\runtime-browser-hmr\src\loaders\.eslintrc.json133728755140074899 0
 110C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\runtime-browser-hmr\src\loaders\hmr-runtime.js133728755136324876 0
@@ -5801,6 +5838,7 @@
 94C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\packager-js\lib\dev-prelude.js133728755136324876 0
 98C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\packager-js\lib\ESMOutputFormat.js133728755140324878 0
 90C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\packager-js\lib\helpers.js133728755142805249 0
+158C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\refs\remotes\origin\gh-pages133729362794602959 0
 104C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\packager-js\lib\ScopeHoistingPackager.js133728755145195592 0
 88C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\packager-js\lib\utils.js133728755145985585 0
 85C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\packager-html\LICENSE133728755133214888 0
@@ -5969,6 +6007,7 @@
 114C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\convertor133728755155555602 1
 114C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\generator133728755159925613 1
 110C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer133728755160555591 1
+140C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\fa133729362769122862 1
 114C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\tokenizer133728755160805595 1
 119C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\utils\clone.js133728755145535623 0
 119C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\utils\names.js133728755157925601 0
@@ -5992,6 +6031,7 @@
 136C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\nth-last-child.js133728755158065596 0
 144C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\common\nthWithOfClause.js133728755158315583 0
 141C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\common\selectorList.js133728755159725598 0
+161C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\hooks\sendemail-validate.sample133729362722959285 0
 126C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Atrule.js133728755137994890 0
 125C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Block.js133728755141895265 0
 123C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\CDO.js133728755143645246 0
@@ -6029,6 +6069,7 @@
 134C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\definition-syntax\generate.js133728755154365591 0
 137C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\definition-syntax\SyntaxError.js133728755160275611 0
 135C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\definition-syntax\tokenizer.js133728755160405610 0
+179C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\82\c0d923d9bb1230d015dead8b277c4ae8f4b0a5133729362769192868 0
 130C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\definition-syntax\walk.js133728755161105584 0
 124C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\convertor\create.js133728755147535610 0
 123C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\convertor\index.js133728755155595600 0
@@ -6078,6 +6119,7 @@
 100C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\.bin133728755179080735 1
 104C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree133728755161485597 1
 100C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\csso133728755154705598 1
+134C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\HEAD133729362763202883 0
 100C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo133728755157565600 1
 104C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib133728755157845635 1
 113C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\package.json133728755157495580 0
@@ -6100,6 +6142,7 @@
 126C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeComments.js133728755153145604 0
 122C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeDesc.js133728755153285588 0
 131C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeEditorsNSData.js133728755153635581 0
+134C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\refs133729362794592959 1
 99C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\test\PublicEnvironment.test.js133728755160825613 0
 132C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeElementsByAttr.js133728755153755588 0
 89C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\src\public\Config.js133728755155005595 0
@@ -6132,6 +6175,7 @@
 120C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo\plugins.js133728755152375597 0
 108C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\api133728755143885259 1
 113C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\index.js133728755136554912 0
+142C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\info\exclude133729362722979299 0
 109C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\l10n133728755140284879 1
 114C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\README.md133728755150265592 0
 122C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\css\at-rules.json133728755139104879 0
@@ -6221,6 +6265,7 @@
 132C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Selector.js133728755159475588 0
 134C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\StyleSheet.js133728755160085587 0
 136C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\TypeSelector.js133728755160595590 0
+179C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\fa\2532576e29ed8dd12fe4928482dc4f5dbba859133729362769102877 0
 136C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\UnicodeRange.js133728755160645592 0
 138C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\function\expression.js133728755153845624 0
 131C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\function\var.js133728755160995593 0
@@ -6365,6 +6410,7 @@
 94C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\test\fixtures\main-global133728755164210725 1
 91C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\test\fixtures\main-mjs133728755164230720 1
 111C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\test\fixtures\targets-default-distdir-none133728755164340745 1
+143C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\index.80845491.css133729362765492879 0
 110C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\test\fixtures\targets-default-distdir-one133728755164370724 1
 110C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\test\fixtures\targets-default-distdir-two133728755164400724 1
 123C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\test\fixtures\targets-default-distdir-two\package.json133728755164410728 0
@@ -6417,6 +6463,7 @@
 90C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\src\resolveOptions.js133728755161625587 0
 98C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\src\serializerCore.browser.js133728755161890733 0
 90C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\src\serializerCore.js133728755161950747 0
+192C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\pack\pack-6e9154e5cd9afe806cb5ad87623a007392b41d41.idx133729362745188981 0
 99C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\src\TargetDescriptor.schema.js133728755162570736 0
 90C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\src\Transformation.js133728755162930736 0
 81C:\Users\Win10Pro\ttt\community_population\node_modules\@parcel\core\src\types.js133728755163050734 0
@@ -6547,6 +6594,40 @@
 86C:\Users\Win10Pro\ttt\community_population\node_modules\@babel\code-frame\package.json133728755137404890 0
 87C:\Users\Win10Pro\ttt\community_population\node_modules\@babel\code-frame\tsconfig.json133728755138724889 0
 90C:\Users\Win10Pro\ttt\community_population\node_modules\@babel\code-frame\lib\index.js.map133728755136264901 0
+71C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages133729362722769281 1
+161C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\community_population.59712999.js.map133729362765482879 0
+142C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\index.5cecb784.js133729362765482879 0
+146C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\index.5cecb784.js.map133729362765492879 0
+147C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\index.80845491.css.map133729362765492879 0
+142C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\index.f75de5e1.js133729362765492879 0
+154C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\Inter_18pt-Light.ba4bccdb.ttf133729362765562886 0
+147C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\NAMU-1600.d38fb804.otf133729362765522889 0
+147C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\NAMU-1990.6905799b.otf133729362765532881 0
+136C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\config133729362767712879 0
+134C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\info133729362722979299 1
+134C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\logs133729362745918979 1
+137C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects133729362769602860 1
+140C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\refs\heads133729362769262862 1
+140C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\8a133729362766472865 1
+140C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\e3133729362766372862 1
+140C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\f0133729362766592859 1
+140C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\f1133729362766512869 1
+142C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\info133729362723099291 1
+193C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\pack\pack-6e9154e5cd9afe806cb5ad87623a007392b41d41.pack133729362766122860 0
+192C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\pack\pack-6e9154e5cd9afe806cb5ad87623a007392b41d41.rev133729362745219012 0
+179C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\f1\95fe978b32d430d055f765573aa651a4ceb388133729362766492868 0
+179C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\objects\8a\10ac5ba293b4f0b9083ac59f069748b0209b17133729362766452866 0
+147C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\logs\refs\remotes133729362794602959 1
+154C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\logs\refs\remotes\origin133729362794602959 1
+154C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\logs\refs\heads\gh-pages133729362769252856 0
+157C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\hooks\applypatch-msg.sample133729362722819286 0
+153C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\hooks\commit-msg.sample133729362722829284 0
+161C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\hooks\fsmonitor-watchman.sample133729362722839285 0
+151C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\hooks\pre-push.sample133729362722899318 0
+153C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\hooks\pre-rebase.sample133729362722909308 0
+154C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\hooks\pre-receive.sample133729362722919294 0
+159C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\hooks\push-to-checkout.sample133729362722939287 0
+149C:\Users\Win10Pro\ttt\community_population\node_modules\.cache\gh-pages\https!github.com!Vovchukkul!community_population.git\.git\hooks\update.sample133729362722969285 0
 73C:\Users\Win10Pro\ttt\community_population\node_modules\.bin\browserslist133728755179200740 0
 77C:\Users\Win10Pro\ttt\community_population\node_modules\.bin\browserslist.cmd133728755179200740 0
 77C:\Users\Win10Pro\ttt\community_population\node_modules\.bin\browserslist.ps1133728755179190761 0
@@ -6565,7 +6646,10 @@
 69C:\Users\Win10Pro\ttt\community_population\node_modules\.bin\sass.ps1133728755179230720 0
 67C:\Users\Win10Pro\ttt\community_population\node_modules\.bin\semver133728755179230720 0
 69C:\Users\Win10Pro\ttt\community_population\node_modules\.bin\svgo.ps1133728755179230720 0
-65C:\Users\Win10Pro\ttt\community_population\dist\index.f75de5e1.js133729356869618732 0
-70C:\Users\Win10Pro\ttt\community_population\dist\NAMU-1990.6905799b.otf133729356869638706 0
-70C:\Users\Win10Pro\ttt\community_population\dist\NAMU-1600.d38fb804.otf133729356869638706 0
-70C:\Users\Win10Pro\ttt\community_population\dist\index.971c2ea4.css.map133729356879064176 0
+65C:\Users\Win10Pro\ttt\community_population\dist\index.5cecb784.js133729365651920671 0
+69C:\Users\Win10Pro\ttt\community_population\dist\index.5cecb784.js.map133729365651960671 0
+66C:\Users\Win10Pro\ttt\community_population\dist\index.80845491.css133729365651920671 0
+70C:\Users\Win10Pro\ttt\community_population\dist\index.80845491.css.map133729365651970672 0
+77C:\Users\Win10Pro\ttt\community_population\dist\Inter_18pt-Light.ba4bccdb.ttf133729365644205540 0
+70C:\Users\Win10Pro\ttt\community_population\dist\NAMU-1600.3865aff5.otf133729365644145558 0
+70C:\Users\Win10Pro\ttt\community_population\dist\NAMU-1990.af3a6877.otf133729365649510680 0
