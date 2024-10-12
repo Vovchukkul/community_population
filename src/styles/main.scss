@@ -237,7 +237,7 @@
 .right_side {
   width: 100%;
   position: relative;
-  margin-bottom: 140px;
+  margin-bottom: 130px;
   left: 32px;
   bottom: -30px;
 
@@ -530,8 +530,9 @@
     // }
     
     &::after {
-      height: 30px;
-      bottom: -30px;
+      height: 27px;
+      bottom: -23px;
+      background: #127CFF;
 
       @include onBigDesktop {
         height: 582px;
@@ -566,6 +567,7 @@
 
   &_s_block {
     margin-top: 50px;
+    margin-left: 7px;
 
     // @include onSmallTablet {
     //   margin-top: 0px;
@@ -634,7 +636,7 @@
 
   &_t_block {
     margin-left: 170px;
-    margin-top: -20px;
+    margin-top: -36px;
 
     // @include onSmallTablet {
     //   margin-top: 0px;
