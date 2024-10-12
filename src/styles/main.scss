@@ -219,6 +219,12 @@
     color: $main-text-color;
     font-family: $namu_font;
     font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    @include hover($primary-btn-color, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(23, 23, 23, 1), 1px solid rgba(23, 23, 23, 1));
 
     // @include onSmallDesktop {
     //   width: 224px;
@@ -759,18 +765,6 @@
   //   background-color: transparent;
   // }
 
-  &_hidden {
-    display: none;
-
-    @include onTablet {
-      display: block;
-    }
-
-    @include onBigDesktop {
-      display: block;
-    }
-  }
-
   &_mobile_btn {
     @include onTablet {
       display: none;
@@ -950,6 +944,19 @@
 
   &_btn {
     @include button();
+    @include hover(rgba(255, 255, 255, 1), linear-gradient(97.95deg, #127CFF 32.25%, #0E60C6 76.89%, #0B4A99 111.99%), rgba(23, 23, 23, 1), rgba(255, 255, 255, 1), none);
+  }
+
+  &_hidden {
+    display: none;
+
+    @include onTablet {
+      display: block;
+    }
+
+    @include onBigDesktop {
+      display: block;
+    }
   }
 }
 
@@ -994,6 +1001,7 @@
 
   &_btn {
     @include button();
+    @include hover(rgba(255, 255, 255, 1), $hover_btn_color, rgba(23, 23, 23, 1), rgba(255, 255, 255, 1), none);
   }
 }
 

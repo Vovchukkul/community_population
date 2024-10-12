@@ -125,6 +125,10 @@
   border-radius: 8px;
   font-size: 14px;
   font-family: $namu_font;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 
   @include onBigDesktop {
     height: 88px;
@@ -157,5 +161,18 @@
 
   @include onBigDesktop() {
     font-size: 32px;
+  }
+}
+
+@mixin hover($bg-color, $hover-bg-color, $text-color, $hover-text-color, $border) {
+  background-color: $bg-color;
+  color: $text-color;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background: $hover-bg-color;
+    color: $hover-text-color;
+    border: $border;
   }
 }
