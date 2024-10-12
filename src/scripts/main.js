@@ -6,3 +6,6 @@ const switchSpans = document.querySelectorAll('.header_switch li');
       li.classList.add('header_active');
     });
   });
+
+let width = window.innerWidth;
+alert("Width: " + width)

@@ -5,5 +5,7 @@ switchSpans.forEach((li)=>{
         li.classList.add("header_active");
     });
 });
+let width = window.innerWidth;
+alert("Width: " + width);
 
 //# sourceMappingURL=index.f75de5e1.js.map
