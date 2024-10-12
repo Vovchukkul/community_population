@@ -4,33 +4,22 @@
 
 .container {
   @include contentPaddingInline;
-  overflow: hidden;
-  margin-top: 32px;
-
-  @include onBigDesktop {
-    margin-top: 0;
-  }
 }
 
 .header {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.top-bar {
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 24px;
+  margin-top: 32px;
 
-  @include onBigDesktop {
-    align-items: start;
-    margin-bottom: 73px;
-    margin-top: 72px;
-    z-index: 100000;
-  }
+  // @include onBigDesktop {
+  //   align-items: start;
+  //   margin-bottom: 73px;
+  //   margin-top: 72px;
+  //   z-index: 100000;
+  // }
   
   &_logo {
     width: 50px;
@@ -48,6 +37,7 @@
   }
 
   &_switch {
+    display: flex;
     color: #7d7d7d;
     font-weight: 300;
     font-size: 18px;
@@ -71,6 +61,39 @@
   }
 }
 
+
+.main {
+  overflow: hidden;
+
+  // @include onSmallTablet {
+  //   margin-top: -400px;
+  // }
+
+  // @include onTablet {
+  //   margin-top: -330px;
+  // }
+
+  // @include onExtendedTablet {
+  //   margin-top: -450px;
+  // }
+
+  // @include onSmallDesktop {
+  //   margin-top: -650px;
+  // }
+
+  // @include onDesktop {
+  //   margin-top: -650px;
+  // }
+
+  // @include onExtendedDesktop {
+  //   margin-top: -800px;
+  // }
+
+  // @include onBigDesktop {
+  //   margin-top: -1550px;
+  // }
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -90,37 +113,38 @@
   display: flex;
   flex-direction: column;
   justify-content: left;
-  width: 100%;
+  padding-left: 32px;
+  min-width: 296px;
 
-  @include onTablet {
-    margin-top: -500px;
-  }
+  // @include onTablet {
+  //   margin-top: -500px;
+  // }
 
-  @include onBigTablet {
-    margin-top: -500px;
-  }
+  // @include onBigTablet {
+  //   margin-top: -500px;
+  // }
 
-  @include onExtendedTablet {
-    margin-top: -500px;
-  }
+  // @include onExtendedTablet {
+  //   margin-top: -500px;
+  // }
 
-  @include onSmallDesktop {
-    margin-top: -700px;
-  }
+  // @include onSmallDesktop {
+  //   margin-top: -700px;
+  // }
 
-  @include onExtendedDesktop {
-    margin-top: -700px;
-  }
+  // @include onExtendedDesktop {
+  //   margin-top: -700px;
+  // }
 
-  @include onBigDesktop {
-    margin-top: 0;
-    margin-left: 10%;
-    margin-top: -1800px;
-  }
+  // @include onBigDesktop {
+  //   margin-top: 0;
+  //   margin-left: 10%;
+  //   margin-top: -1800px;
+  // }
 
-  @include onFullHD {
-    margin-left: -0px;
-  }
+  // @include onFullHD {
+  //   margin-left: -0px;
+  // }
 
   &_title {
     margin: 0 0 8px 0;
@@ -134,23 +158,23 @@
     min-width: 296px;
     max-width: 500px;
 
-    @include onSmallDesktop {
-      font-size: 44px;
-      // min-width: 100%;
-      max-width: 500px;
-      margin-bottom: 24px;
-    }
+    // @include onSmallDesktop {
+    //   font-size: 44px;
+    //   // min-width: 100%;
+    //   max-width: 500px;
+    //   margin-bottom: 24px;
+    // }
 
-    @include onExtendedDesktop {
-      font-size: 56px;
-      max-width: 700px;
-    }
+    // @include onExtendedDesktop {
+    //   font-size: 56px;
+    //   max-width: 700px;
+    // }
 
-    @include onBigDesktop {
-      font-size: 84px;
-      min-width: 959px;
-      margin-bottom: 24px;
-    }
+    // @include onBigDesktop {
+    //   font-size: 84px;
+    //   min-width: 959px;
+    //   margin-bottom: 24px;
+    // }
   }
 
   &_subtitle {
@@ -159,23 +183,23 @@
     min-width: 296px;
     max-width: 296px;
 
-    @include onSmallDesktop {
-      font-size: 24px;
-      max-width: 400px;
-      margin-bottom: 44px;
-    }
+    // @include onSmallDesktop {
+    //   font-size: 24px;
+    //   max-width: 400px;
+    //   margin-bottom: 44px;
+    // }
 
-    @include onExtendedDesktop {
-      font-size: 32px;
-      max-width: 400px;
-    }
+    // @include onExtendedDesktop {
+    //   font-size: 32px;
+    //   max-width: 400px;
+    // }
 
-    @include onBigDesktop {
-      font-size: 32px;
-      margin-bottom: 72px;
-      min-width: none;
-      width: 518px;
-    }
+    // @include onBigDesktop {
+    //   font-size: 32px;
+    //   margin-bottom: 72px;
+    //   min-width: none;
+    //   width: 518px;
+    // }
   }
 
   &_btn {
@@ -188,55 +212,58 @@
     font-family: $namu_font;
     font-size: 14px;
 
-    @include onSmallDesktop {
-      width: 224px;
-      height: 48px;
-      font-size: 18px;
-    }
+    // @include onSmallDesktop {
+    //   width: 224px;
+    //   height: 48px;
+    //   font-size: 18px;
+    // }
 
-    @include onExtendedDesktop {
-      border-radius: 12px;
-      width: 429px;
-      height: 88px;
-      font-size: 32px;
-    }
+    // @include onExtendedDesktop {
+    //   border-radius: 12px;
+    //   width: 429px;
+    //   height: 88px;
+    //   font-size: 32px;
+    // }
 
-    @include onBigDesktop {
-      border-radius: 12px;
-      width: 429px;
-      height: 88px;
-      font-size: 32px;
-    }
+    // @include onBigDesktop {
+    //   border-radius: 12px;
+    //   width: 429px;
+    //   height: 88px;
+    //   font-size: 32px;
+    // }
   }
 }
 
 .right_side {
   width: 100%;
   position: relative;
+  margin-bottom: 140px;
+  left: 32px;
+  bottom: -30px;
 
-  @include onMobile {
-    margin-left: 10%;
-  }
+  // @include onMobile {
+  //   margin-left: 10%;
+  // }
 
-  @include onExtendedMobile {
-    margin-left: calc(100%/2);
-  }
+  // @include onExtendedMobile {
+  //   margin-left: calc(100%/2);
+  // }
 
-  @include onTablet {
-    margin-left: 0;
-  }
+  // @include onTablet {
+  //   margin-left: 0;
+  // }
 
   &_circle_wrapper {
     position: relative;
     z-index: 1;
 
-    @include onTablet {
-      margin-right: -400px;
-    }
+    // @include onTablet {
+    //   margin-right: -400px;
+    // }
 
-    @include onBigDesktop {
-      top: 200px;
-    }
+    // @include onBigDesktop {
+    //   top: 200px;
+    // }
   }
 
   &_f_circle {
@@ -250,43 +277,43 @@
     position: relative;
     z-index: -10;
 
-    @include onSmallTablet {
-      width: 300px;
-      height: 300px;
-      top: -150px;
-      left: 100px;
-    }
+    // @include onSmallTablet {
+    //   width: 300px;
+    //   height: 300px;
+    //   top: -150px;
+    //   left: 100px;
+    // }
 
-    @include onTablet {
-      top: -10px;
-      left: -150px;
-    }
+    // @include onTablet {
+    //   top: -10px;
+    //   left: -150px;
+    // }
 
-    @include onExtendedTablet {
-      width: 300px;
-      height: 300px;
-      margin-left: 200px;
-    }
+    // @include onExtendedTablet {
+    //   width: 300px;
+    //   height: 300px;
+    //   margin-left: 200px;
+    // }
 
-    @include onSmallDesktop {
-      width: 550px;
-      height: 550px;
-    }
+    // @include onSmallDesktop {
+    //   width: 550px;
+    //   height: 550px;
+    // }
 
-    @include onDesktop {
-      margin-left: 250px;
-    }
+    // @include onDesktop {
+    //   margin-left: 250px;
+    // }
 
-    @include onExtendedDesktop {
-      margin-left: 450px;
-    }
+    // @include onExtendedDesktop {
+    //   margin-left: 450px;
+    // }
 
-    @include onBigDesktop {
-      width: 876px;
-      height: 876px;
-      top: -400px;
-      left: -250px;
-    }
+    // @include onBigDesktop {
+    //   width: 876px;
+    //   height: 876px;
+    //   top: -400px;
+    //   left: -250px;
+    // }
   }
 
   &_s_circle {
@@ -300,50 +327,50 @@
     position: relative;
     z-index: -5;
 
-    @include onSmallTablet {
-      width: 420px;
-      height: 420px;
-      top: -150px;
-      left: 150px;
-    }
+    // @include onSmallTablet {
+    //   width: 420px;
+    //   height: 420px;
+    //   top: -150px;
+    //   left: 150px;
+    // }
 
-    @include onTablet {
-      width: 540px;
-      height: 540px;
-      top: -70px;
-      left: 0px;
-    }
+    // @include onTablet {
+    //   width: 540px;
+    //   height: 540px;
+    //   top: -70px;
+    //   left: 0px;
+    // }
 
-    @include onExtendedTablet {
-      width: 580px;
-      height: 580px;
-      top: -100px;
-      left: 60px;
-    }
+    // @include onExtendedTablet {
+    //   width: 580px;
+    //   height: 580px;
+    //   top: -100px;
+    //   left: 60px;
+    // }
 
-    @include onSmallDesktop {
-      width: 640px;
-      height: 640px;
-      top: -300px;
-    }
+    // @include onSmallDesktop {
+    //   width: 640px;
+    //   height: 640px;
+    //   top: -300px;
+    // }
 
-    @include onDesktop {
-      width: 700px;
-      height: 700px;
-      left: 140px;
-    }
+    // @include onDesktop {
+    //   width: 700px;
+    //   height: 700px;
+    //   left: 140px;
+    // }
 
-    @include onExtendedDesktop {
-      width: 820px;
-      height: 820px;
-    }
+    // @include onExtendedDesktop {
+    //   width: 820px;
+    //   height: 820px;
+    // }
 
-    @include onBigDesktop {
-      width: 1192px;
-      height: 1192px;
-      top: -960px;
-      left: -70px;
-    }
+    // @include onBigDesktop {
+    //   width: 1192px;
+    //   height: 1192px;
+    //   top: -960px;
+    //   left: -70px;
+    // }
   }
 
   &_t_circle {
@@ -358,50 +385,50 @@
     z-index: -1;
     filter: blur(50px);
     
-    @include onSmallTablet {
-      width: 300px;
-      height: 300px;
-      top: -60px;
-      left: 100px;
-    }
+    // @include onSmallTablet {
+    //   width: 300px;
+    //   height: 300px;
+    //   top: -60px;
+    //   left: 100px;
+    // }
 
-    @include onTablet {
-      top: -50px;
-      left: 50px;
-    }
+    // @include onTablet {
+    //   top: -50px;
+    //   left: 50px;
+    // }
 
-    @include onExtendedTablet {
-      width: 300px;
-      height: 300px;
-      top: -100px;
-      left: 60px;
-    }
+    // @include onExtendedTablet {
+    //   width: 300px;
+    //   height: 300px;
+    //   top: -100px;
+    //   left: 60px;
+    // }
 
-    @include onSmallDesktop {
-      width: 340px;
-      height: 340px;
-      top: -300px;
-    }
+    // @include onSmallDesktop {
+    //   width: 340px;
+    //   height: 340px;
+    //   top: -300px;
+    // }
 
-    @include onDesktop {
-      top: -340px;
-      left: 100px;
-    }
+    // @include onDesktop {
+    //   top: -340px;
+    //   left: 100px;
+    // }
 
-    @include onExtendedDesktop {
-      width: 360px;
-      height: 360px;
-    }
+    // @include onExtendedDesktop {
+    //   width: 360px;
+    //   height: 360px;
+    // }
 
-    @include onBigDesktop {
-      width: 632px;
-      height: 632px;
-      top: -1500px;
-      left: -100px;
-      z-index: -10;
-      background: rgba(18, 124, 255, 0.9);
-      filter: blur(100px);
-    }
+    // @include onBigDesktop {
+    //   width: 632px;
+    //   height: 632px;
+    //   top: -1500px;
+    //   left: -100px;
+    //   z-index: -10;
+    //   background: rgba(18, 124, 255, 0.9);
+    //   filter: blur(100px);
+    // }
   }
 
   &_block_wrapper {
@@ -423,6 +450,7 @@
     color: #F3F3F3;
     font-weight: 300;
     z-index: 100;
+    line-height: 14.4px;
     position: relative;
 
     @include onExtendedTablet {
@@ -460,46 +488,46 @@
     margin-top: -410px;
     margin-left: 180px;
 
-    @include onSmallTablet {
-      margin-top: 0px;
-      margin-left: 0px;
-      top: -600px;
-      left: 180px;
-    }
+    // @include onSmallTablet {
+    //   margin-top: 0px;
+    //   margin-left: 0px;
+    //   top: -600px;
+    //   left: 180px;
+    // }
 
-    @include onTablet {
-      width: 170px;
-      height: 60px;
-      top: -650px;
-      left: 40px;
-    }
+    // @include onTablet {
+    //   width: 170px;
+    //   height: 60px;
+    //   top: -650px;
+    //   left: 40px;
+    // }
 
-    @include onExtendedTablet {
-      border-radius: 21px;
-      width: 200px;
-      height: 70px;
-      z-index: 50;
-      top: -680px;
-      right: 50px;
-      bottom: -40px;
-    }
+    // @include onExtendedTablet {
+    //   border-radius: 21px;
+    //   width: 200px;
+    //   height: 70px;
+    //   z-index: 50;
+    //   top: -680px;
+    //   right: 50px;
+    //   bottom: -40px;
+    // }
 
-    @include onSmallDesktop {
-      top: -970px;
-    }
+    // @include onSmallDesktop {
+    //   top: -970px;
+    // }
 
-    @include onDesktop {
-      top: -1050px;
-      left: 160px;
-    }
+    // @include onDesktop {
+    //   top: -1050px;
+    //   left: 160px;
+    // }
 
-    @include onExtendedDesktop {
-      border-radius: 26px;
-      width: 280px;
-      height: 108px;
-      top: -1220px;
-      left: 150px;
-    }
+    // @include onExtendedDesktop {
+    //   border-radius: 26px;
+    //   width: 280px;
+    //   height: 108px;
+    //   top: -1220px;
+    //   left: 150px;
+    // }
     
     &::after {
       height: 30px;
@@ -539,42 +567,42 @@
   &_s_block {
     margin-top: 50px;
 
-    @include onSmallTablet {
-      margin-top: 0px;
-      top: -580px;
-      left: 320px;
-    }
+    // @include onSmallTablet {
+    //   margin-top: 0px;
+    //   top: -580px;
+    //   left: 320px;
+    // }
 
-    @include onTablet {
-      width: 150px;
-      height: 50px;
-      left: 280px;
-      top: -640px;
-    }
+    // @include onTablet {
+    //   width: 150px;
+    //   height: 50px;
+    //   left: 280px;
+    //   top: -640px;
+    // }
 
-    @include onExtendedTablet {
-      border-radius: 16px;
-      width: 150px;
-      height: 50px;
-      right: -330px;
-    }
+    // @include onExtendedTablet {
+    //   border-radius: 16px;
+    //   width: 150px;
+    //   height: 50px;
+    //   right: -330px;
+    // }
 
-    @include onSmallDesktop {
-      top: -930px;
-    }
+    // @include onSmallDesktop {
+    //   top: -930px;
+    // }
 
-    @include onDesktop {
-      top: -1010px;
-      left: 400px;
-    }
+    // @include onDesktop {
+    //   top: -1010px;
+    //   left: 400px;
+    // }
 
-    @include onExtendedDesktop {
-      width: 210px;
-      height: 77px;
-      border-radius: 18px;
-      top: -1140px;
-      left: 500px;
-    }
+    // @include onExtendedDesktop {
+    //   width: 210px;
+    //   height: 77px;
+    //   border-radius: 18px;
+    //   top: -1140px;
+    //   left: 500px;
+    // }
 
     &::after {
       @include onBigDesktop {
@@ -608,44 +636,44 @@
     margin-left: 170px;
     margin-top: -20px;
 
-    @include onSmallTablet {
-      margin-top: 0px;
-      margin-left: 0;
-      top: -540px;
-      left: 200px;
-    }
+    // @include onSmallTablet {
+    //   margin-top: 0px;
+    //   margin-left: 0;
+    //   top: -540px;
+    //   left: 200px;
+    // }
 
-    @include onTablet {
-      width: 150px;
-      height: 50px;
-      top: -590px;
-      left: 50px;
-    }
+    // @include onTablet {
+    //   width: 150px;
+    //   height: 50px;
+    //   top: -590px;
+    //   left: 50px;
+    // }
 
-    @include onExtendedTablet {
-      border-radius: 16px;
-      width: 150px;
-      height: 50px;
-      left: 100px;
-      bottom: -70px;
-    }
+    // @include onExtendedTablet {
+    //   border-radius: 16px;
+    //   width: 150px;
+    //   height: 50px;
+    //   left: 100px;
+    //   bottom: -70px;
+    // }
   
-    @include onSmallDesktop {
-      top: -900px;
-    }
+    // @include onSmallDesktop {
+    //   top: -900px;
+    // }
 
-    @include onDesktop {
-      top: -970px;
-      left: 200px;
-    }
+    // @include onDesktop {
+    //   top: -970px;
+    //   left: 200px;
+    // }
 
-    @include onExtendedDesktop {
-      width: 210px;
-      height: 77px;
-      border-radius: 18px;
-      top: -1000px;
-      left: 300px;
-    }
+    // @include onExtendedDesktop {
+    //   width: 210px;
+    //   height: 77px;
+    //   border-radius: 18px;
+    //   top: -1000px;
+    //   left: 300px;
+    // }
 
     &::after {
       @include onBigDesktop {
@@ -677,38 +705,6 @@
   }
 }
 
-.main {
-  margin-top: 120px;
-
-  @include onSmallTablet {
-    margin-top: -400px;
-  }
-
-  @include onTablet {
-    margin-top: -330px;
-  }
-
-  @include onExtendedTablet {
-    margin-top: -450px;
-  }
-
-  @include onSmallDesktop {
-    margin-top: -650px;
-  }
-
-  @include onDesktop {
-    margin-top: -650px;
-  }
-
-  @include onExtendedDesktop {
-    margin-top: -800px;
-  }
-
-  @include onBigDesktop {
-    margin-top: -1550px;
-  }
-}
-
 .population {
   display: flex;
   flex-direction: column;
@@ -717,34 +713,35 @@
   position: relative;
   z-index: 1000;
   width: 100vw;
-  margin-left: -32px;
   padding-top: 32px;
+  gap: 24px;
+  margin-bottom: 32px;
 
-  @include onBiggestScreen {
-    position: relative;
-    left: 160px;
-  }
+  // @include onBiggestScreen {
+  //   position: relative;
+  //   left: 160px;
+  // }
 
-  @include onTablet {
-    padding-inline: 0;
-    margin-left: -72px;
-  }
+  // @include onTablet {
+  //   padding-inline: 0;
+  //   margin-left: -72px;
+  // }
 
   &_wrap {
     display: flex;
     flex-direction: column;
   }
   
-  @include contentPaddingInline;
+  // @include contentPaddingInline;
 
-  @include onBigDesktop {
-    width: 100%;
-    margin-left: -118px;
-  }
+  // @include onBigDesktop {
+  //   width: 100%;
+  //   margin-left: -118px;
+  // }
 
-  @include onDesktop {
-    background-color: transparent;
-  }
+  // @include onDesktop {
+  //   background-color: transparent;
+  // }
 
   &_hidden {
     display: none;
@@ -769,32 +766,32 @@
     flex-direction: column;
     justify-content: left;
 
-    @include onTablet {
-      flex-direction: row;
-      justify-content: space-between;
-      gap: 60px;
-    }
+    // @include onTablet {
+    //   flex-direction: row;
+    //   justify-content: space-between;
+    //   gap: 60px;
+    // }
 
-    @include onExtendedTablet {
-      gap: 100px;
-    }
+    // @include onExtendedTablet {
+    //   gap: 100px;
+    // }
 
-    @include onSmallDesktop {
-      gap: 140px;
-    }
+    // @include onSmallDesktop {
+    //   gap: 140px;
+    // }
 
-    @include onDesktop {
-      gap: 160px;
-    }
+    // @include onDesktop {
+    //   gap: 160px;
+    // }
 
-    @include onBigDesktop {
-      flex-direction: row;
-      // justify-content: space-between;
-      justify-content: center;
-      height: 490px;
-      margin-bottom: 148px;
-      gap: 60px
-    }
+    // @include onBigDesktop {
+    //   flex-direction: row;
+    //   // justify-content: space-between;
+    //   justify-content: center;
+    //   height: 490px;
+    //   margin-bottom: 148px;
+    //   gap: 60px
+    // }
   }
 
   &_title {
@@ -812,6 +809,7 @@
     @include subtitle();
     color: rgba(0, 0, 0, 1);
     margin-bottom: 24px;
+    max-width: 235px;
 
     @include onBigDesktop {
       font-size: 32px;
@@ -828,35 +826,35 @@
     margin-bottom: 24px;
     min-width: 300px;
 
-    @include onTablet {
-      width: 100%;
-      align-content: center;
-      column-gap: 10px;
-    }
+    // @include onTablet {
+    //   width: 100%;
+    //   align-content: center;
+    //   column-gap: 10px;
+    // }
 
-    @include onExtendedTablet {
-      column-gap: 15px;
-    }
+    // @include onExtendedTablet {
+    //   column-gap: 15px;
+    // }
 
-    @include onSmallDesktop {
-      column-gap: 25px;
-    }
+    // @include onSmallDesktop {
+    //   column-gap: 25px;
+    // }
 
-    @include onDesktop {
-      column-gap: 30px;
-    }
+    // @include onDesktop {
+    //   column-gap: 30px;
+    // }
 
-    @include onBigDesktop {
-      align-content: initial;
-      flex-wrap: wrap;
-      column-gap: 34px;
-      margin-bottom: 0px;
-    }
+    // @include onBigDesktop {
+    //   align-content: initial;
+    //   flex-wrap: wrap;
+    //   column-gap: 34px;
+    //   margin-bottom: 0px;
+    // }
 
-    @include onFullHD {
-      // column-gap: 200px;
-      max-width: 1200px;
-    }
+    // @include onFullHD {
+    //   // column-gap: 200px;
+    //   max-width: 1200px;
+    // }
   }
 
   &_block {
@@ -870,50 +868,51 @@
     width: 145px;
     height: 48px;
     color: rgba(255, 255, 255, 1);
+    line-height: 18px;
 
-    @include onSmallTablet {
-      width: 33%;
-    }
+    // @include onSmallTablet {
+    //   width: 33%;
+    // }
 
-    @include onTablet {
-      width: 48%;
-    }
+    // @include onTablet {
+    //   width: 48%;
+    // }
 
-    @include onDesktop {
-      height: 80px;
-    }
+    // @include onDesktop {
+    //   height: 80px;
+    // }
 
-    @include onBigDesktop {
-      width: 353px;
-      height: 133px;
-      border-radius: 21px;
+    // @include onBigDesktop {
+    //   width: 353px;
+    //   height: 133px;
+    //   border-radius: 21px;
 
-      &:nth-child(even) {
-        width: 453px;
-      }
-    }
+    //   &:nth-child(even) {
+    //     width: 453px;
+    //   }
+    // }
 
-    @include onFullHD {
-      width: 353px;
-      height: 133px;
-      border-radius: 21px;
+    // @include onFullHD {
+    //   width: 353px;
+    //   height: 133px;
+    //   border-radius: 21px;
 
-      &:nth-child(even) {
-        width: 453px;
-      }
-    }
+    //   &:nth-child(even) {
+    //     width: 453px;
+    //   }
+    // }
 
     &:nth-child(3n + 1) {
       background-color: $dark-button-color;
     }
 
     &:nth-child(3n + 2) {
-      background-color: $primary-btn-color;
+      background-color: $gray-btn-color;
+      color: rgba(58, 58, 58, 1);
     }
 
     &:nth-child(3n + 3) {
-      background-color: $gray-btn-color;
-      color: rgba(58, 58, 58, 1);
+      background-color: $primary-btn-color;
     }
   }
 
@@ -986,6 +985,7 @@
   display: flex;
   flex-direction: column;
   justify-content: left;
+  margin-bottom: 31px;
 
   @include onSmallDesktop {
     margin-bottom: 100px;
@@ -997,7 +997,7 @@
 
   &_title {
     @include title();
-    margin-bottom: 14px;
+    margin-bottom: 24px;
 
     @include onBigDesktop {
       font-size: 84px;
@@ -1024,6 +1024,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 24px;
 
     @include onBigMobile {
       flex-direction: row;
@@ -1074,7 +1075,6 @@
     justify-content: center;
     row-gap: 6px;
     column-gap: 6px;
-    margin-bottom: 24px;
 
     @include onExtendedMobile {
       max-width: 400px;
@@ -1117,6 +1117,7 @@
     width: 145px;
     height: 48px;
     color: rgba(255, 255, 255, 1);
+    line-height: 18px;
 
     @include onBigMobile {
       width: 100%;
@@ -1183,8 +1184,6 @@
   justify-content: left;
   background-color: rgba(58, 58, 58, 1);
   width: 100vw;
-  margin-left: -32px;
-  padding-inline: 32px;
   padding-top: 29px;
   padding-bottom: 32px;
 

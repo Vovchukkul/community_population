@@ -1,8 +1,8 @@
-const switchSpans = document.querySelectorAll(".top-bar_switch span");
-switchSpans.forEach((span)=>{
-    span.addEventListener("click", ()=>{
-        switchSpans.forEach((s)=>s.classList.remove("top-bar_active"));
-        span.classList.add("top-bar_active");
+const switchSpans = document.querySelectorAll(".header_switch li");
+switchSpans.forEach((li)=>{
+    li.addEventListener("click", ()=>{
+        switchSpans.forEach((s)=>s.classList.remove("header_active"));
+        li.classList.add("header_active");
     });
 });
 
