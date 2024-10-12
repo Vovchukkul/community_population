@@ -80,7 +80,7 @@
 @mixin contentPaddingInline() {
   padding-inline: 32px;
 
-  @include onTablet() {
+  @include onBigTablet() {
     padding-inline: 72px;
   }
 
