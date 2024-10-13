@@ -207,6 +207,12 @@ input, textarea {
   }
 }
 
+@media (width >= 1199px) {
+  .left_side {
+    padding-left: 118px;
+  }
+}
+
 .left_side_title {
   color: #0000;
   background: linear-gradient(to right, #000, gray) text;
@@ -335,7 +341,7 @@ input, textarea {
 
 @media (width >= 854px) {
   .right_side {
-    left: 500px;
+    left: 170px;
   }
 }
 
@@ -348,7 +354,8 @@ input, textarea {
 
 @media (width >= 1199px) {
   .right_side {
-    top: -100px;
+    top: -120px;
+    left: 100px;
   }
 }
 
@@ -371,10 +378,10 @@ input, textarea {
 
 @media (width >= 1199px) {
   .right_side_f_circle {
-    width: 876px;
-    height: 876px;
-    top: -600px;
-    left: 400px;
+    width: 547.5px;
+    height: 547.5px;
+    top: -300px;
+    left: 300px;
   }
 }
 
@@ -408,10 +415,10 @@ input, textarea {
 
 @media (width >= 1199px) {
   .right_side_s_circle {
-    width: 900px;
-    height: 900px;
-    top: -650px;
-    left: 160px;
+    width: 745px;
+    height: 745px;
+    top: -300px;
+    left: 130px;
   }
 }
 
@@ -435,10 +442,11 @@ input, textarea {
 
 @media (width >= 1199px) {
   .right_side_t_circle {
-    width: 340px;
-    height: 340px;
-    top: -300px;
-    left: 500px;
+    z-index: -1000;
+    width: 395px;
+    height: 395px;
+    top: -450px;
+    left: 120px;
   }
 }
 
@@ -472,6 +480,12 @@ input, textarea {
   }
 }
 
+@media (width >= 1199px) {
+  .right_side_block {
+    line-height: 20.4px;
+  }
+}
+
 .right_side_block_number {
   font-size: 20px;
 }
@@ -493,8 +507,8 @@ input, textarea {
 
 @media (width >= 1199px) {
   .right_side_block:after {
-    width: 7px;
-    height: 582px;
+    width: 4px;
+    height: 364px;
   }
 }
 
@@ -525,26 +539,28 @@ input, textarea {
 
 @media (width >= 1199px) {
   .right_side_f_block:after {
-    width: 7px;
-    height: 582px;
-    bottom: -582px;
+    background: linear-gradient(#127cff 0%, #127cff00 100%);
+    width: 4px;
+    height: 363px;
+    bottom: -362px;
   }
 
   .right_side_f_block_number {
-    font-size: 68px;
+    font-size: 42px;
   }
 
   .right_side_f_block_sub {
-    font-size: 42px;
+    font-size: 26px;
   }
 
   .right_side_f_block {
     z-index: 50;
     border-radius: 26px;
-    width: 444px;
-    height: 168px;
-    top: -2320px;
-    left: -130px;
+    width: 276px;
+    height: 105px;
+    line-height: 25.4px;
+    top: -770px;
+    left: -70px;
   }
 }
 
@@ -569,22 +585,25 @@ input, textarea {
 
 @media (width >= 1199px) {
   .right_side_s_block:after {
-    bottom: -582px;
+    width: 4px;
+    height: 363px;
+    bottom: -362px;
   }
 
   .right_side_s_block_number {
-    font-size: 48px;
+    font-size: 30px;
   }
 
   .right_side_s_block_sub {
-    font-size: 30px;
+    font-size: 18px;
   }
 
   .right_side_s_block {
     border-radius: 18px;
-    width: 324px;
-    height: 117px;
-    top: -2300px;
+    width: 202px;
+    height: 73px;
+    top: -830px;
+    left: 450px;
   }
 }
 
@@ -609,23 +628,25 @@ input, textarea {
 
 @media (width >= 1199px) {
   .right_side_t_block:after {
-    bottom: -582px;
+    width: 4px;
+    height: 363px;
+    bottom: -362px;
   }
 
   .right_side_t_block_number {
-    font-size: 48px;
+    font-size: 30px;
   }
 
   .right_side_t_block_sub {
-    font-size: 30px;
+    font-size: 18px;
   }
 
   .right_side_t_block {
     border-radius: 18px;
-    width: 310px;
-    height: 117px;
-    top: -2200px;
-    left: 130px;
+    width: 193px;
+    height: 73px;
+    top: -700px;
+    left: 150px;
   }
 }
 
@@ -640,6 +661,13 @@ input, textarea {
   padding-top: 32px;
   display: flex;
   position: relative;
+}
+
+@media (width >= 1199px) {
+  .population {
+    background-color: #0000;
+    margin-top: -500px;
+  }
 }
 
 .population_wrap {
@@ -780,6 +808,15 @@ input, textarea {
   }
 }
 
+@media (width >= 1199px) {
+  .population_blocks {
+    align-content: initial;
+    flex-wrap: wrap;
+    column-gap: 34px;
+    margin-bottom: 0;
+  }
+}
+
 .population_block {
   color: #fff;
   background: #3a3a3a;
@@ -792,6 +829,18 @@ input, textarea {
   font-family: Namu_s, san-serif;
   line-height: 18px;
   display: flex;
+}
+
+@media (width >= 1199px) {
+  .population_block {
+    border-radius: 21px;
+    width: 353px;
+    height: 133px;
+  }
+
+  .population_block:nth-child(2n) {
+    width: 453px;
+  }
 }
 
 .population_block:nth-child(3n+1) {
@@ -881,7 +930,7 @@ input, textarea {
 
 @media (width >= 1199px) {
   .population_hidden {
-    display: block;
+    display: flex;
   }
 }
 
