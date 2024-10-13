@@ -112,7 +112,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .container {
     padding-inline: 118px;
   }
@@ -129,7 +129,14 @@ input, textarea {
 
 @media (width >= 768px) {
   .header {
-    z-index: -10000;
+    z-index: 10000;
+  }
+}
+
+@media (width >= 1199px) {
+  .header {
+    margin-top: 72px;
+    margin-bottom: 73px;
   }
 }
 
@@ -139,13 +146,6 @@ input, textarea {
 }
 
 @media (width >= 1199px) {
-  .header_logo {
-    width: 100px;
-    height: 127px;
-  }
-}
-
-@media (width >= 1920px) {
   .header_logo {
     width: 133px;
     height: 147px;
@@ -161,12 +161,6 @@ input, textarea {
 }
 
 @media (width >= 1199px) {
-  .header_switch {
-    font-size: 24px;
-  }
-}
-
-@media (width >= 1920px) {
   .header_switch {
     font-size: 24px;
   }
@@ -199,12 +193,6 @@ input, textarea {
   }
 }
 
-@media (width >= 1199px) {
-  .wrapper {
-    margin-top: -50px;
-  }
-}
-
 .left_side {
   flex-direction: column;
   justify-content: left;
@@ -228,6 +216,15 @@ input, textarea {
   font-family: Namu_s, san-serif;
   font-size: 28px;
   font-weight: 300;
+}
+
+@media (width >= 1199px) {
+  .left_side_title {
+    min-width: 500px;
+    max-width: 500px;
+    margin-bottom: 24px;
+    font-size: 44px;
+  }
 }
 
 .left_side_subtitle {
@@ -258,9 +255,11 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .left_side_subtitle {
-    font-size: 32px;
+    max-width: 400px;
+    margin-bottom: 44px;
+    font-size: 24px;
   }
 }
 
@@ -285,6 +284,14 @@ input, textarea {
   color: #171717;
   background: #fff;
   border: 1px solid #171717;
+}
+
+@media (width >= 1199px) {
+  .left_side_btn {
+    width: 224px;
+    height: 48px;
+    font-size: 18px;
+  }
 }
 
 .right_side {
@@ -328,7 +335,20 @@ input, textarea {
 
 @media (width >= 854px) {
   .right_side {
-    left: 170px;
+    left: 500px;
+  }
+}
+
+@media (width >= 991px) {
+  .right_side {
+    margin-bottom: 60px;
+    top: -20px;
+  }
+}
+
+@media (width >= 1199px) {
+  .right_side {
+    top: -100px;
   }
 }
 
@@ -347,6 +367,15 @@ input, textarea {
   margin-top: -10px;
   margin-left: 150px;
   position: relative;
+}
+
+@media (width >= 1199px) {
+  .right_side_f_circle {
+    width: 876px;
+    height: 876px;
+    top: -600px;
+    left: 400px;
+  }
 }
 
 .right_side_s_circle {
@@ -370,6 +399,22 @@ input, textarea {
   }
 }
 
+@media (width >= 991px) {
+  .right_side_s_circle {
+    width: 480px;
+    height: 480px;
+  }
+}
+
+@media (width >= 1199px) {
+  .right_side_s_circle {
+    width: 900px;
+    height: 900px;
+    top: -650px;
+    left: 160px;
+  }
+}
+
 .right_side_t_circle {
   filter: blur(50px);
   z-index: -1;
@@ -380,6 +425,21 @@ input, textarea {
   margin-top: -300px;
   margin-left: -130px;
   position: relative;
+}
+
+@media (width >= 991px) {
+  .right_side_t_circle {
+    top: -60px;
+  }
+}
+
+@media (width >= 1199px) {
+  .right_side_t_circle {
+    width: 340px;
+    height: 340px;
+    top: -300px;
+    left: 500px;
+  }
 }
 
 .right_side_block_wrapper {
@@ -431,7 +491,7 @@ input, textarea {
   transform: translateX(-50%);
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .right_side_block:after {
     width: 7px;
     height: 582px;
@@ -450,13 +510,20 @@ input, textarea {
   }
 }
 
+@media (width >= 991px) {
+  .right_side_f_block {
+    top: -120px;
+    left: -185px;
+  }
+}
+
 .right_side_f_block:after {
   background: #127cff;
   height: 27px;
   bottom: -23px;
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .right_side_f_block:after {
     width: 7px;
     height: 582px;
@@ -493,7 +560,14 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 991px) {
+  .right_side_s_block {
+    top: -100px;
+    left: 200px;
+  }
+}
+
+@media (width >= 1199px) {
   .right_side_s_block:after {
     bottom: -582px;
   }
@@ -526,7 +600,14 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 991px) {
+  .right_side_t_block {
+    top: -50px;
+    left: -140px;
+  }
+}
+
+@media (width >= 1199px) {
   .right_side_t_block:after {
     bottom: -582px;
   }
@@ -615,7 +696,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .population_title {
     width: 530px;
     margin-bottom: 24px;
@@ -650,7 +731,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .population_subtitle {
     font-size: 32px;
   }
@@ -668,7 +749,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .population_subtitle {
     margin-bottom: 82px;
     font-size: 32px;
@@ -730,7 +811,7 @@ input, textarea {
   font-size: 20px;
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .population_number {
     font-size: 54px;
   }
@@ -740,7 +821,7 @@ input, textarea {
   font-size: 12px;
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .population_sub {
     font-size: 32px;
   }
@@ -771,7 +852,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .population_btn {
     border-width: 2px;
     border-radius: 12px;
@@ -798,7 +879,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .population_hidden {
     display: block;
   }
@@ -825,7 +906,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .contacts {
     text-align: center;
     justify-content: center;
@@ -869,7 +950,20 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
+  .contacts_title {
+    font-size: 83px;
+  }
+}
+
+@media (width >= 991px) {
+  .contacts_title {
+    color: #0000;
+    background: linear-gradient(to right, #000 0%, gray 90%, #fff 100%) text;
+  }
+}
+
+@media (width >= 1199px) {
   .contacts_title {
     margin-bottom: 46px;
     font-size: 83px;
@@ -903,7 +997,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .contacts_subtitle {
     margin-bottom: 124px;
     font-size: 32px;
@@ -935,7 +1029,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .contacts_btn {
     border-width: 2px;
     border-radius: 12px;
@@ -960,12 +1054,6 @@ input, textarea {
 }
 
 @media (width >= 1199px) {
-  .info {
-    margin-bottom: 100px;
-  }
-}
-
-@media (width >= 1920px) {
   .info {
     margin-bottom: 151px;
   }
@@ -1006,7 +1094,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .info_title {
     max-width: 1263px;
     margin-bottom: 111px;
@@ -1026,12 +1114,6 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
-  .info_wrap {
-    width: 100%;
-  }
-}
-
 .info_blocks {
   flex-direction: column;
   justify-content: center;
@@ -1046,7 +1128,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .info_blocks {
     flex-direction: row;
     justify-content: space-between;
@@ -1078,7 +1160,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .info_name {
     border-radius: 21px;
     justify-content: start;
@@ -1120,15 +1202,8 @@ input, textarea {
 
 @media (width >= 1199px) {
   .info_block {
-    gap: 16px;
-    width: 100%;
-    margin-bottom: 0;
-  }
-}
-
-@media (width >= 1920px) {
-  .info_block {
     gap: 32px;
+    width: 100%;
     margin-bottom: 0;
   }
 }
@@ -1171,7 +1246,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .info_subblock {
     border-radius: 31px;
     align-items: start;
@@ -1186,12 +1261,6 @@ input, textarea {
 
 @media (width >= 1199px) {
   .info_number {
-    font-size: 28px;
-  }
-}
-
-@media (width >= 1920px) {
-  .info_number {
     font-size: 54px;
   }
 }
@@ -1201,12 +1270,6 @@ input, textarea {
 }
 
 @media (width >= 1199px) {
-  .info_sub {
-    font-size: 20px;
-  }
-}
-
-@media (width >= 1920px) {
   .info_sub {
     font-size: 28px;
   }
@@ -1232,7 +1295,7 @@ input, textarea {
   display: flex;
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .footer {
     padding-inline: 118px;
     margin-left: -118px;
@@ -1247,7 +1310,7 @@ input, textarea {
   margin-bottom: 35px;
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .footer_img {
     width: 133px;
     height: 147px;
@@ -1266,7 +1329,7 @@ input, textarea {
   font-size: 14px;
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .footer_link {
     font-size: 32px;
   }
@@ -1288,7 +1351,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1199px) {
   .s {
     flex-direction: column;
     justify-content: center;
