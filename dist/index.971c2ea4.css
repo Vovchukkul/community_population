@@ -176,12 +176,8 @@ input, textarea {
   color: #000;
 }
 
-.header_span {
+.header_li {
   cursor: pointer;
-}
-
-.main {
-  overflow-inline: hidden;
 }
 
 @media (width >= 768px) {
@@ -570,16 +566,18 @@ input, textarea {
   display: flex;
 }
 
-@media (width >= 768px) {
-  .population_mobile_btn {
-    display: none;
-  }
-}
-
 .population_month {
   flex-direction: column;
   justify-content: left;
   display: flex;
+}
+
+@media (width >= 768px) {
+  .population_month {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+  }
 }
 
 .population_title {
@@ -601,6 +599,13 @@ input, textarea {
 @media (width >= 991px) {
   .population_title {
     font-size: 44px;
+  }
+}
+
+@media (width >= 768px) {
+  .population_title {
+    color: #0000;
+    background: linear-gradient(to right, #000 0%, gray 80%, #fff 100%) text;
   }
 }
 
@@ -647,6 +652,18 @@ input, textarea {
 
 @media (width >= 1920px) {
   .population_subtitle {
+    font-size: 32px;
+  }
+}
+
+@media (width >= 768px) {
+  .population_subtitle {
+    max-width: 500px;
+  }
+}
+
+@media (width >= 1920px) {
+  .population_subtitle {
     margin-bottom: 82px;
     font-size: 32px;
   }
@@ -659,6 +676,14 @@ input, textarea {
   min-width: 300px;
   margin-bottom: 24px;
   display: flex;
+}
+
+@media (width >= 768px) {
+  .population_blocks {
+    align-content: center;
+    column-gap: 10px;
+    width: 100%;
+  }
 }
 
 .population_block {
@@ -727,6 +752,12 @@ input, textarea {
   display: flex;
 }
 
+@media (width >= 768px) {
+  .population_btn {
+    margin: 0;
+  }
+}
+
 @media (width >= 1920px) {
   .population_btn {
     border-width: 2px;
@@ -750,13 +781,19 @@ input, textarea {
 
 @media (width >= 768px) {
   .population_hidden {
-    display: block;
+    display: flex;
   }
 }
 
 @media (width >= 1920px) {
   .population_hidden {
     display: block;
+  }
+}
+
+@media (width >= 768px) {
+  .population_mobile_btn {
+    display: none;
   }
 }
 
@@ -786,7 +823,7 @@ input, textarea {
 
 .contacts_title {
   color: #0000;
-  background: linear-gradient(to right, #000 0%, gray 50%, #fff 100%) text;
+  background: linear-gradient(to right, #000 0%, gray 80%, #fff 100%) text;
   min-width: 296px;
   margin-bottom: 14px;
   font-family: Namu_s, san-serif;
@@ -803,6 +840,13 @@ input, textarea {
 @media (width >= 991px) {
   .contacts_title {
     font-size: 44px;
+  }
+}
+
+@media (width >= 768px) {
+  .contacts_title {
+    color: #0000;
+    background: linear-gradient(to right, #000 0%, gray 80%, #fff 100%) text;
   }
 }
 
@@ -872,6 +916,12 @@ input, textarea {
   display: flex;
 }
 
+@media (width >= 768px) {
+  .contacts_btn {
+    margin: 0;
+  }
+}
+
 @media (width >= 1920px) {
   .contacts_btn {
     border-width: 2px;
@@ -927,6 +977,13 @@ input, textarea {
 @media (width >= 991px) {
   .info_title {
     font-size: 44px;
+  }
+}
+
+@media (width >= 768px) {
+  .info_title {
+    color: #0000;
+    background: linear-gradient(to right, #000 0%, gray 80%, #fff 100%) text;
   }
 }
 
@@ -1162,13 +1219,6 @@ input, textarea {
   display: flex;
 }
 
-@media (width >= 768px) {
-  .footer {
-    margin-left: -72px;
-    padding-inline: 72px;
-  }
-}
-
 @media (width >= 1920px) {
   .footer {
     padding-inline: 118px;
@@ -1213,6 +1263,15 @@ input, textarea {
   .s {
     flex-direction: row-reverse;
     display: flex;
+  }
+
+  .s_wrap {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .s_blocks {
+    justify-content: flex-start;
   }
 }
 

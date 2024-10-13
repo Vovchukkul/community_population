@@ -60,15 +60,13 @@
     color: black;
   }
 
-  &_span {
+  &_li {
     cursor: pointer;
   }
 }
 
 
 .main {
-  overflow-inline: hidden;
-
   @include onTablet {
     position: relative;
     z-index: 1;
@@ -765,22 +763,16 @@
   //   background-color: transparent;
   // }
 
-  &_mobile_btn {
-    @include onTablet {
-      display: none;
-    }
-  }
-
   &_month {
     display: flex;
     flex-direction: column;
     justify-content: left;
 
-    // @include onTablet {
-    //   flex-direction: row;
-    //   justify-content: space-between;
-    //   gap: 60px;
-    // }
+    @include onTablet {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 60px;
+    }
 
     // @include onExtendedTablet {
     //   gap: 100px;
@@ -821,6 +813,10 @@
     margin-bottom: 24px;
     max-width: 235px;
 
+    @include onTablet {
+      max-width: 500px;
+    }
+
     @include onBigDesktop {
       font-size: 32px;
       margin-bottom: 82px;
@@ -836,11 +832,11 @@
     margin-bottom: 24px;
     min-width: 300px;
 
-    // @include onTablet {
-    //   width: 100%;
-    //   align-content: center;
-    //   column-gap: 10px;
-    // }
+    @include onTablet {
+      width: 100%;
+      align-content: center;
+      column-gap: 10px;
+    }
 
     // @include onExtendedTablet {
     //   column-gap: 15px;
@@ -951,11 +947,17 @@
     display: none;
 
     @include onTablet {
-      display: block;
+      display: flex;
     }
 
     @include onBigDesktop {
       display: block;
+    }
+  }
+
+  &_mobile_btn {
+    @include onTablet {
+      display: none;
     }
   }
 }
@@ -981,6 +983,9 @@
 
   &_title {
     @include title();
+    background: linear-gradient(to right, black 0%, gray 80%, white 100%);
+    background-clip: text;
+    color: transparent;
     margin-bottom: 14px;
 
     @include onBigDesktop {
@@ -1211,11 +1216,6 @@
   padding-top: 29px;
   padding-bottom: 32px;
 
-  @include onTablet {
-    margin-left: -72px;
-    padding-inline: 72px;
-  }
-
   @include onBigDesktop {
     margin-left: -118px;
     padding-inline: 118px;
@@ -1255,6 +1255,15 @@
   @include onTablet {
     display: flex;
     flex-direction: row-reverse;
+
+    &_wrap {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &_blocks {
+      justify-content: flex-start;
+    }
   }
   @include onBigDesktop {
     justify-content: center;

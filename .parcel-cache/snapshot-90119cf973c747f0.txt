@@ -1,12 +1,12 @@
 5214
-68/home/volodymyr/ttt/community_population/dist/index.971c2ea4.css.map1728730365081477881 0
-68/home/volodymyr/ttt/community_population/dist/main_logo.94513536.svg1728730365065478055 0
-68/home/volodymyr/ttt/community_population/dist/NAMU-1990.6905799b.otf1728730365062478088 0
-68/home/volodymyr/ttt/community_population/dist/NAMU-1600.d38fb804.otf1728730365059478121 0
-56/home/volodymyr/ttt/community_population/dist/index.html1728730365048478240 0
-70/home/volodymyr/ttt/community_population/dist/NAMU-1990.612db5aa.woff21728730365047478251 0
-63/home/volodymyr/ttt/community_population/dist/index.f75de5e1.js1728730365039478338 0
-69/home/volodymyr/ttt/community_population/dist/NAMU-1990.f5645ef0.woff1728730365039478338 0
+70/home/volodymyr/ttt/community_population/dist/NAMU-1990.612db5aa.woff21728732055654308227 0
+63/home/volodymyr/ttt/community_population/dist/index.f75de5e1.js1728732055632307024 0
+68/home/volodymyr/ttt/community_population/dist/NAMU-1600.d38fb804.otf1728732055658308446 0
+68/home/volodymyr/ttt/community_population/dist/main_logo.94513536.svg1728732055662308665 0
+56/home/volodymyr/ttt/community_population/dist/index.html1728732055653308173 0
+68/home/volodymyr/ttt/community_population/dist/NAMU-1990.6905799b.otf1728732055663308720 0
+69/home/volodymyr/ttt/community_population/dist/NAMU-1990.f5645ef0.woff1728732055622306477 0
+68/home/volodymyr/ttt/community_population/dist/index.971c2ea4.css.map1728732055659308501 0
 53/home/volodymyr/ttt/community_population/package.json1728465857530396294 0
 58/home/volodymyr/ttt/community_population/package-lock.json1728730361876513106 0
 50/home/volodymyr/ttt/community_population/README.md1728465857011396296 0
@@ -60,14 +60,14 @@
 95/home/volodymyr/ttt/community_population/src/styles/utils/fonts/Inter_28pt-ExtraLightItalic.ttf1727972033996854577 0
 89/home/volodymyr/ttt/community_population/src/styles/utils/fonts/Inter_28pt-BoldItalic.ttf1727972033984851002 0
 71/home/volodymyr/ttt/community_population/src/styles/utils/normalize.css1728332424590591467 0
-69/home/volodymyr/ttt/community_population/src/styles/utils/mixins.scss1728731948286434969 0
+69/home/volodymyr/ttt/community_population/src/styles/utils/mixins.scss1728798318062268767 0
 72/home/volodymyr/ttt/community_population/src/styles/utils/mixins.css.map1728332424589591517 0
 72/home/volodymyr/ttt/community_population/src/styles/utils/variables.scss1728731818495332455 0
 68/home/volodymyr/ttt/community_population/src/styles/utils/mixins.css1728332424589591517 0
 57/home/volodymyr/ttt/community_population/src/styles/utils1728730213071322103 1
 51/home/volodymyr/ttt/community_population/src/styles1728730213070321976 1
-55/home/volodymyr/ttt/community_population/src/index.html1728730667437286721 0
-60/home/volodymyr/ttt/community_population/src/scripts/main.js1728730213070321976 0
+55/home/volodymyr/ttt/community_population/src/index.html1728798511815610783 0
+60/home/volodymyr/ttt/community_population/src/scripts/main.js1728798390844087951 0
 52/home/volodymyr/ttt/community_population/src/scripts1728730213070321976 1
 44/home/volodymyr/ttt/community_population/src1728465857530396294 1
 96/home/volodymyr/ttt/community_population/node_modules/posthtml-parser/dist/location-tracker.d.ts499162500000000000 0
@@ -364,7 +364,7 @@
 100/home/volodymyr/ttt/community_population/node_modules/caniuse-lite/data/features/css-supports-api.js499162500000000000 0
 90/home/volodymyr/ttt/community_population/node_modules/css-tree/lib/syntax/node/Function.js499162500000000000 0
 83/home/volodymyr/ttt/community_population/node_modules/@parcel/profiler/lib/types.js499162500000000000 0
-78/home/volodymyr/ttt/community_population/dist/community_population.59712999.js1728730365042478306 0
+78/home/volodymyr/ttt/community_population/dist/community_population.59712999.js1728732055633307079 0
 93/home/volodymyr/ttt/community_population/node_modules/css-tree/lib/syntax/node/Parentheses.js499162500000000000 0
 85/home/volodymyr/ttt/community_population/node_modules/css-tree/lib/syntax/node/CDC.js499162500000000000 0
 95/home/volodymyr/ttt/community_population/node_modules/css-tree/lib/syntax/node/AtrulePrelude.js499162500000000000 0
@@ -509,7 +509,7 @@
 75/home/volodymyr/ttt/community_population/node_modules/async/eachOfSeries.js499162500000000000 0
 124/home/volodymyr/ttt/community_population/node_modules/msgpackr-extract/node_modules/node-gyp-build-optional-packages/LICENSE499162500000000000 0
 73/home/volodymyr/ttt/community_population/node_modules/base-x/package.json1728730360615527113 0
-67/home/volodymyr/ttt/community_population/dist/index.f75de5e1.js.map1728730365059478121 0
+67/home/volodymyr/ttt/community_population/dist/index.f75de5e1.js.map1728732055648307899 0
 76/home/volodymyr/ttt/community_population/node_modules/picomatch/lib/utils.js499162500000000000 0
 102/home/volodymyr/ttt/community_population/node_modules/@babel/highlight/node_modules/color-name/test.js1500156819000000000 0
 73/home/volodymyr/ttt/community_population/node_modules/picocolors/types.ts499162500000000000 0
@@ -1060,7 +1060,7 @@
 105/home/volodymyr/ttt/community_population/node_modules/caniuse-lite/data/features/extended-system-fonts.js499162500000000000 0
 95/home/volodymyr/ttt/community_population/node_modules/svgo/plugins/removeUnknownsAndDefaults.js499162500000000000 0
 112/home/volodymyr/ttt/community_population/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/intro.doc499162500000000000 0
-45/home/volodymyr/ttt/community_population/dist1728730365001478752 1
+45/home/volodymyr/ttt/community_population/dist1728732055665308829 1
 76/home/volodymyr/ttt/community_population/node_modules/@parcel/codeframe/test1728730353055613008 1
 102/home/volodymyr/ttt/community_population/node_modules/parcel/node_modules/commander/typings/index.d.ts499162500000000000 0
 126/home/volodymyr/ttt/community_population/node_modules/node-gyp-build-optional-packages/node_modules/detect-libc/lib/process.js499162500000000000 0
@@ -1269,7 +1269,7 @@
 80/home/volodymyr/ttt/community_population/node_modules/@parcel/types/package.json1728730360448528974 0
 90/home/volodymyr/ttt/community_population/node_modules/@parcel/core/src/UncommittedAsset.js499162500000000000 0
 99/home/volodymyr/ttt/community_population/node_modules/@parcel/reporter-dev-server/src/types.js.flow499162500000000000 0
-61/home/volodymyr/ttt/community_population/src/styles/main.scss1728732055058275626 0
+61/home/volodymyr/ttt/community_population/src/styles/main.scss1728798515276121767 0
 69/home/volodymyr/ttt/community_population/node_modules/lmdb/index.d.ts499162500000000000 0
 93/home/volodymyr/ttt/community_population/node_modules/caniuse-lite/data/features/vibration.js499162500000000000 0
 72/home/volodymyr/ttt/community_population/node_modules/async/transform.js499162500000000000 0
@@ -1913,7 +1913,7 @@
 75/home/volodymyr/ttt/community_population/node_modules/msgpackr/unpack.d.cts499162500000000000 0
 93/home/volodymyr/ttt/community_population/node_modules/@parcel/optimizer-htmlnano/package.json1728730360447528985 0
 85/home/volodymyr/ttt/community_population/node_modules/caniuse-lite/data/regions/JM.js499162500000000000 0
-82/home/volodymyr/ttt/community_population/dist/community_population.59712999.js.map1728730365060478110 0
+82/home/volodymyr/ttt/community_population/dist/community_population.59712999.js.map1728732055649307954 0
 62/home/volodymyr/ttt/community_population/node_modules/lmdb/bin1728730353612606561 1
 85/home/volodymyr/ttt/community_population/node_modules/caniuse-lite/data/regions/GW.js499162500000000000 0
 104/home/volodymyr/ttt/community_population/node_modules/htmlnano/lib/modules/minifyConditionalComments.mjs499162500000000000 0
@@ -1934,7 +1934,7 @@
 81/home/volodymyr/ttt/community_population/node_modules/@parcel/events/src/types.js499162500000000000 0
 93/home/volodymyr/ttt/community_population/node_modules/caniuse-lite/data/features/es6-class.js499162500000000000 0
 90/home/volodymyr/ttt/community_population/node_modules/@parcel/codeframe/test/fixtures/a.js499162500000000000 0
-40/home/volodymyr/ttt/community_population1728730362981500901 1
+40/home/volodymyr/ttt/community_population1728730365001478752 1
 126/home/volodymyr/ttt/community_population/node_modules/@parcel/source-map/parcel_sourcemap_node/artifacts/index.darwin-x64.node499162500000000000 0
 83/home/volodymyr/ttt/community_population/node_modules/fast-glob/out/readers/sync.js499162500000000000 0
 108/home/volodymyr/ttt/community_population/node_modules/@parcel/runtime-browser-hmr/src/loaders/hmr-runtime.js499162500000000000 0
@@ -3315,7 +3315,7 @@
 64/home/volodymyr/ttt/community_population/node_modules/color-name1728730360316530445 1
 70/home/volodymyr/ttt/community_population/node_modules/pkg-dir/index.js499162500000000000 0
 77/home/volodymyr/ttt/community_population/node_modules/semver/functions/gte.js499162500000000000 0
-68/home/volodymyr/ttt/community_population/dist/NAMU-1990.469cd95c.eot1728730365016478589 0
+68/home/volodymyr/ttt/community_population/dist/NAMU-1990.469cd95c.eot1728732055629306860 0
 72/home/volodymyr/ttt/community_population/node_modules/color-name/LICENSE499162500000000000 0
 93/home/volodymyr/ttt/community_population/node_modules/caniuse-lite/data/features/dom-range.js499162500000000000 0
 74/home/volodymyr/ttt/community_population/node_modules/color-name/README.md499162500000000000 0
@@ -4243,7 +4243,7 @@
 95/home/volodymyr/ttt/community_population/node_modules/caniuse-lite/data/features/wbr-element.js499162500000000000 0
 92/home/volodymyr/ttt/community_population/node_modules/@mischnic/json-sourcemap/dist/index.js1695217769000000000 0
 94/home/volodymyr/ttt/community_population/node_modules/caniuse-lite/data/features/array-flat.js499162500000000000 0
-75/home/volodymyr/ttt/community_population/dist/Inter_18pt-Light.6cb7d5cd.ttf1728730365069478012 0
+75/home/volodymyr/ttt/community_population/dist/Inter_18pt-Light.6cb7d5cd.ttf1728732055664308774 0
 98/home/volodymyr/ttt/community_population/node_modules/entities/lib/generated/decode-data-html.d.ts499162500000000000 0
 82/home/volodymyr/ttt/community_population/node_modules/node-releases/data/processed1728730352370620980 1
 90/home/volodymyr/ttt/community_population/node_modules/caniuse-lite/data/features/jpegxr.js499162500000000000 0
@@ -4717,7 +4717,7 @@
 98/home/volodymyr/ttt/community_population/node_modules/@parcel/core/test/fixtures/duplicate-targets1728730353831604026 1
 84/home/volodymyr/ttt/community_population/node_modules/@parcel/utils/src/ansi-html.js499162500000000000 0
 81/home/volodymyr/ttt/community_population/node_modules/@swc/helpers/_/_ts_metadata1728730353880603459 1
-64/home/volodymyr/ttt/community_population/dist/index.971c2ea4.css1728730365079477903 0
+64/home/volodymyr/ttt/community_population/dist/index.971c2ea4.css1728732055648307899 0
 73/home/volodymyr/ttt/community_population/node_modules/@lezer/lr/README.md499162500000000000 0
 99/home/volodymyr/ttt/community_population/node_modules/@swc/helpers/esm/_class_private_method_set.js456789000000000000 0
 91/home/volodymyr/ttt/community_population/node_modules/@swc/helpers/_/_decorate/package.json456789000000000000 0

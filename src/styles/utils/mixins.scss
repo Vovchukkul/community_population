@@ -107,6 +107,12 @@
     font-size: 44px;
   }
 
+  @include onTablet() {
+    background: linear-gradient(to right, black 0%, gray 80%, white 100%);
+    background-clip: text;
+    color: transparent;
+  }
+
   @include onExtendedDesktop() {
     font-size: 64px;
   }
@@ -129,6 +135,10 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+
+  @include onTablet() {
+    margin: 0;
+  }
 
   @include onBigDesktop {
     height: 88px;
