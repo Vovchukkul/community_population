@@ -147,8 +147,8 @@ input, textarea {
 
 @media (width >= 1199px) {
   .header_logo {
-    width: 133px;
-    height: 147px;
+    width: 83px;
+    height: 91px;
   }
 }
 
@@ -666,13 +666,20 @@ input, textarea {
 @media (width >= 1199px) {
   .population {
     background-color: #0000;
-    margin-top: -500px;
+    margin-top: -550px;
+    margin-bottom: 78px;
   }
 }
 
 .population_wrap {
   flex-direction: column;
   display: flex;
+}
+
+@media (width >= 1199px) {
+  .population_wrap {
+    max-width: 380px;
+  }
 }
 
 .population_month {
@@ -728,7 +735,7 @@ input, textarea {
   .population_title {
     width: 530px;
     margin-bottom: 24px;
-    font-size: 83px;
+    font-size: 51px;
   }
 }
 
@@ -780,7 +787,7 @@ input, textarea {
 @media (width >= 1199px) {
   .population_subtitle {
     margin-bottom: 82px;
-    font-size: 32px;
+    font-size: 20px;
   }
 }
 
@@ -810,9 +817,10 @@ input, textarea {
 
 @media (width >= 1199px) {
   .population_blocks {
-    align-content: initial;
     flex-wrap: wrap;
-    column-gap: 34px;
+    gap: 20px;
+    width: 600px;
+    max-width: none;
     margin-bottom: 0;
   }
 }
@@ -834,12 +842,13 @@ input, textarea {
 @media (width >= 1199px) {
   .population_block {
     border-radius: 21px;
-    width: 353px;
-    height: 133px;
+    width: 220px;
+    height: 83px;
+    line-height: 30px;
   }
 
   .population_block:nth-child(2n) {
-    width: 453px;
+    width: 283px;
   }
 }
 
@@ -862,7 +871,7 @@ input, textarea {
 
 @media (width >= 1199px) {
   .population_number {
-    font-size: 54px;
+    font-size: 34px;
   }
 }
 
@@ -872,7 +881,7 @@ input, textarea {
 
 @media (width >= 1199px) {
   .population_sub {
-    font-size: 32px;
+    font-size: 20px;
   }
 }
 
@@ -905,10 +914,10 @@ input, textarea {
   .population_btn {
     border-width: 2px;
     border-radius: 12px;
-    width: 374px;
-    height: 88px;
+    width: 233px;
+    height: 55px;
     margin: 0;
-    font-size: 32px;
+    font-size: 20px;
   }
 }
 
@@ -960,7 +969,7 @@ input, textarea {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-bottom: 148px;
+    margin-bottom: 92.5px;
   }
 }
 
@@ -1015,7 +1024,7 @@ input, textarea {
 @media (width >= 1199px) {
   .contacts_title {
     margin-bottom: 46px;
-    font-size: 83px;
+    font-size: 52px;
   }
 }
 
@@ -1048,8 +1057,8 @@ input, textarea {
 
 @media (width >= 1199px) {
   .contacts_subtitle {
-    margin-bottom: 124px;
-    font-size: 32px;
+    margin-bottom: 77.5px;
+    font-size: 20px;
   }
 }
 
@@ -1082,10 +1091,10 @@ input, textarea {
   .contacts_btn {
     border-width: 2px;
     border-radius: 12px;
-    width: 374px;
-    height: 88px;
+    width: 233px;
+    height: 55px;
     margin: 0;
-    font-size: 32px;
+    font-size: 20px;
   }
 }
 
@@ -1104,7 +1113,7 @@ input, textarea {
 
 @media (width >= 1199px) {
   .info {
-    margin-bottom: 151px;
+    margin-bottom: 94px;
   }
 }
 
@@ -1146,8 +1155,8 @@ input, textarea {
 @media (width >= 1199px) {
   .info_title {
     max-width: 1263px;
-    margin-bottom: 111px;
-    font-size: 84px;
+    margin-bottom: 70px;
+    font-size: 52px;
   }
 }
 
@@ -1251,8 +1260,6 @@ input, textarea {
 
 @media (width >= 1199px) {
   .info_block {
-    gap: 32px;
-    width: 100%;
     margin-bottom: 0;
   }
 }
@@ -1299,8 +1306,9 @@ input, textarea {
   .info_subblock {
     border-radius: 31px;
     align-items: start;
-    height: 133px;
+    height: 83px;
     padding-inline: 32px;
+    line-height: 25px;
   }
 }
 
@@ -1310,7 +1318,7 @@ input, textarea {
 
 @media (width >= 1199px) {
   .info_number {
-    font-size: 54px;
+    font-size: 31px;
   }
 }
 
@@ -1320,7 +1328,7 @@ input, textarea {
 
 @media (width >= 1199px) {
   .info_sub {
-    font-size: 28px;
+    font-size: 14px;
   }
 }
 
@@ -1347,7 +1355,6 @@ input, textarea {
 @media (width >= 1199px) {
   .footer {
     padding-inline: 118px;
-    margin-left: -118px;
     padding-top: 114px;
     padding-bottom: 168px;
   }
@@ -1361,8 +1368,8 @@ input, textarea {
 
 @media (width >= 1199px) {
   .footer_img {
-    width: 133px;
-    height: 147px;
+    width: 83px;
+    height: 91px;
   }
 }
 
@@ -1380,7 +1387,7 @@ input, textarea {
 
 @media (width >= 1199px) {
   .footer_link {
-    font-size: 32px;
+    font-size: 20px;
   }
 }
 
@@ -1391,6 +1398,7 @@ input, textarea {
   }
 
   .s_wrap {
+    text-align: center;
     flex-direction: column;
     display: flex;
   }
@@ -1404,19 +1412,18 @@ input, textarea {
   .s {
     flex-direction: column;
     justify-content: center;
-    width: 1680px;
-    height: 1000px;
-    margin: 0 auto;
+    margin: 92px auto 0;
     display: flex;
   }
 
   .s_wrap {
-    width: 589px;
     margin: 0 auto;
   }
 
   .s_title {
-    width: 589px;
+    color: #0000;
+    background: linear-gradient(to right, #000 0%, gray 100%, #fff 100%) text;
+    width: 368px;
   }
 
   .s_subtitle {
@@ -1425,9 +1432,9 @@ input, textarea {
 
   .s_blocks {
     flex-wrap: wrap;
-    gap: 32px;
-    width: 1680px;
-    max-width: 100%;
+    justify-content: center;
+    width: 100%;
+    margin-top: -60px;
     margin-bottom: 60px;
     display: flex;
   }
@@ -1437,16 +1444,33 @@ input, textarea {
     padding-inline: 32px;
   }
 
-  .s_block:nth-child(4n+1) {
+  .s_block:nth-child(3n+1), .s_block :nth-child(5n+1) {
     flex-grow: 1;
+    max-width: 220px;
   }
 
-  .s_block:nth-child(4n+2), .s_block:nth-child(4n+3), .s_block:nth-child(4) {
+  .s_block:nth-child(4n+2), .s_block:nth-child(4n+3) {
     flex-grow: 2;
   }
 
-  .s_block:nth-child(n+4) {
-    height: 255px;
+  .s_block:nth-child(4) {
+    flex-grow: 1;
+  }
+
+  .s_block:nth-child(5) {
+    flex-grow: 2;
+  }
+
+  .s_block:nth-child(2) {
+    min-width: 420px;
+    max-width: 700px;
+  }
+
+  .s_block:nth-child(2n) {
+    justify-content: center;
+    height: 160px;
+    line-height: 64.8px;
+    display: flex;
   }
 
   .s_block:nth-child(4n+1) {
@@ -1469,9 +1493,18 @@ input, textarea {
   }
 
   .s_btn {
+    justify-content: center;
     align-self: center;
-    height: 88px;
-    display: block;
+    align-items: center;
+    height: 55px;
+    margin-top: -60px;
+    display: flex;
+  }
+}
+
+@media (width >= 1199px) and (width >= 1199px) {
+  .s_hidden {
+    display: none;
   }
 }
 
@@ -1480,5 +1513,29 @@ input, textarea {
     position: relative;
     left: -40px;
   }
+}
+
+.first {
+  order: 1;
+}
+
+.second {
+  order: 2;
+}
+
+.third {
+  order: 3;
+}
+
+.forth {
+  order: 4;
+}
+
+.fiveth {
+  order: 5;
+}
+
+.sixth {
+  order: 6;
 }
 /*# sourceMappingURL=index.971c2ea4.css.map */
