@@ -656,6 +656,12 @@ input, textarea {
   }
 }
 
+@media (width >= 640px) {
+  .population_subtitle {
+    max-width: none;
+  }
+}
+
 @media (width >= 768px) {
   .population_subtitle {
     max-width: 500px;
@@ -676,6 +682,13 @@ input, textarea {
   min-width: 300px;
   margin-bottom: 24px;
   display: flex;
+}
+
+@media (width >= 510px) {
+  .population_blocks {
+    max-width: 478px;
+    margin: 0 auto 24px;
+  }
 }
 
 @media (width >= 768px) {

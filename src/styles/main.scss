@@ -813,6 +813,10 @@
     margin-bottom: 24px;
     max-width: 235px;
 
+    @include onSmallTablet {
+      max-width: none;
+    }
+
     @include onTablet {
       max-width: 500px;
     }
@@ -831,6 +835,12 @@
     column-gap: 6px;
     margin-bottom: 24px;
     min-width: 300px;
+
+    @include onExtendedMobile {
+      max-width: 478px;
+      margin: 0 auto;
+      margin-bottom: 24px;
+    }
 
     @include onTablet {
       width: 100%;
