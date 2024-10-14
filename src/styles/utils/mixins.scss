@@ -58,11 +58,11 @@
   }
 }
 
-// @mixin onBigDesktop {
-//   @media (min-width: 1920px) {
-//     @content;
-//   }
-// }
+@mixin onBiggestDesktop {
+  @media (min-width: 1920px) {
+    @content;
+  }
+}
 
 @mixin onBiggestScreen {
   @media (min-width: 2000px) {
@@ -147,6 +147,18 @@
     border-radius: 12px;
     border-width: 2px;
     margin: 0 0 0;
+  }
+
+  @include onDesktop() {
+    height: 66px;
+    width: 280px;
+    font-size: 24px;
+  }
+
+  @include onBiggestDesktop() {
+    height: 88px;
+    width: 384px;
+    font-size: 32px;
   }
 }
 
