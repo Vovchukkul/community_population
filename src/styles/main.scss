@@ -28,14 +28,14 @@
     height: 55px;
 
     @include onBigDesktop {
-      width: 83px;
-      height: 91px;
+      width: 100px;
+      height: 127px;
     }
 
-    // @include onBigDesktop {
-    //   width: 133px;
-    //   height: 147px;
-    // }
+    @include onBigDesktop {
+      width: 133px;
+      height: 147px;
+    }
   }
 
   &_switch {
@@ -759,9 +759,8 @@
   margin-bottom: 32px;
 
   @include onBigDesktop {
-    margin-top: -550px;
+    margin-top: -500px;
     background-color: transparent;
-    margin-bottom: 78px;
   }
 
   // @include onBiggestScreen {
@@ -777,10 +776,6 @@
   &_wrap {
     display: flex;
     flex-direction: column;
-
-    @include onBigDesktop {
-      max-width: 380px;
-    }
   }
   
   // @include contentPaddingInline;
@@ -832,7 +827,7 @@
     margin-bottom: 14px;
 
     @include onBigDesktop {
-      font-size: 51px;
+      font-size: 83px;
       width: 530px;
       margin-bottom: 24px;
     }
@@ -853,7 +848,7 @@
     }
 
     @include onBigDesktop {
-      font-size: 20px;
+      font-size: 32px;
       margin-bottom: 82px;
     }
   }
@@ -892,14 +887,10 @@
     // }
 
     @include onBigDesktop {
-      // align-content: initial;
-      width: 600px;
+      align-content: initial;
       flex-wrap: wrap;
-      column-gap: 0px;
+      column-gap: 34px;
       margin-bottom: 0px;
-      max-width: none;
-      column-gap: 20px;
-      row-gap: 20px;
     }
 
     // @include onFullHD {
@@ -934,13 +925,12 @@
     // }
 
     @include onBigDesktop {
-      width: 220px;
-      height: 83px;
+      width: 353px;
+      height: 133px;
       border-radius: 21px;
-      line-height: 30px;
 
       &:nth-child(even) {
-        width: 283px;
+        width: 453px;
       }
     }
 
@@ -972,7 +962,7 @@
     font-size: 20px;
 
     @include onBigDesktop {
-      font-size: 34px;
+      font-size: 54px;
     }
   }
 
@@ -980,7 +970,7 @@
     font-size: 12px;
 
     @include onBigDesktop {
-      font-size: 20px;
+      font-size: 32px;
     }
   }
 
@@ -1024,7 +1014,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 92.5px;
+    margin-bottom: 148px;
   }
 
   &_title {
@@ -1041,7 +1031,7 @@
     }
 
     @include onBigDesktop {
-      font-size: 52px;
+      font-size: 83px;
       margin-bottom: 46px;
     }
   }
@@ -1052,8 +1042,7 @@
     margin-bottom: 24px;
 
     @include onBigDesktop {
-      margin-bottom: 77.5px;
-      font-size: 20px;
+      margin-bottom: 124px;
     }
   }
 
@@ -1069,12 +1058,12 @@
   justify-content: left;
   margin-bottom: 31px;
 
-  // @include onBigDesktop {
-  //   margin-bottom: 100px;
-  // }
+  @include onBigDesktop {
+    margin-bottom: 100px;
+  }
 
   @include onBigDesktop {
-    margin-bottom: 94px;
+    margin-bottom: 151px;
   }
 
   &_title {
@@ -1082,8 +1071,8 @@
     margin-bottom: 24px;
 
     @include onBigDesktop {
-      font-size: 52px;
-      margin-bottom: 70px;
+      font-size: 84px;
+      margin-bottom: 111px;
       max-width: 1263px;
     }
   }
@@ -1092,6 +1081,10 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+
+    @include onBigDesktop {
+      width: 100%;
+    }
 
     @include onBigDesktop {
       width: 100%;
@@ -1170,16 +1163,16 @@
       justify-content: space-between;
     }
 
-    // @include onBigDesktop {
-    //   width: 100%;
-    //   row-gap: 16px;
-    //   column-gap: 16px;
-    //   margin-bottom: 0;
-    // }
+    @include onBigDesktop {
+      width: 100%;
+      row-gap: 16px;
+      column-gap: 16px;
+      margin-bottom: 0;
+    }
 
     @include onBigDesktop {
-      // row-gap: 32px;
-      // column-gap: 32px;
+      row-gap: 32px;
+      column-gap: 32px;
       margin-bottom: 0;
     }
   }
@@ -1214,11 +1207,10 @@
     }
 
     @include onBigDesktop {
-      height: 83px;
+      height: 133px;
       border-radius: 31px;
       align-items: start;
       padding-inline: 32px;
-      line-height: 25px;
     }
   }
 
@@ -1226,24 +1218,24 @@
     font-size: 20px;
 
     @include onBigDesktop {
-      font-size: 31px;
+      font-size: 28px;
     }
 
-    // @include onBigDesktop {
-    //   font-size: 54px;
-    // }
+    @include onBigDesktop {
+      font-size: 54px;
+    }
   }
 
   &_sub {
     font-size: 12px;
 
     @include onBigDesktop {
-      font-size: 14px;
+      font-size: 20px;
     }
 
-    // @include onBigDesktop {
-    //   font-size: 28px;
-    // }
+    @include onBigDesktop {
+      font-size: 28px;
+    }
   }
 }
 
@@ -1267,6 +1259,7 @@
   padding-bottom: 32px;
 
   @include onBigDesktop {
+    margin-left: -118px;
     padding-inline: 118px;
     padding-top: 114px;
     padding-bottom: 168px;
@@ -1278,8 +1271,8 @@
     margin-bottom: 35px;
 
     @include onBigDesktop {
-      width: 83px;
-      height: 91px;
+      width: 133px;
+      height: 147px;
     }
   }
 
@@ -1295,7 +1288,7 @@
     color: rgba(255, 255, 255, 1);
 
     @include onBigDesktop {
-      font-size: 20px;
+      font-size: 32px;
     }
   }
 }
@@ -1304,11 +1297,10 @@
   @include onTablet {
     display: flex;
     flex-direction: row-reverse;
-  
+
     &_wrap {
       display: flex;
       flex-direction: column;
-      text-align: center;
     }
 
     &_blocks {
@@ -1320,19 +1312,17 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    // height: 1000px;
-    // width: 1680px;
-    margin-top: 92px;
+    height: 1000px;
+    width: 1680px;
+    margin-top: 0;
 
     &_wrap {
+      width: 589px;
       margin: 0 auto;
     }
 
     &_title {
-      width: 368px;
-      background: linear-gradient(to right, black 0%, gray 100%, white 100%);
-      background-clip: text;
-      color: transparent;
+      width: 589px;
     }
 
     &_subtitle {
@@ -1341,21 +1331,18 @@
 
     &_blocks {
       margin-bottom: 60px;
+      width: 1680px;
+      max-width: 100%;
+      gap: 32px;
       display: flex;
       flex-wrap: wrap;
-      width: 100%;
-      // flex-direction: column;
-      justify-content: center;
-      margin-top: -60px;
     }
 
     &_block {
       align-items: start;
       padding-inline: 32px;
-      &:nth-child(3n + 1),
-        :nth-child(5n + 1) {
+      &:nth-child(4n + 1) {
         flex-grow: 1;
-        max-width: 220px;
       }
       &:nth-child(4n + 2),
       &:nth-child(4n + 3) {
@@ -1363,23 +1350,11 @@
       }
 
       &:nth-child(4) {
-        flex-grow: 1;
+        flex-grow: 2;
       }
 
-      &:nth-child(5) {
-        flex-grow: 2  ;
-      }
-
-      &:nth-child(2) {
-        min-width: 420px;
-        max-width: 700px;
-      }
-
-      &:nth-child(even) {
-        height: 160px;
-        display: flex;
-        justify-content: center;
-        line-height: 64.8px;
+      &:nth-child(n + 4) {
+        height: 255px;
       }
 
       &:nth-child(4n + 1) {
@@ -1404,17 +1379,8 @@
 
     &_btn {
       align-self: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 55px;
-      margin-top: -60px;
-    }
-
-    &_hidden {
-      @include onBigDesktop {
-        display: none;
-      }
+      height: 88px;
+      display: block;
     }
   }
 
@@ -1422,28 +1388,4 @@
     position: relative;
     left: -40px;
   }
-}
-
-.first {
-  order: 1
-}
-
-.second {
-  order: 2
-}
-
-.third {
-  order: 3;
-}
-
-.forth {
-  order: 4
-}
-
-.fiveth {
-  order: 5
-}
-
-.sixth {
-  order: 6
 }

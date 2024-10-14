@@ -14,6 +14,9 @@
 @font-face {
   font-family: Inter;
   src: url("Inter_18pt-Light.6cb7d5cd.ttf");
+  src: url("Inter18pt-Light.f119bd11.eot");
+  src: url("Inter18pt-Light.60d69f8a.woff");
+  src: url("Inter18pt-Light.04331d02.woff2");
 }
 
 *, :before, :after {
@@ -147,8 +150,8 @@ input, textarea {
 
 @media (width >= 1199px) {
   .header_logo {
-    width: 83px;
-    height: 91px;
+    width: 133px;
+    height: 147px;
   }
 }
 
@@ -666,20 +669,13 @@ input, textarea {
 @media (width >= 1199px) {
   .population {
     background-color: #0000;
-    margin-top: -550px;
-    margin-bottom: 78px;
+    margin-top: -500px;
   }
 }
 
 .population_wrap {
   flex-direction: column;
   display: flex;
-}
-
-@media (width >= 1199px) {
-  .population_wrap {
-    max-width: 380px;
-  }
 }
 
 .population_month {
@@ -735,7 +731,7 @@ input, textarea {
   .population_title {
     width: 530px;
     margin-bottom: 24px;
-    font-size: 51px;
+    font-size: 83px;
   }
 }
 
@@ -787,7 +783,7 @@ input, textarea {
 @media (width >= 1199px) {
   .population_subtitle {
     margin-bottom: 82px;
-    font-size: 20px;
+    font-size: 32px;
   }
 }
 
@@ -817,10 +813,9 @@ input, textarea {
 
 @media (width >= 1199px) {
   .population_blocks {
+    align-content: initial;
     flex-wrap: wrap;
-    gap: 20px;
-    width: 600px;
-    max-width: none;
+    column-gap: 34px;
     margin-bottom: 0;
   }
 }
@@ -842,13 +837,12 @@ input, textarea {
 @media (width >= 1199px) {
   .population_block {
     border-radius: 21px;
-    width: 220px;
-    height: 83px;
-    line-height: 30px;
+    width: 353px;
+    height: 133px;
   }
 
   .population_block:nth-child(2n) {
-    width: 283px;
+    width: 453px;
   }
 }
 
@@ -871,7 +865,7 @@ input, textarea {
 
 @media (width >= 1199px) {
   .population_number {
-    font-size: 34px;
+    font-size: 54px;
   }
 }
 
@@ -881,7 +875,7 @@ input, textarea {
 
 @media (width >= 1199px) {
   .population_sub {
-    font-size: 20px;
+    font-size: 32px;
   }
 }
 
@@ -969,7 +963,7 @@ input, textarea {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-bottom: 92.5px;
+    margin-bottom: 148px;
   }
 }
 
@@ -1024,7 +1018,7 @@ input, textarea {
 @media (width >= 1199px) {
   .contacts_title {
     margin-bottom: 46px;
-    font-size: 52px;
+    font-size: 83px;
   }
 }
 
@@ -1057,8 +1051,8 @@ input, textarea {
 
 @media (width >= 1199px) {
   .contacts_subtitle {
-    margin-bottom: 77.5px;
-    font-size: 20px;
+    margin-bottom: 124px;
+    font-size: 32px;
   }
 }
 
@@ -1113,7 +1107,7 @@ input, textarea {
 
 @media (width >= 1199px) {
   .info {
-    margin-bottom: 94px;
+    margin-bottom: 151px;
   }
 }
 
@@ -1155,8 +1149,8 @@ input, textarea {
 @media (width >= 1199px) {
   .info_title {
     max-width: 1263px;
-    margin-bottom: 70px;
-    font-size: 52px;
+    margin-bottom: 111px;
+    font-size: 84px;
   }
 }
 
@@ -1260,6 +1254,8 @@ input, textarea {
 
 @media (width >= 1199px) {
   .info_block {
+    gap: 32px;
+    width: 100%;
     margin-bottom: 0;
   }
 }
@@ -1306,9 +1302,8 @@ input, textarea {
   .info_subblock {
     border-radius: 31px;
     align-items: start;
-    height: 83px;
+    height: 133px;
     padding-inline: 32px;
-    line-height: 25px;
   }
 }
 
@@ -1318,7 +1313,7 @@ input, textarea {
 
 @media (width >= 1199px) {
   .info_number {
-    font-size: 31px;
+    font-size: 54px;
   }
 }
 
@@ -1328,7 +1323,7 @@ input, textarea {
 
 @media (width >= 1199px) {
   .info_sub {
-    font-size: 14px;
+    font-size: 28px;
   }
 }
 
@@ -1355,6 +1350,7 @@ input, textarea {
 @media (width >= 1199px) {
   .footer {
     padding-inline: 118px;
+    margin-left: -118px;
     padding-top: 114px;
     padding-bottom: 168px;
   }
@@ -1368,8 +1364,8 @@ input, textarea {
 
 @media (width >= 1199px) {
   .footer_img {
-    width: 83px;
-    height: 91px;
+    width: 133px;
+    height: 147px;
   }
 }
 
@@ -1387,7 +1383,7 @@ input, textarea {
 
 @media (width >= 1199px) {
   .footer_link {
-    font-size: 20px;
+    font-size: 32px;
   }
 }
 
@@ -1398,9 +1394,12 @@ input, textarea {
   }
 
   .s_wrap {
-    text-align: center;
     flex-direction: column;
     display: flex;
+  }
+
+  .s_hidden {
+    align-self: end;
   }
 
   .s_blocks {
@@ -1412,18 +1411,19 @@ input, textarea {
   .s {
     flex-direction: column;
     justify-content: center;
-    margin: 92px auto 0;
+    width: 1680px;
+    height: 1000px;
+    margin: 0 auto;
     display: flex;
   }
 
   .s_wrap {
+    width: 589px;
     margin: 0 auto;
   }
 
   .s_title {
-    color: #0000;
-    background: linear-gradient(to right, #000 0%, gray 100%, #fff 100%) text;
-    width: 368px;
+    width: 589px;
   }
 
   .s_subtitle {
@@ -1432,9 +1432,9 @@ input, textarea {
 
   .s_blocks {
     flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    margin-top: -60px;
+    gap: 32px;
+    width: 1680px;
+    max-width: 100%;
     margin-bottom: 60px;
     display: flex;
   }
@@ -1444,33 +1444,16 @@ input, textarea {
     padding-inline: 32px;
   }
 
-  .s_block:nth-child(3n+1), .s_block :nth-child(5n+1) {
-    flex-grow: 1;
-    max-width: 220px;
-  }
-
-  .s_block:nth-child(4n+2), .s_block:nth-child(4n+3) {
-    flex-grow: 2;
-  }
-
-  .s_block:nth-child(4) {
+  .s_block:nth-child(4n+1) {
     flex-grow: 1;
   }
 
-  .s_block:nth-child(5) {
+  .s_block:nth-child(4n+2), .s_block:nth-child(4n+3), .s_block:nth-child(4) {
     flex-grow: 2;
   }
 
-  .s_block:nth-child(2) {
-    min-width: 420px;
-    max-width: 700px;
-  }
-
-  .s_block:nth-child(2n) {
-    justify-content: center;
-    height: 160px;
-    line-height: 64.8px;
-    display: flex;
+  .s_block:nth-child(n+4) {
+    height: 255px;
   }
 
   .s_block:nth-child(4n+1) {
@@ -1493,18 +1476,9 @@ input, textarea {
   }
 
   .s_btn {
-    justify-content: center;
     align-self: center;
-    align-items: center;
-    height: 55px;
-    margin-top: -60px;
-    display: flex;
-  }
-}
-
-@media (width >= 1199px) and (width >= 1199px) {
-  .s_hidden {
-    display: none;
+    height: 88px;
+    display: block;
   }
 }
 
@@ -1513,29 +1487,5 @@ input, textarea {
     position: relative;
     left: -40px;
   }
-}
-
-.first {
-  order: 1;
-}
-
-.second {
-  order: 2;
-}
-
-.third {
-  order: 3;
-}
-
-.forth {
-  order: 4;
-}
-
-.fiveth {
-  order: 5;
-}
-
-.sixth {
-  order: 6;
 }
 /*# sourceMappingURL=index.971c2ea4.css.map */
