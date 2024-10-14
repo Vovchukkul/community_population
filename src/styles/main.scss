@@ -2,6 +2,20 @@
 @import './utils/mixins.scss';
 @import './utils/normalize.scss';
 
+body {
+  @include onBiggestScreen {
+    zoom: 1.05;
+  }
+
+  @include onBiggestScreen2 {
+    zoom: 1.08;
+  }
+
+  @include onFullHD {
+    zoom: 1.2;
+  }
+}
+
 .container {
   @include contentPaddingInline;
 }

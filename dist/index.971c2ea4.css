@@ -105,6 +105,24 @@ input, textarea {
   padding: 0;
 }
 
+@media (width >= 2000px) {
+  body {
+    zoom: 1.05;
+  }
+}
+
+@media (width >= 2250px) {
+  body {
+    zoom: 1.08;
+  }
+}
+
+@media (width >= 2560px) {
+  body {
+    zoom: 1.2;
+  }
+}
+
 .container {
   padding-inline: 32px;
 }
