@@ -1639,6 +1639,10 @@ body {
       // flex-direction: column;
       justify-content: center;
       margin-top: -60px;
+
+      @include onBiggestDesktop {
+        max-width: 100vw;
+      }
     }
 
     &_block {
@@ -1679,6 +1683,12 @@ body {
         flex-grow: 2;
         min-width: 380px;
         max-width: 466px;
+
+        @include onBiggestScreen {
+          max-width: none;
+          min-width: 900px;
+          width: 900px;
+        }
       }
 
       &:nth-child(2) {
@@ -1695,9 +1705,21 @@ body {
           max-width: none;
         }
 
+        @include onAverageDesktop {
+          min-width: 751px;
+        }
+
         @include onBiggestDesktop {
           min-width: 700px;
         }
+
+        @include onBiggestScreen {
+          min-width: 800px;
+        }
+
+        // @include onFullHD {
+        //   min-width: 1300px;
+        // }
       }
 
       &:nth-child(even) {
@@ -1715,24 +1737,32 @@ body {
         }
       }
 
-      &:nth-child(4n + 1) {
-        background-color: $dark-button-color;
-      }
-
       &:nth-child(3n + 1) {
-        background-color: $gray-btn-color;
-        color: rgba(58, 58, 58, 1);
-      }
-
-      &:nth-child(4n + 1) {
         background-color: $dark-button-color;
-        color: rgba(255, 255, 255, 1);
-      } 
-
-      &:nth-child(4n + 2) {
-        background-color: $primary-btn-color;
-        color: rgba(255, 255, 255, 1);
       }
+
+      // &:nth-child(3n + 1) {
+      //   background-color: $gray-btn-color;
+      //   color: rgba(58, 58, 58, 1);
+      // }
+
+      // &:nth-child(4n + 1) {
+      //   background-color: $dark-button-color;
+      //   color: rgba(255, 255, 255, 1);
+      // } 
+
+      // &:nth-child(4n + 2) {
+      //   background-color: $primary-btn-color;
+      //   color: rgba(255, 255, 255, 1);
+      // }
+    }
+
+    @include onBiggestScreen2 {
+      margin-right: 118px;
+    }
+
+    @include onFullHD {
+      margin-right: 350px;
     }
 
     &_btn {

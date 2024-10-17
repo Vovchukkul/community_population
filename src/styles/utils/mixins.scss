@@ -58,6 +58,12 @@
   }
 }
 
+@mixin onAverageDesktop {
+  @media (min-width: 1800px) {
+    @content;
+  }
+}
+
 @mixin onBiggestDesktop {
   @media (min-width: 1920px) {
     @content;
