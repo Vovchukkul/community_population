@@ -1875,26 +1875,28 @@ body {
   }
 }
 
-.first {
-  order: 1
-}
-
-.second {
-  order: 2
-}
-
-.third {
-  order: 3;
-}
-
-.forth {
-  order: 4
-}
-
-.fiveth {
-  order: 5
-}
-
-.sixth {
-  order: 6
+@include onBigDesktop {
+  .first {
+    order: 1
+  }
+  
+  .second {
+    order: 2
+  }
+  
+  .third {
+    order: 3;
+  }
+  
+  .forth {
+    order: 4
+  }
+  
+  .fiveth {
+    order: 5
+  }
+  
+  .sixth {
+    order: 6
+  }
 }
