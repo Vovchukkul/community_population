@@ -1097,6 +1097,7 @@ body {
     // }
 
     @include onBigDesktop {
+      margin: 0;
       // align-content: initial;
       width: 600px;
       flex-wrap: wrap;
@@ -1105,6 +1106,7 @@ body {
       max-width: none;
       column-gap: 20px;
       row-gap: 20px;
+      justify-content: end;
     }
 
     @include onDesktop {
@@ -1691,8 +1693,14 @@ body {
       align-items: start;
       padding-inline: 32px;
 
+      @include onBigDesktop {
+        line-height: 40px;
+      }
+
       @include onDesktop {
         height: 100px;
+        padding-top: 15px;
+        padding-bottom: 15px;
       }
 
       @include onBiggestDesktop {
@@ -1770,6 +1778,12 @@ body {
         display: flex;
         justify-content: center;
         line-height: 64.8px;
+
+        @include onBigDesktop {
+          padding-top: 70px;
+          padding-bottom: 70px;
+          line-height: 40px;
+        }
 
         @include onDesktop {
           height: 191px;

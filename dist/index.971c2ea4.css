@@ -1137,10 +1137,11 @@ input, textarea {
 @media (width >= 1199px) {
   .population_blocks {
     flex-wrap: wrap;
+    justify-content: end;
     gap: 20px;
     width: 600px;
     max-width: none;
-    margin-bottom: 0;
+    margin: 0;
   }
 }
 
@@ -2005,9 +2006,17 @@ input, textarea {
   }
 }
 
+@media (width >= 1199px) and (width >= 1199px) {
+  .s_block {
+    line-height: 40px;
+  }
+}
+
 @media (width >= 1199px) and (width >= 1440px) {
   .s_block {
     height: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 
@@ -2106,6 +2115,14 @@ input, textarea {
     height: 160px;
     line-height: 64.8px;
     display: flex;
+  }
+}
+
+@media (width >= 1199px) and (width >= 1199px) {
+  .s_block:nth-child(2n) {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    line-height: 40px;
   }
 }
 
