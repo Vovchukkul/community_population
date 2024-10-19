@@ -413,7 +413,7 @@ body {
     width: 381px;
     height: 381px;
     background: linear-gradient(198.02deg, #F3F3F3 12.27%, rgba(243, 243, 243, 0.952941) 49.84%, rgba(243, 243, 243, 0) 83.18%);
-    margin-top: -160px;
+    margin-top: -166px;
     margin-right: 80px;
     position: relative;
     z-index: -5;
@@ -455,7 +455,7 @@ body {
       width: 1192px;
       height: 1192px;
       top: -650px;
-      left: 300px;
+      left: 340px;
     }
 
     // @include onExtendedDesktop {
@@ -603,7 +603,7 @@ body {
   }
 
   &_f_block {
-    margin-top: -410px;
+    margin-top: -412px;
     margin-left: 180px;
 
     // @include onSmallTablet {
@@ -651,8 +651,8 @@ body {
     // }
     
     &::after {
-      height: 27px;
-      bottom: -23px;
+      height: 25px;
+      bottom: -25px;
       background: #127CFF;
 
       @include onBigDesktop {
@@ -660,6 +660,12 @@ body {
         width: 4px;
         bottom: -362px;
         background: linear-gradient(180deg, #127CFF 0%, rgba(18, 124, 255, 0) 100%);
+      }
+
+      @include onBiggestDesktop {
+        width: 7px;
+        height: 582px;
+        bottom: -582px;
       }
     }
 
@@ -669,7 +675,7 @@ body {
       }
 
       @include onBiggestDesktop {
-        font-size: 83px;
+        font-size: 68px;
       }
     }
 
@@ -703,9 +709,18 @@ body {
     @include onBiggestDesktop {
       width: 443px;
       height: 168px;
-      top: -1800px;
+      top: -1830px;
       left: 60px;
       line-height: 50px;
+
+      clip-path: polygon(
+        0 0,             /* Top-left */
+        100% 0,          /* Top-right */
+        100% calc(100% - 44px), /* 50px up from bottom-right (height) */
+        calc(100% - 25px) calc(100% - 32px), /* Rounded corner's arc start */
+        calc(100% - 77px) 100%, /* 100px left from bottom-right (width) */
+        0 100%           /* Bottom-left */
+      );
     }
   }
 
@@ -752,6 +767,12 @@ body {
         width: 4px;
         height: 363px;
       }
+
+      @include onBiggestDesktop {
+        width: 7px;
+        height: 582px;
+        bottom: -582px;
+      }
     }
 
     &_number {
@@ -793,13 +814,13 @@ body {
       width: 324px;
       height: 117px;
       top: -1900px;
-      left: 750px;
+      left: 722px;
       line-height: 35px;
     }
   }
 
   &_t_block {
-    margin-left: 160px;
+    margin-left: 170px;
     margin-top: -36px;
 
     // @include onSmallTablet {
@@ -842,6 +863,12 @@ body {
         width: 4px;
         height: 363px;
       }
+
+      @include onBiggestDesktop {
+        width: 7px;
+        height: 582px;
+        bottom: -582px;
+      }
     }
 
     &_number {
@@ -882,7 +909,7 @@ body {
     @include onBiggestDesktop {
       width: 310px;
       height: 117px;
-      top: -1700px;
+      top: -1650px;
       left: 380px;
       line-height: 35px;
     }
@@ -912,7 +939,8 @@ body {
   }
 
   @include onBiggestDesktop {
-    margin-top: -1400px;
+    margin-top: -1337px;
+    gap: 0;
   }
 
   // @include onBiggestScreen {
@@ -999,6 +1027,7 @@ body {
     @include onBiggestDesktop {
       font-size: 83px;
       max-width: 549px;
+      line-height: 100px
     }
   }
 
@@ -1030,6 +1059,7 @@ body {
       font-size: 32px;
       margin-bottom: 82px;
       width: 749px;
+      max-width: none;
     }
   }
 
@@ -1083,6 +1113,8 @@ body {
 
     @include onBiggestDesktop {
       width: 900px;
+      margin: 0;
+      justify-content: end;
     }
 
     // @include onFullHD {
@@ -1144,6 +1176,8 @@ body {
       width: 353px;
       height: 133px;
       line-height: 50px;
+      align-items: start;
+      padding-left: 32px;
     }
 
     // @include onFullHD {
@@ -1428,6 +1462,10 @@ body {
       // column-gap: 32px;
       margin-bottom: 0;
     }
+
+    @include onBiggestDesktop {
+      gap: 32px;
+    }
   }
 
   &_subblock {
@@ -1469,7 +1507,7 @@ body {
 
     @include onBiggestDesktop {
       height: 133px;
-      line-height: 40px;
+      line-height: 50px;
     }
   }
 
@@ -1548,6 +1586,10 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+
+    @include onBiggestDesktop {
+      margin-top: -85px;
+    }
   }
 
   &_link {
@@ -1591,7 +1633,7 @@ body {
     flex-direction: column;
     // height: 1000px;
     // width: 1680px;
-    margin-top: 92px;
+    margin-top: 118px;
 
     &_wrap {
       margin: 0 auto;
@@ -1655,6 +1697,7 @@ body {
 
       @include onBiggestDesktop {
         height: 133px;
+        line-height: 66px;
       }
 
       &:nth-child(3n + 1),
@@ -1734,6 +1777,8 @@ body {
 
         @include onBiggestDesktop {
           height: 255px;
+          padding-top: 70px;
+          padding-bottom: 70px;
         }
       }
 
@@ -1755,6 +1800,10 @@ body {
       //   background-color: $primary-btn-color;
       //   color: rgba(255, 255, 255, 1);
       // }
+    }
+
+    @include onBiggestDesktop {
+      margin-top: 148px;
     }
 
     @include onBiggestScreen2 {

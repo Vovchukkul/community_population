@@ -483,7 +483,7 @@ input, textarea {
   border-radius: 50%;
   width: 381px;
   height: 381px;
-  margin-top: -160px;
+  margin-top: -166px;
   margin-right: 80px;
   position: relative;
 }
@@ -527,7 +527,7 @@ input, textarea {
     width: 1192px;
     height: 1192px;
     top: -650px;
-    left: 300px;
+    left: 340px;
   }
 }
 
@@ -647,7 +647,7 @@ input, textarea {
 }
 
 .right_side_f_block {
-  margin-top: -410px;
+  margin-top: -412px;
   margin-left: 180px;
 }
 
@@ -667,8 +667,8 @@ input, textarea {
 
 .right_side_f_block:after {
   background: #127cff;
-  height: 27px;
-  bottom: -23px;
+  height: 25px;
+  bottom: -25px;
 }
 
 @media (width >= 1199px) {
@@ -678,7 +678,17 @@ input, textarea {
     height: 363px;
     bottom: -362px;
   }
+}
 
+@media (width >= 1920px) {
+  .right_side_f_block:after {
+    width: 7px;
+    height: 582px;
+    bottom: -582px;
+  }
+}
+
+@media (width >= 1199px) {
   .right_side_f_block_number {
     font-size: 42px;
   }
@@ -686,7 +696,7 @@ input, textarea {
 
 @media (width >= 1920px) {
   .right_side_f_block_number {
-    font-size: 83px;
+    font-size: 68px;
   }
 }
 
@@ -725,10 +735,11 @@ input, textarea {
 
 @media (width >= 1920px) {
   .right_side_f_block {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 44px), calc(100% - 25px) calc(100% - 32px), calc(100% - 77px) 100%, 0 100%);
     width: 443px;
     height: 168px;
     line-height: 50px;
-    top: -1800px;
+    top: -1830px;
     left: 60px;
   }
 }
@@ -758,7 +769,17 @@ input, textarea {
     height: 363px;
     bottom: -362px;
   }
+}
 
+@media (width >= 1920px) {
+  .right_side_s_block:after {
+    width: 7px;
+    height: 582px;
+    bottom: -582px;
+  }
+}
+
+@media (width >= 1199px) {
   .right_side_s_block_number {
     font-size: 30px;
   }
@@ -807,13 +828,13 @@ input, textarea {
     height: 117px;
     line-height: 35px;
     top: -1900px;
-    left: 750px;
+    left: 722px;
   }
 }
 
 .right_side_t_block {
   margin-top: -36px;
-  margin-left: 160px;
+  margin-left: 170px;
 }
 
 @media (width >= 768px) {
@@ -836,7 +857,17 @@ input, textarea {
     height: 363px;
     bottom: -362px;
   }
+}
 
+@media (width >= 1920px) {
+  .right_side_t_block:after {
+    width: 7px;
+    height: 582px;
+    bottom: -582px;
+  }
+}
+
+@media (width >= 1199px) {
   .right_side_t_block_number {
     font-size: 30px;
   }
@@ -884,7 +915,7 @@ input, textarea {
     width: 310px;
     height: 117px;
     line-height: 35px;
-    top: -1700px;
+    top: -1650px;
     left: 380px;
   }
 }
@@ -918,7 +949,8 @@ input, textarea {
 
 @media (width >= 1920px) {
   .population {
-    margin-top: -1400px;
+    gap: 0;
+    margin-top: -1337px;
   }
 }
 
@@ -1006,6 +1038,7 @@ input, textarea {
   .population_title {
     max-width: 549px;
     font-size: 83px;
+    line-height: 100px;
   }
 }
 
@@ -1071,6 +1104,7 @@ input, textarea {
 @media (width >= 1920px) {
   .population_subtitle {
     width: 749px;
+    max-width: none;
     margin-bottom: 82px;
     font-size: 32px;
   }
@@ -1118,7 +1152,9 @@ input, textarea {
 
 @media (width >= 1920px) {
   .population_blocks {
+    justify-content: end;
     width: 900px;
+    margin: 0;
   }
 }
 
@@ -1170,8 +1206,10 @@ input, textarea {
 
 @media (width >= 1920px) {
   .population_block {
+    align-items: start;
     width: 353px;
     height: 133px;
+    padding-left: 32px;
     line-height: 50px;
   }
 }
@@ -1682,6 +1720,12 @@ input, textarea {
   }
 }
 
+@media (width >= 1920px) {
+  .info_block {
+    gap: 32px;
+  }
+}
+
 .info_subblock {
   color: #fff;
   background: #3a3a3a;
@@ -1733,7 +1777,7 @@ input, textarea {
 @media (width >= 1920px) {
   .info_subblock {
     height: 133px;
-    line-height: 40px;
+    line-height: 50px;
   }
 }
 
@@ -1830,6 +1874,12 @@ input, textarea {
   display: flex;
 }
 
+@media (width >= 1920px) {
+  .footer_wrap {
+    margin-top: -85px;
+  }
+}
+
 .footer_link {
   color: #fff;
   font-family: Namu_s, san-serif;
@@ -1875,7 +1925,7 @@ input, textarea {
   .s {
     flex-direction: column;
     justify-content: center;
-    margin: 92px auto 0;
+    margin: 118px auto 0;
     display: flex;
   }
 
@@ -1964,6 +2014,7 @@ input, textarea {
 @media (width >= 1199px) and (width >= 1920px) {
   .s_block {
     height: 133px;
+    line-height: 66px;
   }
 }
 
@@ -2067,12 +2118,20 @@ input, textarea {
 @media (width >= 1199px) and (width >= 1920px) {
   .s_block:nth-child(2n) {
     height: 255px;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 }
 
 @media (width >= 1199px) {
   .s_block:nth-child(3n+1) {
     background-color: #3a3a3a;
+  }
+}
+
+@media (width >= 1199px) and (width >= 1920px) {
+  .s {
+    margin-top: 148px;
   }
 }
 
