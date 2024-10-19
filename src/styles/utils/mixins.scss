@@ -65,7 +65,7 @@
 }
 
 @mixin onBiggestDesktop {
-  @media (min-width: 1918px) {
+  @media (min-width: 1920px) {
     @content;
   }
 }
