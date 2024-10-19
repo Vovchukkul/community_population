@@ -735,12 +735,31 @@ input, textarea {
 
 @media (width >= 1920px) {
   .right_side_f_block {
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 44px), calc(100% - 25px) calc(100% - 32px), calc(100% - 77px) 100%, 0 100%);
     width: 443px;
     height: 168px;
     line-height: 50px;
     top: -1830px;
     left: 60px;
+  }
+}
+
+.right_side_f_block:after {
+  background: #127cff;
+  height: 25px;
+}
+
+@media (width >= 1199px) {
+  .right_side_f_block:after {
+    background: linear-gradient(#127cff 0%, #127cff00 100%);
+    width: 4px;
+    height: 363px;
+  }
+}
+
+@media (width >= 1920px) {
+  .right_side_f_block:after {
+    width: 7px;
+    height: 582px;
   }
 }
 
