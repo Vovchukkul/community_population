@@ -713,14 +713,33 @@ body {
       left: 60px;
       line-height: 50px;
 
-      clip-path: polygon(
-        0 0,             /* Top-left */
-        100% 0,          /* Top-right */
-        100% calc(100% - 44px), /* 50px up from bottom-right (height) */
-        calc(100% - 25px) calc(100% - 32px), /* Rounded corner's arc start */
-        calc(100% - 77px) 100%, /* 100px left from bottom-right (width) */
-        0 100%           /* Bottom-left */
-      );
+      // clip-path: polygon(
+      //   0 0,             /* Top-left */
+      //   100% 0,          /* Top-right */
+      //   100% calc(100% - 44px), /* 50px up from bottom-right (height) */
+      //   calc(100% - 25px) calc(100% - 32px), /* Rounded corner's arc start */
+      //   calc(100% - 77px) 100%, /* 100px left from bottom-right (width) */
+      //   0 100%           /* Bottom-left */
+      // );
+    }
+
+    &::after {
+      height: 25px;
+      // bottom: -25px;
+      background: #127CFF;
+
+      @include onBigDesktop {
+        height: 363px;
+        width: 4px;
+        // bottom: -362px;
+        background: linear-gradient(180deg, #127CFF 0%, rgba(18, 124, 255, 0) 100%);
+      }
+
+      @include onBiggestDesktop {
+        width: 7px;
+        height: 582px;
+        // bottom: -582px;
+      }
     }
   }
 
@@ -1466,7 +1485,7 @@ body {
     }
 
     @include onBiggestDesktop {
-      gap: 32px;
+      gap: 30px;
     }
   }
 
