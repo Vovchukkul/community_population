@@ -181,7 +181,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .header_logo {
     width: 133px;
     height: 147px;
@@ -277,7 +277,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .left_side_title {
     width: 959px;
     max-width: 959px;
@@ -321,7 +321,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .left_side_subtitle {
     max-width: 500px;
     margin-bottom: 72px;
@@ -368,7 +368,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .left_side_btn {
     width: 489px;
     height: 88px;
@@ -468,7 +468,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .right_side_f_circle {
     width: 876px;
     height: 876px;
@@ -522,7 +522,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .right_side_s_circle {
     width: 1192px;
     height: 1192px;
@@ -568,7 +568,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .right_side_t_circle {
     width: 632px;
     height: 632px;
@@ -680,11 +680,12 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .right_side_f_block:after {
+    background: #000;
     width: 7px;
     height: 582px;
-    bottom: -582px;
+    bottom: -400px;
   }
 }
 
@@ -694,7 +695,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .right_side_f_block_number {
     font-size: 68px;
   }
@@ -706,7 +707,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .right_side_f_block_sub {
     font-size: 42px;
   }
@@ -733,7 +734,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .right_side_f_block {
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 44px), calc(100% - 25px) calc(100% - 32px), calc(100% - 77px) 100%, 0 100%);
     width: 443px;
@@ -771,7 +772,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .right_side_s_block:after {
     width: 7px;
     height: 582px;
@@ -785,7 +786,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .right_side_s_block_number {
     font-size: 48px;
   }
@@ -797,7 +798,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .right_side_s_block_sub {
     font-size: 30px;
   }
@@ -822,7 +823,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .right_side_s_block {
     width: 324px;
     height: 117px;
@@ -859,7 +860,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .right_side_t_block:after {
     width: 7px;
     height: 582px;
@@ -873,7 +874,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .right_side_t_block_number {
     font-size: 48px;
   }
@@ -885,7 +886,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .right_side_t_block_sub {
     font-size: 30px;
   }
@@ -910,7 +911,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .right_side_t_block {
     width: 310px;
     height: 117px;
@@ -947,7 +948,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .population {
     gap: 0;
     margin-top: -1337px;
@@ -965,7 +966,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .population_wrap {
     max-width: 749px;
   }
@@ -1034,7 +1035,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .population_title {
     max-width: 549px;
     font-size: 83px;
@@ -1101,7 +1102,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .population_subtitle {
     width: 749px;
     max-width: none;
@@ -1151,7 +1152,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .population_blocks {
     justify-content: end;
     width: 900px;
@@ -1192,7 +1193,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1199px) and (width >= 1920px) {
+@media (width >= 1199px) and (width >= 1918px) {
   .population_block:nth-child(2n) {
     width: 453px;
   }
@@ -1205,7 +1206,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .population_block {
     align-items: start;
     width: 353px;
@@ -1238,7 +1239,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .population_number {
     font-size: 54px;
   }
@@ -1254,7 +1255,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .population_sub {
     font-size: 32px;
   }
@@ -1304,7 +1305,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .population_btn {
     width: 384px;
     height: 88px;
@@ -1370,7 +1371,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .contacts {
     margin-bottom: 148px;
   }
@@ -1438,7 +1439,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .contacts_title {
     margin-bottom: 46px;
     font-size: 83px;
@@ -1487,7 +1488,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .contacts_subtitle {
     max-width: 1424px;
     margin-bottom: 124px;
@@ -1539,7 +1540,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .contacts_btn {
     width: 384px;
     height: 88px;
@@ -1609,7 +1610,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .info_title {
     max-width: 1263px;
     margin-bottom: 111px;
@@ -1721,7 +1722,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .info_block {
     gap: 32px;
   }
@@ -1775,7 +1776,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .info_subblock {
     height: 133px;
     line-height: 50px;
@@ -1792,7 +1793,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .info_number {
     font-size: 54px;
   }
@@ -1808,7 +1809,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .info_sub {
     font-size: 30px;
   }
@@ -1862,7 +1863,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .footer_img {
     width: 133px;
     height: 147px;
@@ -1875,7 +1876,7 @@ input, textarea {
   display: flex;
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .footer_wrap {
     margin-top: -85px;
   }
@@ -1899,7 +1900,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1920px) {
+@media (width >= 1918px) {
   .footer_link {
     font-size: 32px;
   }
@@ -1935,7 +1936,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1199px) and (width >= 1920px) {
+@media (width >= 1199px) and (width >= 1918px) {
   .s_wrap {
     text-align: center;
   }
@@ -1955,7 +1956,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1199px) and (width >= 1920px) {
+@media (width >= 1199px) and (width >= 1918px) {
   .s_title {
     text-align: center;
     width: 630px;
@@ -1975,7 +1976,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1199px) and (width >= 1920px) {
+@media (width >= 1199px) and (width >= 1918px) {
   .s_subtitle {
     width: 629px;
     max-width: none;
@@ -1993,7 +1994,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1199px) and (width >= 1920px) {
+@media (width >= 1199px) and (width >= 1918px) {
   .s_blocks {
     max-width: 100vw;
   }
@@ -2020,7 +2021,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1199px) and (width >= 1920px) {
+@media (width >= 1199px) and (width >= 1918px) {
   .s_block {
     height: 133px;
     line-height: 66px;
@@ -2040,7 +2041,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1199px) and (width >= 1920px) {
+@media (width >= 1199px) and (width >= 1918px) {
   .s_block:nth-child(3n+1), .s_block :nth-child(5n+1) {
     max-width: 500px;
   }
@@ -2097,7 +2098,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1199px) and (width >= 1920px) {
+@media (width >= 1199px) and (width >= 1918px) {
   .s_block:nth-child(2) {
     min-width: 700px;
   }
@@ -2132,7 +2133,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1199px) and (width >= 1920px) {
+@media (width >= 1199px) and (width >= 1918px) {
   .s_block:nth-child(2n) {
     height: 255px;
     padding-top: 70px;
@@ -2146,7 +2147,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1199px) and (width >= 1920px) {
+@media (width >= 1199px) and (width >= 1918px) {
   .s {
     margin-top: 148px;
   }
@@ -2182,7 +2183,7 @@ input, textarea {
   }
 }
 
-@media (width >= 1199px) and (width >= 1920px) {
+@media (width >= 1199px) and (width >= 1918px) {
   .s_btn {
     width: 501px;
     height: 88px;

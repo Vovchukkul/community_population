@@ -665,7 +665,9 @@ body {
       @include onBiggestDesktop {
         width: 7px;
         height: 582px;
-        bottom: -582px;
+        // bottom: -582px;
+        bottom: -400px;
+        background: #000;
       }
     }
 

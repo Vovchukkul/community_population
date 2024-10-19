@@ -7,5 +7,5 @@ switchSpans.forEach(li => {
   });
 });
 
-// let width = window.innerWidth;
-// alert("Width: " + width)
+let width = window.innerWidth;
+alert("Width: " + width)

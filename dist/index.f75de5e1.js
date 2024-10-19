@@ -4,7 +4,8 @@ switchSpans.forEach((li)=>{
         switchSpans.forEach((s)=>s.classList.remove("header_active"));
         li.classList.add("header_active");
     });
-}); // let width = window.innerWidth;
- // alert("Width: " + width)
+});
+let width = window.innerWidth;
+alert("Width: " + width);
 
 //# sourceMappingURL=index.f75de5e1.js.map
