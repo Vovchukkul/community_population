@@ -1510,17 +1510,13 @@ body {
       width: 48%;
     }
 
-    @include onBigDesktop {
-      height: 70px;
-    }
-
     @include onExtendedDesktop {
       height: 100px;
     }
 
     @include onBigDesktop {
       height: 83px;
-      border-radius: 31px;
+      border-radius: 21px;
       align-items: start;
       padding-inline: 32px;
       line-height: 25px;
