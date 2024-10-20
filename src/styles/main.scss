@@ -79,6 +79,12 @@ body {
   }
 }
 
+.communities {
+  display: flex;
+  flex-direction: column;
+  zoom: 0.3;
+}
+
 
 .main {
   @include onTablet {
@@ -1901,4 +1907,9 @@ body {
 
 .sixth {
   order: 6
+}
+
+.svg_active {
+  fill: blue;
+  cursor: pointer;
 }

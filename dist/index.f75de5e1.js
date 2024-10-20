@@ -1,10 +1,18 @@
 const switchSpans = document.querySelectorAll(".header_switch li");
+const paths = document.querySelectorAll(".svg a");
 switchSpans.forEach((li)=>{
     li.addEventListener("click", ()=>{
         switchSpans.forEach((s)=>s.classList.remove("header_active"));
         li.classList.add("header_active");
     });
-}); // let width = window.innerWidth;
+});
+paths.forEach((a)=>{
+    a.addEventListener("click", ()=>{
+        paths.forEach((p1)=>p1.classList.remove("svg_active"));
+        p.classList.add("svg_active");
+    });
+}) // let width = window.innerWidth;
  // alert("Width: " + width)
+;
 
 //# sourceMappingURL=index.f75de5e1.js.map

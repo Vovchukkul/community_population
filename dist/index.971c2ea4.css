@@ -210,6 +210,12 @@ input, textarea {
   cursor: pointer;
 }
 
+.communities {
+  zoom: .3;
+  flex-direction: column;
+  display: flex;
+}
+
 @media (width >= 768px) {
   .main {
     z-index: 1;
@@ -2243,5 +2249,10 @@ input, textarea {
 
 .sixth {
   order: 6;
+}
+
+.svg_active {
+  fill: #00f;
+  cursor: pointer;
 }
 /*# sourceMappingURL=index.971c2ea4.css.map */
