@@ -204,9 +204,25 @@
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 
-  &:hover {
-    background: $hover-bg-color;
-    color: $hover-text-color;
-    border: $border;
+  // &:hover {
+  //   background: $hover-bg-color;
+  //   color: $hover-text-color;
+  //   border: $border;
+  // }
+
+  @media (hover: hover) {
+    &:hover {
+      background: $hover-bg-color;
+      color: $hover-text-color;
+      border: $border;
+    }
+  }
+
+  @media (hover: none) {
+    &:hover {
+      background: $hover-bg-color;
+      color: $hover-text-color;
+      border: $border;
+    }
   }
 }
