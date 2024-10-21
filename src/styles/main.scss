@@ -98,21 +98,24 @@ body {
 
   &_left h1 {
     @include title();
+    min-width: 1048px;
+    margin-bottom: 76px;
   }
 
-  &_instraction {
+  &_instruction {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 21px;
   }
 
-  &_instraction img {
-    width: 28px;
-    height: 34px;
+  &_instruction img {
+    width: 54px;
+    height: 60px;
   }
 
-  &_instraction span {
+  &_instruction span {
     @include subtitle();
+    max-width: 518px;
   }
 
   &_right svg {
@@ -121,7 +124,7 @@ body {
     position: relative;
 
     @include onBiggestDesktop {
-      left: -304px;
+      left: -770px;  
       top: -385px;
     }
   }
@@ -194,6 +197,7 @@ body {
 
   @include onBigDesktop {
     padding-left: 118px;
+    margin-top: -246px;
   }
 
   // @include onExtendedTablet {
@@ -382,6 +386,7 @@ body {
   @include onBigDesktop {
     top: -120px;
     left: 100px;
+    margin-top: 600px;
   }
 
   // @include onTablet {
@@ -398,6 +403,7 @@ body {
   }
 
   &_f_circle {
+    display: none;
     background-color: rgba(231, 231, 231, 1);
     filter: blur(50px);  
     width: 266px; 
