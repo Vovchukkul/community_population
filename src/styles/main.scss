@@ -84,6 +84,11 @@ body {
   flex-direction: column;
   display: flex;
   flex-direction: column;
+  position: relative;
+
+  @include onBigDesktop {
+    flex-direction: row;
+  }
 
   &_left {
     display: flex;
@@ -110,9 +115,15 @@ body {
     @include subtitle();
   }
 
-  &_right img {
-    width: 668px;
-    height: 635px;
+  &_right svg {
+    width: 1510px;
+    height: 1434px;
+    position: relative;
+
+    @include onBiggestDesktop {
+      left: -304px;
+      top: -385px;
+    }
   }
 }
 
