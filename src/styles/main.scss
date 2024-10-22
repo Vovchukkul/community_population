@@ -93,19 +93,13 @@ body {
   flex-direction: column;
 
   @include onBigDesktop {
-    flex-direction: row;
-    margin-bottom: 100px;
+    width: 100%;
   }
 
   &_left {
     display: flex;
     flex-direction: column;
     gap: 8px;
-
-    @include onBigDesktop {
-      padding-left: 118px;
-      max-width: 300px
-    }
   }
 
   &_left h1 {
@@ -114,13 +108,13 @@ body {
 
     @include onBigDesktop {
       min-width: 700px;
-      margin-bottom: 10px;
       font-size: 51px;
     }
 
     @include onBiggestDesktop {
+      font-size: 83px;
       min-width: 1048px;
-      max-width: 1048px;
+      width: 1048px;
       margin-bottom: 76px;
     }
   }
@@ -131,7 +125,7 @@ body {
     gap: 8px;
 
     @include onBigDesktop {
-      gap: 21px;
+      gap: 12px;
     }
   }
 
@@ -150,8 +144,16 @@ body {
     max-width: 260px;
 
     @include onBigDesktop {
-      max-width: 518px;
-      min-width: 400px;
+      max-width: none;
+      width: 518px;
+    }
+  }
+
+  &_right {
+    display: flex;
+
+    @include onSmallTablet {
+      justify-content: end;
     }
   }
 
@@ -164,17 +166,32 @@ body {
     margin-left: -90px;
     z-index: 100000;
 
+    @include onLargeMobile {
+      margin-top: -300px;
+    }
+
+    @include onSmallTablet {
+      margin-left: -50px;
+      margin-top: -300px;
+    }
+
+    @include onTablet {
+      margin-left: 0;
+    }
+
     @include onBigDesktop {
-      width: 944px;
-      height: 896px;
-      top: -300px;
-      // margin-top: 0;
+      // width: 944px;
+      // height: 896px;
+      width: 1200px;
+      height: 1100px;
+      margin-top: -460px;
+      margin-left: 118px;
+      margin-bottom: 200px;
     }
 
     @include onBiggestDesktop {
       width: 1510px;
       height: 1434px;
-      // top: -385px;
     } 
   }
 

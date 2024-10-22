@@ -4,6 +4,12 @@
   }
 }
 
+@mixin onLargeMobile {
+  @media (min-width: 400px) {
+    @content;
+  }
+}
+
 @mixin onExtendedMobile {
   @media (min-width: 510px) {
     @content;
