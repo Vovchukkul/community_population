@@ -85,6 +85,7 @@ body {
 
   @include onBigDesktop {
     flex-direction: row;
+    margin-bottom: 100px;
   }
 
   &_left {
@@ -95,13 +96,24 @@ body {
 
     @include onBigDesktop {
       padding-left: 118px;
+      max-width: 300px
     }
   }
 
   &_left h1 {
     @include title();
-    min-width: 1048px;
-    margin-bottom: 76px;
+
+    @include onBigDesktop {
+      min-width: 700px;
+      margin-bottom: 10px;
+      font-size: 51px;
+    }
+
+    @include onBiggestDesktop {
+      min-width: 1048px;
+      max-width: 1048px;
+      margin-bottom: 76px;
+    }
   }
 
   &_right {
@@ -115,7 +127,11 @@ body {
   &_instruction {
     display: flex;
     align-items: center;
-    gap: 21px;
+    gap: 8px;
+
+    @include onBigDesktop {
+      gap: 21px;
+    }
   }
 
   &_instruction img {
@@ -126,6 +142,18 @@ body {
   &_instruction span {
     @include subtitle();
     max-width: 518px;
+    min-width: 400px;
+  }
+
+  &_right {
+    @include onBigDesktop {
+      position: relative;
+      top: -200px;
+    }
+
+    @include onBiggestDesktop {
+      top: 0;
+    }
   }
 
   &_right svg {
@@ -136,13 +164,14 @@ body {
     scroll-behavior: smooth;
 
     @include onBigDesktop {
-      width: 1510px;
-      height: 1434px;
+      width: 944px;
+      height: 896px;
       margin-top: 0;
     }
 
     @include onBiggestDesktop {
-      left: -770px;  
+      width: 1510px;
+      height: 1434px;
       top: -385px;
     } 
   }
@@ -198,36 +227,42 @@ body {
 // }
 
 /* Scrollbar customization placed outside of nested structure */
-// .communities_right {
-//   overflow-x: auto; /* Horizontal scroll enabled */
-//   scroll-behavior: smooth; /* Smooth scrolling */
+.communities_right {
+  @include onMobile {
+    overflow-x: auto; /* Horizontal scroll enabled */
+    scroll-behavior: smooth; /* Smooth scrolling */
 
-//   /* For WebKit Browsers */
-//   &::-webkit-scrollbar {
-//     height: 6px; /* Horizontal scrollbar height */
-//     background-color: transparent; /* Optional: transparent background for scrollbar */
-//   }
+    /* For WebKit Browsers */
+    &::-webkit-scrollbar {
+      height: 6px; /* Horizontal scrollbar height */
+      background-color: transparent; /* Optional: transparent background for scrollbar */
+    }
 
-//   &::-webkit-scrollbar-thumb {
-//     background-color: #008FFF; /* Thumb color */
-//     border-radius: 3px; /* Rounded corners */
-//     height: 100px; /* Thumb height */
-//   }
+    &::-webkit-scrollbar-thumb {
+      background-color: #008FFF; /* Thumb color */
+      border-radius: 3px; /* Rounded corners */
+      height: 100px; /* Thumb height */
+    }
 
-//   &::-webkit-scrollbar-track {
-//     background-color: #EDEDED; /* Track color */
-//     margin-left: 32px; /* Left margin for the scrollbar track */
-//     margin-right: 32px; /* Right margin for the scrollbar track */
-//   }
+    &::-webkit-scrollbar-track {
+      background-color: #EDEDED; /* Track color */
+      margin-left: 32px; /* Left margin for the scrollbar track */
+      margin-right: 32px; /* Right margin for the scrollbar track */
+    }
 
-//   &::-webkit-scrollbar-thumb:hover {
-//     background-color: #006ECC; /* Darker color on hover */
-//   }
+    &::-webkit-scrollbar-thumb:hover {
+      background-color: #006ECC; /* Darker color on hover */
+    }
 
-//   /* Firefox */
-//   scrollbar-width: thin; /* Thin scrollbar in Firefox */
-//   scrollbar-color: #008FFF #EDEDED; /* Thumb and track colors in Firefox */
-// }
+    /* Firefox */
+    scrollbar-width: thin; /* Thin scrollbar in Firefox */
+    scrollbar-color: #008FFF #EDEDED; /* Thumb and track colors in Firefox */
+  }
+
+  @include onBigDesktop {
+    overflow: visible;
+  }
+}
 
 
 
