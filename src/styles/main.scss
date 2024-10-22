@@ -22,9 +22,9 @@ body {
 
 .header {
   position: relative;
+  flex-direction: column;
+  overflow: scroll; 
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 24px;
   margin-top: 32px;
 
@@ -36,6 +36,15 @@ body {
     margin-bottom: 73px;
     margin-top: 72px;
     align-items: start;
+  }
+
+  &_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 24px;
   }
   
   &_logo {
@@ -92,7 +101,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    padding-left: 32px;
 
     @include onBigDesktop {
       padding-left: 118px;
@@ -102,6 +110,7 @@ body {
 
   &_left h1 {
     @include title();
+    max-width: 296px;
 
     @include onBigDesktop {
       min-width: 700px;
@@ -116,14 +125,6 @@ body {
     }
   }
 
-  &_right {
-    overflow-x: auto;
-
-    @include onBigDesktop {
-      overflow-x: visible;
-    }
-  }
-
   &_instruction {
     display: flex;
     align-items: center;
@@ -135,24 +136,22 @@ body {
   }
 
   &_instruction img {
-    width: 54px;
-    height: 60px;
+    width: 28px;
+    height: 34px;
+
+    @include onBigDesktop {
+      width: 54px;
+      height: 60px;
+    }
   }
 
   &_instruction span {
     @include subtitle();
-    max-width: 518px;
-    min-width: 400px;
-  }
+    max-width: 260px;
 
-  &_right {
     @include onBigDesktop {
-      position: relative;
-      top: -200px;
-    }
-
-    @include onBiggestDesktop {
-      top: 0;
+      max-width: 518px;
+      min-width: 400px;
     }
   }
 
@@ -160,20 +159,27 @@ body {
     width: 668px;
     height: 635px;
     position: relative;
-    margin-top: -130px;
     scroll-behavior: smooth;
+    margin-top: -340px;
+    margin-left: -90px;
+    z-index: 100000;
 
     @include onBigDesktop {
       width: 944px;
       height: 896px;
-      margin-top: 0;
+      top: -300px;
+      // margin-top: 0;
     }
 
     @include onBiggestDesktop {
       width: 1510px;
       height: 1434px;
-      top: -385px;
+      // top: -385px;
     } 
+  }
+
+  &_right svg g a text {
+    font-family: 'Inter', sans-serif;
   }
 }
 
@@ -227,9 +233,9 @@ body {
 // }
 
 /* Scrollbar customization placed outside of nested structure */
-.communities_right {
+.header {
   @include onMobile {
-    overflow-x: auto; /* Horizontal scroll enabled */
+    overflow-x: scroll; /* Horizontal scroll enabled */
     scroll-behavior: smooth; /* Smooth scrolling */
 
     /* For WebKit Browsers */
