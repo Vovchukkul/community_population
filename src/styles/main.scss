@@ -73,6 +73,7 @@ body {
     font-weight: 300;
     font-size: 18px;
     font-family: $namu_font;
+    z-index: 10000000;
 
     @include onBigDesktop {
       font-size: 24px;
@@ -150,10 +151,19 @@ body {
   }
 
   &_right {
-    display: flex;
-
     @include onSmallTablet {
+      display: flex;
       justify-content: end;
+      margin-right: -32px;
+    }
+
+
+    @include onBigTablet {
+      margin-right: -72px;
+    }
+
+    @include onBigDesktop {
+      margin-right: -118px;
     }
   }
 
@@ -164,7 +174,7 @@ body {
     scroll-behavior: smooth;
     margin-top: -340px;
     margin-left: -90px;
-    z-index: 100000;
+    // z-index: 100000; 
 
     @include onLargeMobile {
       margin-top: -300px;
@@ -172,11 +182,16 @@ body {
 
     @include onSmallTablet {
       margin-left: -50px;
-      margin-top: -300px;
+      margin-top: -350px;
     }
 
     @include onTablet {
       margin-left: 0;
+    }
+
+    @include onExtendedTablet {
+      margin-top: -380px;
+      z-index: 100000;
     }
 
     @include onBigDesktop {
@@ -184,14 +199,19 @@ body {
       // height: 896px;
       width: 1200px;
       height: 1100px;
-      margin-top: -460px;
+      margin-top: -520px;
       margin-left: 118px;
       margin-bottom: 200px;
+    }
+
+    @include onDesktop {
+      margin-top: -470px;
     }
 
     @include onBiggestDesktop {
       width: 1510px;
       height: 1434px;
+      margin-top: -710px;
     } 
   }
 
@@ -200,86 +220,34 @@ body {
   }
 }
 
-// .communities {
-//   display: flex;
-//   flex-direction: column;
-//   position: relative;
-
-//   @include onBigDesktop {
-//     flex-direction: row;
-//   }
-
-//   &_left {
-//     display: flex;
-//     flex-direction: column;
-//     gap: 8px;
-//   }
-
-//   &_left h1 {
-//     @include title();
-//     min-width: 1048px;
-//     margin-bottom: 76px;
-//   }
-
-//   &_instruction {
-//     display: flex;
-//     align-items: center;
-//     gap: 21px;
-//   }
-
-//   &_instruction img {
-//     width: 54px;
-//     height: 60px;
-//   }
-
-//   &_instruction span {
-//     @include subtitle();
-//     max-width: 518px;
-//   }
-
-//   &_right svg {
-//     width: 1510px;
-//     height: 1434px;
-//     position: relative;
-
-//     @include onBiggestDesktop {
-//       left: -770px;  
-//       top: -385px;
-//     }
-//   }
-// }
-
-/* Scrollbar customization placed outside of nested structure */
 .header {
   @include onMobile {
-    overflow-x: scroll; /* Horizontal scroll enabled */
-    scroll-behavior: smooth; /* Smooth scrolling */
+    overflow-x: scroll; 
+    scroll-behavior: smooth;
 
-    /* For WebKit Browsers */
     &::-webkit-scrollbar {
-      height: 6px; /* Horizontal scrollbar height */
-      background-color: transparent; /* Optional: transparent background for scrollbar */
+      height: 6px;
+      background-color: transparent;
     }
 
     &::-webkit-scrollbar-thumb {
-      background-color: #008FFF; /* Thumb color */
-      border-radius: 3px; /* Rounded corners */
-      height: 100px; /* Thumb height */
+      background-color: #008FFF;
+      border-radius: 3px;
+      height: 100px;
     }
 
     &::-webkit-scrollbar-track {
-      background-color: #EDEDED; /* Track color */
-      margin-left: 32px; /* Left margin for the scrollbar track */
-      margin-right: 32px; /* Right margin for the scrollbar track */
+      background-color: #EDEDED; 
+      margin-left: 32px; 
+      margin-right: 32px; 
     }
 
     &::-webkit-scrollbar-thumb:hover {
-      background-color: #006ECC; /* Darker color on hover */
+      background-color: #006ECC; 
     }
 
-    /* Firefox */
-    scrollbar-width: thin; /* Thin scrollbar in Firefox */
-    scrollbar-color: #008FFF #EDEDED; /* Thumb and track colors in Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: #008FFF #EDEDED; 
   }
 
   @include onBigDesktop {
@@ -294,34 +262,6 @@ body {
     position: relative;
     z-index: 1;
   }
-
-  // @include onSmallTablet {
-  //   margin-top: -400px;
-  // }
-
-  // @include onTablet {
-  //   margin-top: -330px;
-  // }
-
-  // @include onExtendedTablet {
-  //   margin-top: -450px;
-  // }
-
-  // @include onBigDesktop {
-  //   margin-top: -650px;
-  // }
-
-  // @include onDesktop {
-  //   margin-top: -650px;
-  // }
-
-  // @include onExtendedDesktop {
-  //   margin-top: -800px;
-  // }
-
-  // @include onBigDesktop {
-  //   margin-top: -1550px;
-  // }
 }
 
 .wrapper {
@@ -345,10 +285,6 @@ body {
   padding-left: 32px;
   min-width: 296px;
 
-  // @include onTablet {
-  //   margin-top: -500px;
-  // }
-
   @include onBigTablet {
     padding-left: 72px;
   }
@@ -357,28 +293,6 @@ body {
     padding-left: 118px;
     margin-top: 600px;
   }
-
-  // @include onExtendedTablet {
-  //   margin-top: -500px;
-  // }
-
-  // @include onBigDesktop {
-  //   margin-top: -700px;
-  // }
-
-  // @include onExtendedDesktop {
-  //   margin-top: -700px;
-  // }
-
-  // @include onBigDesktop {
-  //   margin-top: 0;
-  //   margin-left: 10%;
-  //   margin-top: -1800px;
-  // }
-
-  // @include onFullHD {
-  //   margin-left: -0px;
-  // }
 
   &_title {
     margin: 0 0 8px 0;
@@ -410,17 +324,6 @@ body {
       max-width: 959px;
       width: 959px;
     }
-
-    // @include onExtendedDesktop {
-    //   font-size: 56px;
-    //   max-width: 700px;
-    // }
-
-    // @include onBigDesktop {
-    //   font-size: 84px;
-    //   min-width: 959px;
-    //   margin-bottom: 24px;
-    // }
   }
 
   &_subtitle {
@@ -440,18 +343,6 @@ body {
       max-width: 500px;
       margin-bottom: 72px;
     }
-
-    // @include onExtendedDesktop {
-    //   font-size: 32px;
-    //   max-width: 400px;
-    // }
-
-    // @include onBigDesktop {
-    //   font-size: 32px;
-    //   margin-bottom: 72px;
-    //   min-width: none;
-    //   width: 518px;
-    // }
   }
 
   &_btn {
@@ -487,20 +378,6 @@ body {
       height: 88px;
       font-size: 32px;
     }
-
-    // @include onExtendedDesktop {
-    //   border-radius: 12px;
-    //   width: 429px;
-    //   height: 88px;
-    //   font-size: 32px;
-    // }
-
-    // @include onBigDesktop {
-    //   border-radius: 12px;
-    //   width: 429px;
-    //   height: 88px;
-    //   font-size: 32px;
-    // }
   }
 }
 
@@ -547,21 +424,12 @@ body {
     margin-top: 600px;
   }
 
-  // @include onTablet {
-  //   margin-left: 0;
-  // }
-
   &_circle_wrapper {
     position: relative;
     z-index: 1;
-
-    // @include onBigDesktop {
-    //   top: 200px;
-    // }
   }
 
   &_f_circle {
-    // display: none;
     background-color: rgba(231, 231, 231, 1);
     filter: blur(50px);  
     width: 266px; 
@@ -571,23 +439,6 @@ body {
     margin-left: 150px;
     position: relative;
     z-index: -10;
-
-    // @include onSmallTablet {
-    //   width: 300px;
-    //   height: 300px;
-    //   top: -150px;
-    //   left: 100px;
-    // }
-
-    // @include onTablet {
-    //   top: -100px;
-    // }
-
-    // @include onExtendedTablet {
-    //   width: 300px;
-    //   height: 300px;
-    //   margin-left: 200px;
-    // }
 
     @include onBigDesktop {
       width: 547.5px;
@@ -606,17 +457,6 @@ body {
       height: 876px;
       left: 500px;
     }
-
-    // @include onExtendedDesktop {
-    //   margin-left: 450px;
-    // }
-
-    // @include onBigDesktop {
-    //   width: 876px;
-    //   height: 876px;
-    //   top: -400px;
-    //   left: -250px;
-    // }
   }
 
   &_s_circle {
@@ -629,13 +469,6 @@ body {
     margin-right: 80px;
     position: relative;
     z-index: -5;
-
-    // @include onSmallTablet {
-    //   width: 420px;
-    //   height: 420px;
-    //   top: -150px;
-    //   left: 150px;
-    // }
 
     @include onTablet {
       width: 400px;
@@ -669,18 +502,6 @@ body {
       top: -650px;
       left: 340px;
     }
-
-    // @include onExtendedDesktop {
-    //   width: 820px;
-    //   height: 820px;
-    // }
-
-    // @include onBigDesktop {
-    //   width: 1192px;
-    //   height: 1192px;
-    //   top: -960px;
-    //   left: -70px;
-    // }
   }
 
   &_t_circle {
@@ -694,24 +515,9 @@ body {
     margin-left: -130px;
     z-index: -1;
     filter: blur(50px);
-    
-    // @include onSmallTablet {
-    //   width: 300px;
-    //   height: 300px;
-    //   top: -60px;
-    //   left: 100px;
-    // }
-
-    // @include onTablet {
-    //   top: -50px;
-    //   left: 50px;
-    // }
 
     @include onExtendedTablet {
-      // width: 300px;
-      // height: 300px;
       top: -60px;
-      // left: 60px;
     }
 
     @include onBigDesktop {
@@ -735,21 +541,6 @@ body {
       top: -1100px;
       left: 300px;
     }
-
-    // @include onExtendedDesktop {
-    //   width: 360px;
-    //   height: 360px;
-    // }
-
-    // @include onBigDesktop {
-    //   width: 632px;
-    //   height: 632px;
-    //   top: -1500px;
-    //   left: -100px;
-    //   z-index: -10;
-    //   background: rgba(18, 124, 255, 0.9);
-    //   filter: blur(100px);
-    // }
   }
 
   &_block_wrapper {
@@ -818,13 +609,6 @@ body {
     margin-top: -412px;
     margin-left: 180px;
 
-    // @include onSmallTablet {
-    //   margin-top: 0px;
-    //   margin-left: 0px;
-    //   top: -600px;
-    //   left: 180px;
-    // }
-
     @include onTablet {
       top: -50px;
       left: -170px;
@@ -834,33 +618,6 @@ body {
       top: -120px;
       left: -185px;
     }
-
-    // @include onExtendedTablet {
-    //   border-radius: 21px;
-    //   width: 200px;
-    //   height: 70px;
-    //   z-index: 50;
-    //   top: -680px;
-    //   right: 50px;
-    //   bottom: -40px;
-    // }
-
-    // @include onBigDesktop {
-    //   top: -970px;
-    // }
-
-    // @include onDesktop {
-    //   top: -1050px;
-    //   left: 160px;
-    // }
-
-    // @include onExtendedDesktop {
-    //   border-radius: 26px;
-    //   width: 280px;
-    //   height: 108px;
-    //   top: -1220px;
-    //   left: 150px;
-    // }
     
     &::after {
       height: 25px;
@@ -943,14 +700,12 @@ body {
       @include onBigDesktop {
         height: 363px;
         width: 4px;
-        // bottom: -362px;
         background: linear-gradient(180deg, #127CFF 0%, rgba(18, 124, 255, 0) 100%);
       }
 
       @include onBiggestDesktop {
         width: 7px;
         height: 582px;
-        // bottom: -582px;
       }
     }
   }
@@ -958,12 +713,6 @@ body {
   &_s_block {
     margin-top: 50px;
     margin-left: 7px;
-
-    // @include onSmallTablet {
-    //   margin-top: 0px;
-    //   top: -580px;
-    //   left: 320px;
-    // }
 
     @include onTablet {
       top: -70px;
@@ -974,23 +723,6 @@ body {
       top: -100px;
       left: 200px;
     }
-
-    // @include onBigDesktop {
-    //   top: -930px;
-    // }
-
-    // @include onDesktop {
-    //   top: -1010px;
-    //   left: 400px;
-    // }
-
-    // @include onExtendedDesktop {
-    //   width: 210px;
-    //   height: 77px;
-    //   border-radius: 18px;
-    //   top: -1140px;
-    //   left: 500px;
-    // }
 
     &::after {
       @include onBigDesktop {
@@ -1054,13 +786,6 @@ body {
     margin-left: 170px;
     margin-top: -36px;
 
-    // @include onSmallTablet {
-    //   margin-top: 0px;
-    //   margin-left: 0;
-    //   top: -540px;
-    //   left: 200px;
-    // }
-
     @include onTablet {
       top: 0px;
       left: -120px;
@@ -1070,23 +795,6 @@ body {
       top: -50px;
       left: -140px;
     }
-  
-    // @include onBigDesktop {
-    //   top: -900px;
-    // }
-
-    // @include onDesktop {
-    //   top: -970px;
-    //   left: 200px;
-    // }
-
-    // @include onExtendedDesktop {
-    //   width: 210px;
-    //   height: 77px;
-    //   border-radius: 18px;
-    //   top: -1000px;
-    //   left: 300px;
-    // }
 
     &::after {
       @include onBigDesktop {
@@ -1174,16 +882,6 @@ body {
     gap: 0;
   }
 
-  // @include onBiggestScreen {
-  //   position: relative;
-  //   left: 160px;
-  // }
-
-  // @include onTablet {
-  //   padding-inline: 0;
-  //   margin-left: -72px;
-  // }
-
   &_wrap {
     display: flex;
     flex-direction: column;
@@ -1196,17 +894,6 @@ body {
       max-width: 749px;
     }
   }
-  
-  // @include contentPaddingInline;
-
-  // @include onBigDesktop {
-  //   width: 100%;
-  //   margin-left: -118px;
-  // }
-
-  // @include onDesktop {
-  //   background-color: transparent;
-  // }
 
   &_month {
     display: flex;
@@ -1218,27 +905,6 @@ body {
       justify-content: space-between;
       gap: 60px;
     }
-
-    // @include onExtendedTablet {
-    //   gap: 100px;
-    // }
-
-    // @include onBigDesktop {
-    //   gap: 140px;
-    // }
-
-    // @include onDesktop {
-    //   gap: 160px;
-    // }
-
-    // @include onBigDesktop {
-    //   flex-direction: row;
-    //   // justify-content: space-between;
-    //   justify-content: center;
-    //   height: 490px;
-    //   margin-bottom: 148px;
-    //   gap: 60px
-    // }
   }
 
   &_title {
@@ -1315,21 +981,8 @@ body {
       column-gap: 10px;
     }
 
-    // @include onExtendedTablet {
-    //   column-gap: 15px;
-    // }
-
-    // @include onBigDesktop {
-    //   column-gap: 25px;
-    // }
-
-    // @include onDesktop {
-    //   column-gap: 30px;
-    // }
-
     @include onBigDesktop {
       margin: 0;
-      // align-content: initial;
       width: 600px;
       flex-wrap: wrap;
       column-gap: 0px;
@@ -1349,11 +1002,6 @@ body {
       margin: 0;
       justify-content: end;
     }
-
-    // @include onFullHD {
-    //   // column-gap: 200px;
-    //   max-width: 1200px;
-    // }
   }
 
   &_block {
@@ -1368,18 +1016,6 @@ body {
     height: 48px;
     color: rgba(255, 255, 255, 1);
     line-height: 18px;
-
-    // @include onSmallTablet {
-    //   width: 33%;
-    // }
-
-    // @include onTablet {
-    //   width: 48%;
-    // }
-
-    // @include onDesktop {
-    //   height: 80px;
-    // }
 
     @include onBigDesktop {
       width: 220px;
@@ -1412,16 +1048,6 @@ body {
       align-items: start;
       padding-left: 32px;
     }
-
-    // @include onFullHD {
-    //   width: 353px;
-    //   height: 133px;
-    //   border-radius: 21px;
-
-    //   &:nth-child(even) {
-    //     width: 453px;
-    //   }
-    // }
 
     &:nth-child(3n + 1) {
       background-color: $dark-button-color;
@@ -1576,10 +1202,6 @@ body {
   justify-content: left;
   margin-bottom: 31px;
 
-  // @include onBigDesktop {
-  //   margin-bottom: 100px;
-  // }
-
   @include onBigDesktop {
     margin-bottom: 94px;
   }
@@ -1683,16 +1305,7 @@ body {
       justify-content: space-between;
     }
 
-    // @include onBigDesktop {
-    //   width: 100%;
-    //   row-gap: 16px;
-    //   column-gap: 16px;
-    //   margin-bottom: 0;
-    // }
-
     @include onBigDesktop {
-      // row-gap: 32px;
-      // column-gap: 32px;
       margin-bottom: 0;
     }
 
@@ -1860,8 +1473,6 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    // height: 1000px;
-    // width: 1680px;
     margin-top: 118px;
 
     &_wrap {
@@ -1907,7 +1518,6 @@ body {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
-      // flex-direction: column;
       justify-content: center;
       margin-top: -60px;
 
@@ -1994,10 +1604,6 @@ body {
         @include onBiggestScreen {
           min-width: 800px;
         }
-
-        // @include onFullHD {
-        //   min-width: 1300px;
-        // }
       }
 
       &:nth-child(even) {
@@ -2026,21 +1632,6 @@ body {
       &:nth-child(3n + 1) {
         background-color: $dark-button-color;
       }
-
-      // &:nth-child(3n + 1) {
-      //   background-color: $gray-btn-color;
-      //   color: rgba(58, 58, 58, 1);
-      // }
-
-      // &:nth-child(4n + 1) {
-      //   background-color: $dark-button-color;
-      //   color: rgba(255, 255, 255, 1);
-      // } 
-
-      // &:nth-child(4n + 2) {
-      //   background-color: $primary-btn-color;
-      //   color: rgba(255, 255, 255, 1);
-      // }
     }
 
     @include onBiggestDesktop {
@@ -2087,28 +1678,82 @@ body {
   }
 }
 
-.first {
-  order: 1
+@include onExtendedTablet {
+  .first {
+    order: 1
+  }
+
+  .second {
+    order: 2
+  }
+
+  .third {
+    order: 3;
+  }
+
+  .forth {
+    order: 4
+  }
+
+  .fiveth {
+    order: 5
+  }
+
+  .sixth {
+    order: 6
+  }
 }
 
-.second {
-  order: 2
+@include onExtendedTablet {
+  .p_first {
+    order: 1
+  }
+
+  .p_second {
+    order: 2
+  }
+
+  .p_third {
+    order: 3;
+  }
+
+  .p_fourth {
+    order: 4
+  }
+
+  .p_fiveth {
+    order: 5
+  }
+
+  .p_sixth {
+    order: 6
+  }
 }
 
-.third {
-  order: 3;
-}
+@include onBigDesktop {
+  .p_first {
+    order: 1
+  }
 
-.forth {
-  order: 4
-}
+  .p_second {
+    order: 3
+  }
 
-.fiveth {
-  order: 5
-}
+  .p_third {
+    order: 5;
+  }
 
-.sixth {
-  order: 6
+  .p_fourth {
+    order: 2
+  }
+
+  .p_fiveth {
+    order: 4
+  }
+
+  .p_sixth {
+    order: 6
+  }
 }
 
 .svg_active {
