@@ -839,6 +839,10 @@ body {
   margin-bottom: 32px;
 
   @include onBigDesktop {
+    max-width: 100%
+  }
+
+  @include onBigDesktop {
     margin-top: -550px;
     background-color: transparent;
     margin-bottom: 78px;
@@ -1609,14 +1613,6 @@ body {
       margin-top: 148px;
     }
 
-    @include onBiggestScreen2 {
-      margin-right: 118px;
-    }
-
-    @include onFullHD {
-      margin-right: 350px;
-    }
-
     &_btn {
       align-self: center;
       display: flex;
@@ -1641,11 +1637,6 @@ body {
         display: none;
       }
     }
-  }
-
-  @include onBiggestScreen {
-    position: relative;
-    left: -40px;
   }
 }
 
