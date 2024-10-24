@@ -1,0 +1,1762 @@
+@import './utils/variables.scss';
+@import './utils/mixins.scss';
+@import './utils/normalize.scss';
+
+body {
+  @include onBiggestScreen {
+    zoom: 1.05;
+  }
+
+  @include onBiggestScreen2 {
+    zoom: 1.08;
+  }
+
+  @include onFullHD {
+    zoom: 1.2;
+  }
+}
+
+.container {
+  @include contentPaddingInline;
+}
+
+.header {
+  position: relative;
+  flex-direction: column;
+  overflow: scroll; 
+  display: flex;
+  margin-bottom: 24px;
+  margin-top: 32px;
+
+  @include onTablet {
+    z-index: 10000;
+  }
+
+  @include onBigDesktop {
+    margin-bottom: 73px;
+    margin-top: 72px;
+    align-items: start;
+  }
+
+  &_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 24px;
+  }
+  
+  &_logo {
+    width: 50px;
+    height: 55px;
+
+    @include onBigDesktop {
+      width: 83px;
+      height: 91px;
+    }
+
+    @include onDesktop {
+      width: 100px;
+      height: 110px;
+    }
+
+    @include onBiggestDesktop {
+      width: 133px;
+      height: 147px;
+    }
+  }
+
+  &_switch {
+    display: flex;
+    color: #7d7d7d;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: $namu_font;
+    z-index: 10000000;
+
+    @include onBigDesktop {
+      font-size: 24px;
+    }
+  }
+
+  &_active {
+    color: black;
+  }
+
+  &_li {
+    cursor: pointer;
+  }
+}
+
+.communities {
+  display: flex;
+  flex-direction: column;
+
+  @include onBigDesktop {
+    width: 100%;
+  }
+
+  &_left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &_left h1 {
+    @include title();
+    max-width: 296px;
+
+    @include onBigDesktop {
+      min-width: 700px;
+      font-size: 51px;
+    }
+
+    @include onBiggestDesktop {
+      font-size: 83px;
+      min-width: 1048px;
+      width: 1048px;
+      margin-bottom: 76px;
+    }
+  }
+
+  &_instruction {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    @include onBigDesktop {
+      gap: 12px;
+    }
+  }
+
+  &_instruction img {
+    width: 28px;
+    height: 34px;
+
+    @include onBigDesktop {
+      width: 54px;
+      height: 60px;
+    }
+  }
+
+  &_instruction span {
+    @include subtitle();
+    max-width: 260px;
+
+    @include onBigDesktop {
+      max-width: none;
+      width: 518px;
+    }
+  }
+
+  &_right {
+    @include onSmallTablet {
+      display: flex;
+      justify-content: end;
+      margin-right: -32px;
+    }
+
+
+    @include onBigTablet {
+      margin-right: -72px;
+    }
+
+    @include onBigDesktop {
+      margin-right: -118px;
+    }
+  }
+
+  &_right svg {
+    width: 668px;
+    height: 635px;
+    position: relative;
+    scroll-behavior: smooth;
+    margin-top: -340px;
+    margin-left: -90px;
+    // z-index: 100000; 
+
+    @include onLargeMobile {
+      margin-top: -300px;
+    }
+
+    @include onSmallTablet {
+      margin-left: -50px;
+      margin-top: -350px;
+    }
+
+    @include onTablet {
+      margin-left: 0;
+    }
+
+    @include onExtendedTablet {
+      margin-top: -380px;
+      z-index: 100000;
+    }
+
+    @include onBigDesktop {
+      // width: 944px;
+      // height: 896px;
+      width: 1200px;
+      height: 1100px;
+      margin-top: -520px;
+      margin-left: 118px;
+      margin-bottom: 200px;
+    }
+
+    @include onDesktop {
+      margin-top: -470px;
+    }
+
+    @include onBiggestDesktop {
+      width: 1510px;
+      height: 1434px;
+      margin-top: -710px;
+    } 
+  }
+
+  &_right svg g a text {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.header {
+  @include onMobile {
+    overflow-x: scroll; 
+    scroll-behavior: smooth;
+
+    &::-webkit-scrollbar {
+      height: 6px;
+      background-color: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #008FFF;
+      border-radius: 3px;
+      height: 100px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: #EDEDED; 
+      margin-left: 32px; 
+      margin-right: 32px; 
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background-color: #006ECC; 
+    }
+
+    scrollbar-width: thin;
+    scrollbar-color: #008FFF #EDEDED; 
+  }
+
+  @include onBigDesktop {
+    overflow: visible;
+  }
+}
+
+
+
+.main {
+  @include onTablet {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include onTablet {
+    flex-direction: row;
+  }
+
+  @include onBigDesktop {
+    margin-top: -800px;
+  }
+}
+
+.left_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-left: 32px;
+  min-width: 296px;
+
+  @include onBigTablet {
+    padding-left: 72px;
+  }
+
+  @include onBigDesktop {
+    padding-left: 118px;
+    margin-top: 600px;
+  }
+
+  &_title {
+    margin: 0 0 8px 0;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: $namu_normal_font;
+    background: linear-gradient(to right, black, gray);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    min-width: 296px;
+    max-width: 500px;
+
+    @include onBigDesktop {
+      font-size: 44px;
+      max-width: 500px;
+      min-width: 500px;
+      margin-bottom: 24px;
+    }
+
+    @include onDesktop {
+      font-size: 62px;
+      max-width: 720px;
+      width: 720px
+    }
+
+    @include onBiggestDesktop {
+      font-size: 83px;
+      max-width: 959px;
+      width: 959px;
+    }
+  }
+
+  &_subtitle {
+    @include subtitle();
+    margin: 0 0 14px 0;
+    min-width: 296px;
+    max-width: 296px;
+
+    @include onBigDesktop {
+      font-size: 24px;
+      max-width: 400px;
+      margin-bottom: 44px;
+    }
+
+    @include onBiggestDesktop {
+      font-size: 32px;
+      max-width: 500px;
+      margin-bottom: 72px;
+    }
+  }
+
+  &_btn {
+    background-color: $primary-btn-color;
+    border: none;
+    border-radius: 5px;
+    width: 189px;
+    height: 39px;
+    color: $main-text-color;
+    font-family: $namu_font;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    @include hover($primary-btn-color, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(23, 23, 23, 1), 1px solid rgba(23, 23, 23, 1));
+
+    @include onBigDesktop {
+      width: 224px;
+      height: 48px;
+      font-size: 18px;
+    }
+
+    @include onDesktop {
+      width: 321px;
+      height: 66px;
+      font-size: 24px;
+    }
+
+    @include onBiggestDesktop {
+      width: 489px;
+      height: 88px;
+      font-size: 32px;
+    }
+  }
+}
+
+.right_side {
+  width: 100%;
+  position: relative;
+  margin-bottom: 130px;
+  left: 32px;
+  bottom: -30px;
+
+  @include onMobile {
+    margin-left: 7%;
+  }
+
+  @include onExtendedMobile {
+    margin-left: 10%;
+  }
+
+  @include onBigMobile {
+    margin-left: 15%;
+  }
+
+  @include onSmallTablet {
+    margin-left: 20%;
+  }
+
+  @include onTablet {
+    margin-left: 0;
+    left: 150px;
+  }
+
+  @include onBigTablet {
+    left: 170px;
+  }
+
+  @include onExtendedTablet {
+    top: -20px;
+    margin-bottom: 60px;
+  }
+
+  @include onBigDesktop {
+    top: -120px;
+    left: 100px;
+    margin-top: 600px;
+  }
+
+  &_circle_wrapper {
+    position: relative;
+    z-index: 1;
+  }
+
+  &_f_circle {
+    background-color: rgba(231, 231, 231, 1);
+    filter: blur(50px);  
+    width: 266px; 
+    height: 266px;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-left: 150px;
+    position: relative;
+    z-index: -10;
+
+    @include onBigDesktop {
+      width: 547.5px;
+      height: 547.5px;
+      top: -300px;
+      left: 300px;
+    }
+
+    @include onDesktop {
+      width: 657px;
+      height: 657px;
+    }
+
+    @include onBiggestDesktop {
+      width: 876px;
+      height: 876px;
+      left: 500px;
+    }
+  }
+
+  &_s_circle {
+    border-radius: 50%;
+    backdrop-filter: blur(80px);
+    width: 381px;
+    height: 381px;
+    background: linear-gradient(198.02deg, #F3F3F3 12.27%, rgba(243, 243, 243, 0.952941) 49.84%, rgba(243, 243, 243, 0) 83.18%);
+    margin-top: -166px;
+    margin-right: 80px;
+    position: relative;
+    z-index: -5;
+
+    @include onTablet {
+      width: 400px;
+      height: 400px;
+      top: -70px;
+      left: 0px;
+    }
+
+    @include onExtendedTablet {
+      width: 480px;
+      height: 480px;
+    }
+
+    @include onBigDesktop {
+      width: 745px;
+      height: 745px;
+      top: -300px;
+      left: 130px;
+    }
+
+    @include onDesktop {
+      width: 894px;
+      height: 894px;
+      top: -400px;
+      left: 200px;
+    }
+
+    @include onBiggestDesktop {
+      width: 1192px;
+      height: 1192px;
+      top: -650px;
+      left: 340px;
+    }
+  }
+
+  &_t_circle {
+    width: 266px; 
+    height: 266px;
+    background: rgba(18, 124, 255, 0.5);
+    filter: blur(15px);
+    border-radius: 50%;
+    margin-top: -300px;
+    position: relative;
+    margin-left: -130px;
+    z-index: -1;
+    filter: blur(50px);
+
+    @include onExtendedTablet {
+      top: -60px;
+    }
+
+    @include onBigDesktop {
+      width: 395px;
+      height: 395px;
+      top: -450px;
+      left: 120px;
+      z-index: -1000;
+    }
+
+    @include onDesktop {
+      width: 474px;
+      height: 474px;
+      top: -650px;
+      left: 200px;
+    }
+
+    @include onBiggestDesktop {
+      width: 632px;
+      height: 632px;
+      top: -1100px;
+      left: 300px;
+    }
+  }
+
+  &_block_wrapper {
+    position: relative;
+    z-index: 100;
+  }
+
+  &_block {
+    background-color: rgba(18, 124, 255, 1);
+    border: none;
+    border-radius: 8px;
+    width: 129px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $namu_normal_font;
+    color: #F3F3F3;
+    font-weight: 300;
+    z-index: 100;
+    line-height: 14.4px;
+    position: relative;
+
+    @include onExtendedTablet {
+      width: 180px;
+      height: 50px;
+    }
+
+    @include onBigDesktop {
+      line-height: 20.4px;
+    }
+
+    @include onDesktop {
+      width: 243px;
+      height: 88px;
+    }
+
+    &_number {
+      font-size: 20px;
+    }
+
+    &_sub {
+      font-size: 12px;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -149px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 150px;
+      background: linear-gradient(180deg, #127CFF 0%, rgba(18, 124, 255, 0) 100%);
+      
+
+      @include onBigDesktop {
+        width: 4px;
+        height: 364px;
+      }
+    }
+  }
+
+  &_f_block {
+    margin-top: -412px;
+    margin-left: 180px;
+
+    @include onTablet {
+      top: -50px;
+      left: -170px;
+    }
+
+    @include onExtendedTablet {
+      top: -120px;
+      left: -185px;
+    }
+    
+    &::after {
+      height: 25px;
+      bottom: -25px;
+      background: #127CFF;
+
+      @include onBigDesktop {
+        height: 363px;
+        width: 4px;
+        bottom: -362px;
+        background: linear-gradient(180deg, #127CFF 0%, rgba(18, 124, 255, 0) 100%);
+      }
+
+      @include onBiggestDesktop {
+        width: 7px;
+        height: 582px;
+        bottom: -582px;
+      }
+    }
+
+    &_number {
+      @include onBigDesktop {
+        font-size: 42px;
+      }
+
+      @include onBiggestDesktop {
+        font-size: 68px;
+      }
+    }
+
+    &_sub {
+      @include onBigDesktop {
+        font-size: 26px;
+      }
+
+      @include onBiggestDesktop {
+        font-size: 42px;
+      }
+    }
+
+    @include onBigDesktop {
+      border-radius: 26px;
+      width: 276px;
+      height: 105px;
+      z-index: 50;
+      line-height: 25.4px;
+      left: -70px;
+      top: -770px;
+    }
+
+    @include onDesktop {
+      width: 332px;
+      height: 126px;
+      top: -1100px;
+      left: 0;
+    }
+
+    @include onBiggestDesktop {
+      width: 443px;
+      height: 168px;
+      top: -1830px;
+      left: 60px;
+      line-height: 50px;
+
+      // clip-path: polygon(
+      //   0 0,             /* Top-left */
+      //   100% 0,          /* Top-right */
+      //   100% calc(100% - 44px), /* 50px up from bottom-right (height) */
+      //   calc(100% - 25px) calc(100% - 32px), /* Rounded corner's arc start */
+      //   calc(100% - 77px) 100%, /* 100px left from bottom-right (width) */
+      //   0 100%           /* Bottom-left */
+      // );
+    }
+
+    &::after {
+      height: 25px;
+      // bottom: -25px;
+      background: #127CFF;
+
+      @include onBigDesktop {
+        height: 363px;
+        width: 4px;
+        background: linear-gradient(180deg, #127CFF 0%, rgba(18, 124, 255, 0) 100%);
+      }
+
+      @include onBiggestDesktop {
+        width: 7px;
+        height: 582px;
+      }
+    }
+  }
+
+  &_s_block {
+    margin-top: 50px;
+    margin-left: 7px;
+
+    @include onTablet {
+      top: -70px;
+      left: 170px;
+    }
+
+    @include onExtendedTablet {
+      top: -100px;
+      left: 200px;
+    }
+
+    &::after {
+      @include onBigDesktop {
+        bottom: -362px;
+        width: 4px;
+        height: 363px;
+      }
+
+      @include onBiggestDesktop {
+        width: 7px;
+        height: 582px;
+        bottom: -582px;
+      }
+    }
+
+    &_number {
+      @include onBigDesktop {
+        font-size: 30px;
+      }
+
+      @include onBiggestDesktop {
+        font-size: 48px;
+      }
+    }
+
+    &_sub {
+      @include onBigDesktop {
+        font-size: 18px;
+      }
+
+      @include onBiggestDesktop {
+        font-size: 30px;
+      }
+    }
+
+    @include onBigDesktop {
+      border-radius: 18px;
+      width: 202px;
+      height: 73px;
+      top: -830px;
+      left: 450px;
+    }
+
+    @include onDesktop {
+      width: 243px;
+      height: 88px;
+      top: -1180px;
+      left: 550px;
+    }
+
+    @include onBiggestDesktop {
+      width: 324px;
+      height: 117px;
+      top: -1900px;
+      left: 722px;
+      line-height: 35px;
+    }
+  }
+
+  &_t_block {
+    margin-left: 170px;
+    margin-top: -36px;
+
+    @include onTablet {
+      top: 0px;
+      left: -120px;
+    }
+
+    @include onExtendedTablet {
+      top: -50px;
+      left: -140px;
+    }
+
+    &::after {
+      @include onBigDesktop {
+        bottom: -362px;
+        width: 4px;
+        height: 363px;
+      }
+
+      @include onBiggestDesktop {
+        width: 7px;
+        height: 582px;
+        bottom: -582px;
+      }
+    }
+
+    &_number {
+      @include onBigDesktop {
+        font-size: 30px;
+      }
+
+      @include onBiggestDesktop {
+        font-size: 48px;
+      }
+    }
+
+    &_sub {
+      @include onBigDesktop {
+        font-size: 18px;
+      }
+
+      @include onBiggestDesktop {
+        font-size: 30px;
+      }
+    }
+
+    @include onBigDesktop {
+      width: 193px;
+      height: 73px;
+      border-radius: 18px;
+      left: 150px;
+      top: -700px;
+    }
+
+    @include onDesktop {
+      width: 232px;
+      height: 88px;
+      top: -1000px;
+      left: 250px;
+    }
+
+    @include onBiggestDesktop {
+      width: 310px;
+      height: 117px;
+      top: -1650px;
+      left: 380px;
+      line-height: 35px;
+    }
+  }
+}
+
+.population {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+  z-index: 1000;
+  width: 100vw;
+  padding-top: 32px;
+  gap: 24px;
+  margin-bottom: 32px;
+
+  @include onBigDesktop {
+    margin-top: -550px;
+    background-color: transparent;
+    margin-bottom: 78px;
+  }
+
+  @include onDesktop {
+    margin-top: -850px;
+  }
+
+  @include onBiggestDesktop {
+    margin-top: -1337px;
+    gap: 0;
+  }
+
+  &_wrap {
+    display: flex;
+    flex-direction: column;
+
+    @include onBigDesktop {
+      max-width: 380px;
+    }
+
+    @include onBiggestDesktop {
+      max-width: 749px;
+    }
+  }
+
+  &_month {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    @include onTablet {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 60px;
+    }
+  }
+
+  &_title {
+    @include title();
+    margin-bottom: 14px;
+
+    @include onBigDesktop {
+      font-size: 51px;
+      width: 530px;
+      margin-bottom: 24px;
+    }
+
+    @include onDesktop {
+      font-size: 62px;
+    }
+
+    @include onBiggestDesktop {
+      font-size: 83px;
+      max-width: 549px;
+      line-height: 100px
+    }
+  }
+
+  &_subtitle {
+    @include subtitle();
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 24px;
+    max-width: 235px;
+
+    @include onSmallTablet {
+      max-width: none;
+    }
+
+    @include onTablet {
+      max-width: 500px;
+    }
+
+    @include onBigDesktop {
+      font-size: 20px;
+      margin-bottom: 55px;
+    }
+
+    @include onDesktop {
+      font-size: 24px;
+      margin-bottom: 61px;
+    }
+
+    @include onBiggestDesktop {
+      font-size: 32px;
+      margin-bottom: 82px;
+      width: 749px;
+      max-width: none;
+    }
+  }
+
+  &_blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 6px;
+    column-gap: 6px;
+    margin-bottom: 24px;
+    min-width: 300px;
+
+    @include onExtendedMobile {
+      max-width: 478px;
+      margin: 0 auto;
+      margin-bottom: 24px;
+    }
+
+    @include onTablet {
+      width: 100%;
+      align-content: center;
+      column-gap: 10px;
+    }
+
+    @include onBigDesktop {
+      margin: 0;
+      width: 600px;
+      flex-wrap: wrap;
+      column-gap: 0px;
+      margin-bottom: 0px;
+      max-width: none;
+      column-gap: 20px;
+      row-gap: 20px;
+      justify-content: end;
+    }
+
+    @include onDesktop {
+      width: 700px;
+    }
+
+    @include onBiggestDesktop {
+      width: 900px;
+      margin: 0;
+      justify-content: end;
+    }
+  }
+
+  &_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $namu_normal_font;
+    background: rgba(58, 58, 58, 1);
+    border-radius: 8px;
+    width: 145px;
+    height: 48px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 18px;
+
+    @include onBigDesktop {
+      width: 220px;
+      height: 83px;
+      border-radius: 21px;
+      line-height: 30px;
+
+      &:nth-child(even) {
+        width: 243px;
+
+        @include onDesktop {
+          width: 340px;
+        }
+
+        @include onBiggestDesktop {
+          width: 453px;
+        }
+      }
+    }
+
+    @include onDesktop {
+      width: 264px;
+      height: 100px;
+    }
+
+    @include onBiggestDesktop {
+      width: 353px;
+      height: 133px;
+      line-height: 50px;
+      align-items: start;
+      padding-left: 32px;
+    }
+
+    &:nth-child(3n + 1) {
+      background-color: $dark-button-color;
+    }
+
+    &:nth-child(3n + 2) {
+      background-color: $gray-btn-color;
+      color: rgba(58, 58, 58, 1);
+    }
+
+    &:nth-child(3n + 3) {
+      background-color: $primary-btn-color;
+    }
+  }
+
+  &_number {
+    font-size: 20px;
+
+    @include onBigDesktop {
+      font-size: 34px;
+    }
+
+    @include onBiggestDesktop {
+      font-size: 54px;
+    }
+  }
+
+  &_sub {
+    font-size: 12px;
+
+    @include onBigDesktop {
+      font-size: 20px;
+    }
+
+    @include onBiggestDesktop {
+      font-size: 32px;
+    }
+  }
+
+  &_btn {
+    @include button();
+    @include hover(rgba(255, 255, 255, 1), linear-gradient(97.95deg, #127CFF 32.25%, #0E60C6 76.89%, #0B4A99 111.99%), rgba(23, 23, 23, 1), rgba(255, 255, 255, 1), none);
+  }
+
+  &_hidden {
+    display: none;
+
+    @include onTablet {
+      display: flex;
+    }
+
+    @include onBigDesktop {
+      display: flex;
+    }
+  }
+
+  &_mobile_btn {
+    @include onTablet {
+      display: none;
+    }
+  }
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-bottom: 32px;
+
+  @include onExtendedMobile {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  @include onBigDesktop {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 92.5px;
+  }
+
+  @include onDesktop {
+    margin-bottom: 111px;
+  }
+
+  @include onBiggestDesktop {
+    margin-bottom: 148px;
+  }
+
+  &_title {
+    @include title();
+    background: linear-gradient(to right, black 0%, gray 80%, white 100%);
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 14px;
+
+    @include onExtendedTablet {
+      background: linear-gradient(to right, black 0%, gray 90%, white 100%);
+      background-clip: text;
+      color: transparent;
+    }
+
+    @include onBigDesktop {
+      font-size: 52px;
+      margin-bottom: 28px;
+    }
+
+    @include onDesktop {
+      font-size: 62px;
+      margin-bottom: 34px;
+    }
+
+    @include onBiggestDesktop {
+      margin-bottom: 46px;
+      font-size: 83px;
+    }
+  }
+
+  &_subtitle {
+    @include subtitle();
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 24px;
+
+    @include onBigDesktop {
+      margin-bottom: 77.5px;
+      font-size: 20px;
+    }
+
+    @include onDesktop {
+      margin-bottom: 93px;
+      font-size: 24px;
+      max-width: 1068px
+    }
+
+    @include onBiggestDesktop {
+      margin-bottom: 124px;
+      font-size: 32px;
+      max-width: 1424px
+    }
+  }
+
+  &_btn {
+    @include button();
+    @include hover(rgba(255, 255, 255, 1), $hover_btn_color, rgba(23, 23, 23, 1), rgba(255, 255, 255, 1), none);
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-bottom: 31px;
+
+  @include onBigDesktop {
+    margin-bottom: 94px;
+  }
+
+  &_title {
+    @include title();
+    margin-bottom: 24px;
+
+    @include onBigDesktop {
+      font-size: 52px;
+      margin-bottom: 70px;
+      max-width: 1263px;
+    }
+
+    @include onBiggestDesktop {
+      font-size: 83px;
+      margin-bottom: 111px;
+      max-width: 1263px;
+    }
+  }
+
+  &_wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    @include onBigDesktop {
+      width: 100%;
+    }
+  }
+
+  &_blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+
+    @include onBigMobile {
+      flex-direction: row;
+      gap: 15px;
+    }
+
+    @include onBigDesktop {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 82px;
+    }
+  }
+
+  &_name {
+    background: rgba(243, 243, 243, 1);
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $namu_normal_font;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 6px;
+    max-width: 296px;
+    align-self: center;
+
+    @include onBigMobile {
+      width: 100%;
+      max-width: none;
+    }
+
+    @include onBigDesktop {
+      border-radius: 21px;
+      font-size: 54px;
+      height: 133px;
+      justify-content: start;
+      padding-inline: 32px;
+      margin-bottom: 32px;
+    }
+  }
+
+  &_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 6px;
+    column-gap: 6px;
+
+    @include onExtendedMobile {
+      max-width: 400px;
+      align-items: center;
+      align-self: center;
+    }
+
+    @include onBigMobile {
+      max-width: none;
+      justify-content: initial;
+      width: 100%;
+    }
+
+    @include onSmallTablet {
+      justify-content: space-between;
+    }
+
+    @include onBigDesktop {
+      margin-bottom: 0;
+    }
+
+    @include onBiggestDesktop {
+      gap: 30px;
+    }
+  }
+
+  &_subblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $namu_normal_font;
+    background: rgba(58, 58, 58, 1);
+    border-radius: 8px;
+    width: 145px;
+    height: 48px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 18px;
+
+    @include onBigMobile {
+      width: 100%;
+    }
+
+    @include onTablet {
+      width: 48%;
+    }
+
+    @include onExtendedDesktop {
+      height: 100px;
+    }
+
+    @include onBigDesktop {
+      height: 83px;
+      border-radius: 21px;
+      align-items: start;
+      padding-inline: 32px;
+      line-height: 25px;
+    }
+
+    @include onBiggestDesktop {
+      height: 133px;
+      line-height: 50px;
+    }
+  }
+
+  &_number {
+    font-size: 20px;
+
+    @include onBigDesktop {
+      font-size: 31px;
+    }
+
+    @include onBiggestDesktop {
+      font-size: 54px;
+    }
+  }
+
+  &_sub {
+    font-size: 12px;
+
+    @include onBigDesktop {
+      font-size: 14px;
+    }
+
+    @include onBiggestDesktop {
+      font-size: 30px;
+    }
+  }
+}
+
+.august {
+  background-color: rgba(18, 124, 255, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.grey {
+  background: rgba(243, 243, 243, 1);
+  color: rgba(58, 58, 58, 1);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: rgba(58, 58, 58, 1);
+  width: 100vw;
+  padding-top: 29px;
+  padding-bottom: 32px;
+
+  @include onBigDesktop {
+    padding-inline: 118px;
+    padding-top: 114px;
+    padding-bottom: 168px;
+  }
+
+  &_img {
+    width: 60px;
+    height: 66px;
+    margin-bottom: 35px;
+
+    @include onBigDesktop {
+      width: 83px;
+      height: 91px;
+    }
+
+    @include onDesktop {
+      width: 100px;
+      height: 110px;
+    }
+
+    @include onBiggestDesktop {
+      width: 133px;
+      height: 147px;
+    }
+  }
+
+  &_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    @include onBiggestDesktop {
+      margin-top: -85px;
+    }
+  }
+
+  &_link {
+    font-family: $namu_normal_font;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+
+    @include onBigDesktop {
+      font-size: 20px;
+    }
+
+    @include onDesktop {
+      font-size: 24px;
+    }
+
+    @include onBiggestDesktop {
+      font-size: 32px;
+    }
+  }
+}
+
+.s {
+  @include onTablet {
+    display: flex;
+    flex-direction: row-reverse;
+  
+    &_wrap {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    &_blocks {
+      justify-content: flex-start;
+    }
+  }
+  @include onBigDesktop {
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 118px;
+
+    &_wrap {
+      margin: 0 auto;
+
+      @include onBiggestDesktop {
+        text-align: center;
+      }
+    }
+
+    &_title {
+      width: 368px;
+      background: linear-gradient(to right, black 0%, gray 100%, white 100%);
+      background-clip: text;
+      color: transparent;
+
+      @include onDesktop {
+        width: 441px;
+      }
+
+      @include onBiggestDesktop {
+        width: 630px;
+        max-width: none;
+        text-align: center;
+      }
+    }
+
+    &_subtitle {
+      margin-bottom: 48px;
+
+      @include onDesktop {
+        width: 444px;
+      }
+
+      @include onBiggestDesktop {
+        width: 629px;
+        max-width: none;
+      }
+    }
+
+    &_blocks {
+      margin-bottom: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      margin-top: -60px;
+
+      @include onBiggestDesktop {
+        max-width: 100vw;
+      }
+    }
+
+    &_block {
+      align-items: start;
+      padding-inline: 32px;
+
+      @include onBigDesktop {
+        line-height: 40px;
+      }
+
+      @include onDesktop {
+        height: 100px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+
+      @include onBiggestDesktop {
+        height: 133px;
+        line-height: 66px;
+      }
+
+      &:nth-child(3n + 1),
+        :nth-child(5n + 1) {
+        flex-grow: 1;
+        max-width: 220px;
+
+        @include onDesktop {
+          max-width: 264px;
+        }
+
+        @include onBiggestDesktop {
+          max-width: 500px;
+        }
+      }
+      &:nth-child(4n + 2),
+      &:nth-child(4n + 3) {
+        flex-grow: 2;
+      }
+
+      &:nth-child(4) {
+        flex-grow: 1;
+      }
+
+      &:nth-child(5) {
+        flex-grow: 2;
+        min-width: 380px;
+        max-width: 466px;
+
+        @include onBiggestScreen {
+          max-width: none;
+          min-width: 900px;
+          width: 900px;
+        }
+      }
+
+      &:nth-child(2) {
+        min-width: 420px;
+        max-width: 700px;
+
+        @include onDesktop {
+          min-width: 500px;
+          max-width: 720px;
+        }
+
+        @include onExtendedDesktop {
+          min-width: 600px;
+          max-width: none;
+        }
+
+        @include onAverageDesktop {
+          min-width: 751px;
+        }
+
+        @include onBiggestDesktop {
+          min-width: 700px;
+        }
+
+        @include onBiggestScreen {
+          min-width: 800px;
+        }
+      }
+
+      &:nth-child(even) {
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        line-height: 64.8px;
+
+        @include onBigDesktop {
+          padding-top: 70px;
+          padding-bottom: 70px;
+          line-height: 40px;
+        }
+
+        @include onDesktop {
+          height: 191px;
+        }
+
+        @include onBiggestDesktop {
+          height: 255px;
+          padding-top: 70px;
+          padding-bottom: 70px;
+        }
+      }
+
+      &:nth-child(3n + 1) {
+        background-color: $dark-button-color;
+      }
+    }
+
+    @include onBiggestDesktop {
+      margin-top: 148px;
+    }
+
+    @include onBiggestScreen2 {
+      margin-right: 118px;
+    }
+
+    @include onFullHD {
+      margin-right: 350px;
+    }
+
+    &_btn {
+      align-self: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 55px;
+      margin-top: -60px;
+
+      @include onDesktop {
+        width: 375px;
+        height: 66px;
+      }
+
+      @include onBiggestDesktop {
+        height: 88px;
+        width: 501px;
+      }
+    }
+
+    &_hidden {
+      @include onBigDesktop {
+        display: none;
+      }
+    }
+  }
+
+  @include onBiggestScreen {
+    position: relative;
+    left: -40px;
+  }
+}
+
+@include onExtendedTablet {
+  .first {
+    order: 1
+  }
+
+  .second {
+    order: 2
+  }
+
+  .third {
+    order: 3;
+  }
+
+  .forth {
+    order: 4
+  }
+
+  .fiveth {
+    order: 5
+  }
+
+  .sixth {
+    order: 6
+  }
+}
+
+@include onExtendedTablet {
+  .p_first {
+    order: 1
+  }
+
+  .p_second {
+    order: 2
+  }
+
+  .p_third {
+    order: 3;
+  }
+
+  .p_fourth {
+    order: 4
+  }
+
+  .p_fiveth {
+    order: 5
+  }
+
+  .p_sixth {
+    order: 6
+  }
+}
+
+@include onBigDesktop {
+  .p_first {
+    order: 1
+  }
+
+  .p_second {
+    order: 3
+  }
+
+  .p_third {
+    order: 5;
+  }
+
+  .p_fourth {
+    order: 2
+  }
+
+  .p_fiveth {
+    order: 4
+  }
+
+  .p_sixth {
+    order: 6
+  }
+}
+
+.svg_active {
+  fill: blue;
+  cursor: pointer;
+}
