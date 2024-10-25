@@ -103,7 +103,7 @@ body {
     gap: 8px;
   }
 
-  &_left h1 {
+  &_left h2 {
     @include title();
     max-width: 296px;
 
@@ -220,36 +220,7 @@ body {
   }
 }
 
-.header {
-  @include onMobile {
-    overflow-x: scroll; 
-    scroll-behavior: smooth;
-
-    &::-webkit-scrollbar {
-      height: 6px;
-      background-color: transparent;
-    }
-
-    &::-webkit-scrollbar-thumb {
-      background-color: #008FFF;
-      border-radius: 3px;
-      height: 100px;
-    }
-
-    &::-webkit-scrollbar-track {
-      background-color: #EDEDED; 
-      margin-left: 32px; 
-      margin-right: 32px; 
-    }
-
-    &::-webkit-scrollbar-thumb:hover {
-      background-color: #006ECC; 
-    }
-
-    scrollbar-width: thin;
-    scrollbar-color: #008FFF #EDEDED; 
-  }
-
+.header { 
   @include onBigDesktop {
     overflow: visible;
   }
@@ -868,6 +839,10 @@ body {
   margin-bottom: 32px;
 
   @include onBigDesktop {
+    max-width: 100%
+  }
+
+  @include onBigDesktop {
     margin-top: -550px;
     background-color: transparent;
     margin-bottom: 78px;
@@ -1403,6 +1378,10 @@ body {
     padding-bottom: 168px;
   }
 
+  @include onBiggestDesktop {
+    width: 100%;
+  }
+
   &_img {
     width: 60px;
     height: 66px;
@@ -1638,14 +1617,6 @@ body {
       margin-top: 148px;
     }
 
-    @include onBiggestScreen2 {
-      margin-right: 118px;
-    }
-
-    @include onFullHD {
-      margin-right: 350px;
-    }
-
     &_btn {
       align-self: center;
       display: flex;
@@ -1670,11 +1641,6 @@ body {
         display: none;
       }
     }
-  }
-
-  @include onBiggestScreen {
-    position: relative;
-    left: -40px;
   }
 }
 
