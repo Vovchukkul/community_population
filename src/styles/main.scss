@@ -1726,3 +1726,143 @@ body {
   fill: blue;
   cursor: pointer;
 }
+
+.graph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 32px;
+
+  & h2 {
+    @include title();
+    min-width: 0;  
+    margin-bottom: 33px;
+  }
+
+  &_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  &_first-row {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    position: relative;
+    top: 55px;
+  }
+
+  &_second-row {
+    display: flex;
+    flex-direction: column; 
+    gap: 48px;
+    position: relative;
+    top: 25px;
+  }
+
+  &_line {
+    background: linear-gradient(180deg, #127CFF 0%, rgba(18, 124, 255, 0) 100%);
+    border-radius: 2px;
+    width: 6px;
+    height: 384px;
+  }
+
+  &_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    padding-top: 10px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 115px;
+      border-radius: 100px;
+      top: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #127CFF 0%, rgba(18, 124, 255, 0) 100%);
+    }
+  }
+
+  &_sub {
+    font-family: $inter_font;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 17px;
+    color: #000;
+    max-width: 130px;
+  }
+
+  &_num {
+    font-family: $namu_normal_font;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000;
+  }
+
+  &_f-block {
+    padding-right: 10px;
+
+    &::before {
+      transform: rotate(180deg);
+      right: 0;
+    }
+  }
+
+  &_s-block {
+    padding-left: 10px;
+
+    &::before {
+      left: 0;
+    }
+  }
+}
+
+.evacuation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 32px;
+
+  &_f_wrap {
+    display: flex;
+    flex-direction: column;
+
+    & h2 {
+      @include title();
+      margin-bottom: 14px;
+    }
+
+    &_subtitle {
+      // @include subtitle();
+      margin-bottom: 32px; 
+    }
+  }
+
+  &_f_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: rgba(18, 124, 255, 1);
+    border-radius: 8px;
+
+    & img {
+      width: 24px;
+      height: 30px;
+    }
+  }
+
+  &_number {
+    font-family: $namu_normal_font;
+    font-size: 20px;
+  }
+
+  &_sub {
+    font-family: $namu_normal_font;
+    font-size: 12px;
+  }
+}
