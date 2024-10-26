@@ -1,12 +1,17 @@
 @font-face {
-  font-family: "Namu";
-  src: url("./utils/fonts/NAMU-1600.otf");
-}
+  font-family: 'Namu';
+  src: url("./utils/fonts/NAMU-1600.otf"); }
 @font-face {
-  font-family: "Namu_s";
+  font-family: 'Namu_s';
   src: url("./utils/fonts/NAMU-1990.otf");
-}
+  src: url("./utils/fonts/transfonter.org-20241012-081852/NAMU-1990.eot");
+  src: url("./utils/fonts/transfonter.org-20241012-081852/NAMU-1990.woff");
+  src: url("./utils/fonts/transfonter.org-20241012-081852/NAMU-1990.woff2"); }
 @font-face {
-  font-family: "Inter";
+  font-family: 'Inter';
   src: url("./utils/fonts/Inter_18pt-Light.ttf");
-}/*# sourceMappingURL=variables.css.map */
+  src: url("./utils/fonts/transfonter.org-20241014-141216/Inter18pt-Light.eot");
+  src: url("./utils/fonts/transfonter.org-20241014-141216/Inter18pt-Light.woff");
+  src: url("./utils/fonts/transfonter.org-20241014-141216/Inter18pt-Light.woff2"); }
+
+/*# sourceMappingURL=variables.css.map */
