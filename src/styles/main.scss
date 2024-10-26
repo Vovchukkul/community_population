@@ -2093,8 +2093,9 @@ body {
       background-color: rgba(18, 124, 255, 1);
     }
   
-    > :nth-child(5) {
+    > :nth-child(4) {
       background-color: rgba(243, 243, 243, 1);
+      color: #000;
     }
 
     > :nth-last-child(1) {
@@ -2102,14 +2103,13 @@ body {
     }
 
     > :nth-child(1) {
-      // clip-path: polygon(
-      //   0 0,
-      //   100% 0,
-      //   100% calc(100% - 36px), 
-      //   calc(100% - 36px) calc(100% - 36px), 
-      //   calc(100% - 36px) 100%, 
-      //   0 100%          
-      // );
+      -webkit-mask-image: radial-gradient(circle at 100% 100%, transparent 30px, black 0);
+      mask-image: radial-gradient(circle at 100% 100%, transparent 30px, black 0);
+    }
+
+    > :nth-child(3) {
+      -webkit-mask-image: radial-gradient(circle at 100% 0%, transparent 30px, black 0);
+      mask-image: radial-gradient(circle at 100% 0%, transparent 30px, black 0);
     }
   }
 
