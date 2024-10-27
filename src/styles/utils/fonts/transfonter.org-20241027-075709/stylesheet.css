@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('Inter18pt-MediumItalic.eot');
+    src: url('Inter18pt-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Inter18pt-MediumItalic.woff2') format('woff2'),
+        url('Inter18pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
