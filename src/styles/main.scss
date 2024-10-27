@@ -1977,6 +1977,10 @@ body {
       max-width: 50%;
     }
 
+    > :nth-child(3) {
+      flex-basis: 50%;
+    }
+
     > :nth-child(n + 2) {
       background: rgba(243, 243, 243, 1);
       color: rgba(58, 58, 58, 1);
@@ -2087,6 +2091,10 @@ body {
     gap: 10px;
     position: relative;
 
+    @include onSmallTablet {
+      zoom: 1.2;
+    }
+
     &::after {
       content: "";
       position: absolute;
@@ -2099,6 +2107,10 @@ body {
       background: rgba(18, 124, 255, 1);
       filter: blur(50px);
       z-index: -1;
+
+      @include onSmallTablet {
+        left: 300px;
+      }
     }
   }
 }
@@ -2161,6 +2173,10 @@ body {
 
     > :nth-child(3) {
       position: relative;
+
+      @include onSmallTablet {
+        flex-basis: 50%;
+      }
   
       &::after {
         content: "";
