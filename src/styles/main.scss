@@ -1743,16 +1743,28 @@ body {
     0px -193px 54px 0px rgba(192, 192, 192, 0);
   border-radius: 24px;
 
+  @include onTablet {
+    margin-bottom: 75px
+  }
+
   & h2 {
     @include title();
     min-width: 0;  
     margin-bottom: 33px;
+
+    @include onTablet {
+      margin-bottom: 115px;
+    }
   }
 
   &_wrap {
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+    @include onTablet {
+      flex-direction: column;
+    }
   }
 
   &_first-row {
@@ -1761,6 +1773,12 @@ body {
     gap: 48px;
     position: relative;
     top: 55px;
+
+    @include onTablet {
+      flex-direction: row;
+      top: -45px;
+      left: 110px;
+    }
   }
 
   &_second-row {
@@ -1769,6 +1787,12 @@ body {
     gap: 48px;
     position: relative;
     top: 25px;
+
+    @include onTablet {
+      flex-direction: row;
+      left: 100px;
+      top: 0;
+    }
   }
 
   &_line {
@@ -1776,6 +1800,11 @@ body {
     border-radius: 2px;
     width: 4px;
     height: 384px;
+
+    @include onTablet {
+      width: 100%;
+      height: 4px;
+    }
   }
 
   &_block {
@@ -1785,6 +1814,10 @@ body {
     position: relative;
     padding-top: 10px;
 
+    @include onTablet {
+      width: max-content;
+    }
+
     &::before {
       content: '';
       position: absolute;
@@ -1793,6 +1826,26 @@ body {
       top: 0;
       height: 4px;
       background: linear-gradient(90deg, #127CFF 0%, rgba(18, 124, 255, 0) 100%);
+
+      @include onTablet {
+        display: none;
+      }
+    }
+
+    &::after {
+      display: none;
+
+      @include onTablet {
+        content: '';
+        position: absolute;
+        width: 4px;
+        border-radius: 100px;
+        top: 70px;
+        left: 2px;
+        display: block;
+        height: 46px;
+        background: linear-gradient(#127CFF 0%, rgba(18, 124, 255, 0) 100%);
+      }
     }
   }
 
@@ -1803,6 +1856,10 @@ body {
     line-height: 17px;
     color: #000;
     max-width: 130px;
+
+    @include onTablet {
+      max-width: fit-content;
+    }
   }
 
   &_num {
@@ -1819,6 +1876,18 @@ body {
       transform: rotate(180deg);
       right: 0;
     }
+
+    &::after {
+      @include onTablet {
+        top: 50px;
+        background: linear-gradient(to top,#127CFF 0%, rgba(18, 124, 255, 0) 100%);
+      }
+    }
+
+    @include onTablet {
+      padding-right: 0;
+      top: 5px;
+    }
   }
 
   &_s-block {
@@ -1826,6 +1895,16 @@ body {
 
     &::before {
       left: 0;
+    }
+
+    @include onTablet {
+      padding-left: 0;
+      top: 35px;
+      left: -92px;
+      
+      &::after {
+        top: -35px;
+      }
     }
   }
 }
@@ -1837,9 +1916,17 @@ body {
   gap: 6px;
   margin-bottom: 32px;
 
+  @include onTablet {
+    flex-direction: row;
+  }
+
   &_f_wrap {
     display: flex;
     flex-direction: column;
+
+    @include onTablet {
+      flex-basis: 70%;
+    }
 
     & h2 {
       @include title();
@@ -1850,6 +1937,11 @@ body {
   &_subtitle {
     @include subtitle();
     margin-bottom: 32px; 
+
+    @include onTablet {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
   }
 
   &_f_block {
@@ -1866,6 +1958,10 @@ body {
     & img {
       width: 24px;
       height: 30px;
+    }
+
+    @include onTablet {
+      height: 60px;
     }
   }
 
@@ -1898,6 +1994,10 @@ body {
     & span {
       background: transparent;
     }
+
+    @include onTablet {
+      height: 60px;
+    }
   }
 
   &_number {
@@ -1923,12 +2023,23 @@ body {
     line-height: 26px;
     flex-direction: column;
     color: #F3F3F3;
+
+    @include onTablet {
+      height: 60px;
+    }
   }
 
   &_s_wrap {
     display: flex;
     flex-direction: column;
     gap: 6px;
+    position: relative;
+
+    @include onTablet {
+      flex-basis: 50%;
+      gap: 15px;
+      top: 62px;
+    }
   }
 }
 
@@ -2050,10 +2161,19 @@ body {
   margin-bottom: 32px;
   overflow: hidden;
 
+  @include onTablet {
+    flex-direction: row;
+    overflow: visible;
+  }
+
   &_wrap {
     display: flex;
     justify-content: start;
     flex-direction: column;
+
+    @include onTablet {
+      flex-basis: 30%;
+    }
   }
 
   & h2 {
@@ -2064,6 +2184,10 @@ body {
   & p {
     @include subtitle();
     margin-bottom: 32px;
+
+    @include onTablet {
+      max-width: 250px;
+    }
   }
 
   & a {
@@ -2095,6 +2219,15 @@ body {
       zoom: 1.2;
     }
 
+    @include onTablet {
+      align-items: center;
+    
+      img {
+        width: 280px;
+        height: 180px;
+      }
+    }
+
     &::after {
       content: "";
       position: absolute;
@@ -2111,6 +2244,10 @@ body {
       @include onSmallTablet {
         left: 300px;
       }
+
+      @include onTablet {
+        top: 50px;
+      }
     }
   }
 }
@@ -2120,6 +2257,10 @@ body {
   border-radius: 12px;
   width: 55px;
   height: 150px;
+
+  @include onTablet {
+    height: 180px;
+  }
 }
 
 .demining {
@@ -2150,6 +2291,10 @@ body {
     > :nth-child(4) {
       background-color: rgba(243, 243, 243, 1);
       color: #000;
+
+      @include onTablet {
+        max-width: 70%;
+      }
     }
 
     > :nth-last-child(1) {
@@ -2168,6 +2313,12 @@ body {
         height: 30px;
         background-color: #fff;
         border-radius: 50%;
+
+        @include onTablet {
+          width: 36px;
+          height: 36px;
+          top: 30px;
+        }
       }
     }
 
@@ -2187,6 +2338,12 @@ body {
         height: 30px;
         background-color: #fff;
         border-radius: 50%;
+
+        @include onTablet {
+          width: 36px;
+          height: 36px;
+          right: -4px;
+        }
       }
     }
 
@@ -2218,6 +2375,10 @@ body {
     padding-left: 8px;
     padding-top: 4px;
     padding-bottom: 4px;
+
+    @include onTablet {
+      height: 60px;
+    }
   }
 
   &_number {
@@ -2236,6 +2397,13 @@ body {
     flex-direction: column;
     gap: 14px;
 
+    @include onTablet {
+      flex-direction: row;
+      max-width: 300px;
+      align-items: end;
+      margin-top: 0;
+    }
+
     & a {
       font-family: $namu_normal_font;
       font-size: 14px;
@@ -2249,6 +2417,10 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+
+      @include onTablet {
+        align-self: end;
+      }
     }
 
     & span {
@@ -2256,6 +2428,10 @@ body {
       font-style: italic;
       font-size: 12px;
       font-weight: bold;
+
+      @include onTablet {
+        font-size: 8px;
+      }
     }
   }
 }
