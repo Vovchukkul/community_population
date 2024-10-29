@@ -2040,6 +2040,11 @@ body {
       gap: 15px;
       top: 62px;
     }
+
+    @include onExtendedTablet {
+      gap: 6px;
+      top: 77px;
+    }
   }
 }
 
@@ -2174,6 +2179,10 @@ body {
     @include onTablet {
       flex-basis: 30%;
     }
+
+    @include onExtendedTablet {
+      flex-basis: 50%
+    }
   }
 
   & h2 {
@@ -2187,6 +2196,10 @@ body {
 
     @include onTablet {
       max-width: 250px;
+    }
+    
+    @include onExtendedTablet {
+      max-width: 350px;
     }
   }
 
