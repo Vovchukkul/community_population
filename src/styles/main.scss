@@ -1742,6 +1742,7 @@ body {
     0px -123px 49px 0px rgba(192, 192, 192, 0.01),
     0px -193px 54px 0px rgba(192, 192, 192, 0);
   border-radius: 24px;
+  z-index: 1000000;
 
   @include onTablet {
     margin-bottom: 75px
@@ -1792,11 +1793,12 @@ body {
       left: 110px;
     }
 
-    @include onBigDesktop {
-      left: 262px;
+    @include onExtendedTablet {
+      left: 216px;
     }
 
     @include onBigDesktop {
+      left: 252px;
       top: -65px;
     }
   }
@@ -1812,6 +1814,11 @@ body {
       flex-direction: row;
       left: 100px;
       top: 0;
+    }
+
+    @include onExtendedTablet {
+      left: 120px;
+      top: -2px;
     }
 
     @include onBigDesktop {
@@ -1996,6 +2003,11 @@ body {
     @include onTablet {
       font-size: 20px;
       margin-bottom: 10px;
+      max-width: 402px;
+    }
+
+    @include onExtendedTablet {
+      max-width: none;
     }
 
     @include onBigDesktop {
@@ -2347,7 +2359,8 @@ body {
     }
 
     @include onBigDesktop {
-      font-size: 20px;
+      font-size: 24px;
+      max-width: 550px;
     }
   }
 
@@ -2619,11 +2632,19 @@ body {
     flex-direction: column;
     gap: 14px;
 
+    @include onSmallTablet {
+      flex-grow: 2;
+    }
+
     @include onTablet {
       flex-direction: row;
-      max-width: 300px;
+      max-width: 400px;
       align-items: end;
       margin-top: 0;
+    }
+
+    @include onBigDesktop {
+      max-width: 500px;
     }
 
     & a {
@@ -2644,10 +2665,15 @@ body {
         align-self: end;
       }
 
+      @include onSmallTablet {
+        min-width: 188px;
+      }
+
       @include onBigDesktop {
         width: 233px;
         height: 60px;
         font-size: 20px;
+        min-width: 231px;
       }
     }
 
@@ -2661,10 +2687,18 @@ body {
         font-size: 8px;
       }
 
+      @include onBigTablet {
+        font-size: 9px;
+      }
+
       @include onBigDesktop {
-        font-size: 10px;
+        font-size: 11px;
       }
     }
+  }
+
+  &_third {
+    min-width: 40%;
   }
 }
 
@@ -2682,4 +2716,15 @@ body {
 
 .info_header {
   margin-bottom: 50px;
+}
+
+.h {
+  @include onTablet {
+    position: relative;
+    top: 10px;
+  }
+
+  @include onExtendedTablet {
+    top: 0;
+  }
 }
