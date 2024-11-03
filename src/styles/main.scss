@@ -1899,6 +1899,10 @@ body {
     @include onBigDesktop {
       font-size: 20px;
     }
+
+    @include onDesktop {
+      font-size: 24px;
+    }
   }
 
   &_num {
@@ -2012,6 +2016,10 @@ body {
 
     @include onBigDesktop {
       margin-bottom: 20px;
+    }
+
+    @include onDesktop {
+      font-size: 24px;
     }
   }
 
@@ -2148,6 +2156,10 @@ body {
     @include onBigDesktop {
       top: 30px;
       gap: 20px;
+    }
+
+    @include onDesktop {
+      gap: 28px;
     }
   }
 }
@@ -2386,6 +2398,11 @@ body {
       width: 233px;
       height: 60px;
       font-size: 20px;
+    }
+
+    @include onDesktop {
+      width: 280px;
+      font-size: 24px;
     }
   }
 
@@ -2647,6 +2664,10 @@ body {
       max-width: 500px;
     }
 
+    @include onDesktop {
+      max-width: 600px;
+    }
+
     & a {
       font-family: $namu_normal_font;
       font-size: 14px;
@@ -2675,6 +2696,11 @@ body {
         font-size: 20px;
         min-width: 231px;
       }
+
+      @include onDesktop {
+        min-width: 280px;
+        font-size: 24px;
+      }
     }
 
     & span {
@@ -2693,6 +2719,10 @@ body {
 
       @include onBigDesktop {
         font-size: 11px;
+      }
+
+      @include onDesktop {
+        font-size: 12px;
       }
     }
   }
@@ -2726,5 +2756,9 @@ body {
 
   @include onExtendedTablet {
     top: 0;
+  }
+
+  @include onDesktop {
+    top: 10px;
   }
 }
