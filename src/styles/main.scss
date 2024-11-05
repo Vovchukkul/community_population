@@ -1743,6 +1743,7 @@ body {
     0px -193px 54px 0px rgba(192, 192, 192, 0);
   border-radius: 24px;
   z-index: 1000000;
+  margin-top: -4px;
 
   @include onTablet {
     margin-bottom: 75px
@@ -1765,6 +1766,15 @@ body {
     @include title();
     min-width: 0;  
     margin-bottom: 33px;
+    background: linear-gradient(to right, black 0%, gray 35%, white 100%);
+    background-clip: text;
+    color: transparent;
+
+    @include onSmallTablet {
+      background: linear-gradient(to right, black 0%, gray 65%, white 70%);
+      background-clip: text;
+      color: transparent;
+    }
 
     @include onTablet {
       margin-bottom: 115px;
@@ -1872,6 +1882,7 @@ body {
     justify-content: flex-start;
     position: relative;
     padding-top: 10px;
+    gap: 4px;
 
     @include onTablet {
       width: max-content;
@@ -1966,7 +1977,7 @@ body {
 
     &::after {
       @include onTablet {
-        top: 50px;
+        top: 54px;
         background: linear-gradient(to top,#127CFF 0%, rgba(18, 124, 255, 0) 100%);
       }
 
@@ -2011,6 +2022,10 @@ body {
       
       &::after {
         top: -35px;
+
+        @include onTablet {
+          top: -38px;
+        }
 
         @include onBigDesktop {
           top: -60px;
@@ -2074,6 +2089,9 @@ body {
     & h2 {
       @include title();
       margin-bottom: 14px;
+      background: linear-gradient(to right, black 0%, gray 35%, white 100%);
+      background-clip: text;
+      color: transparent;
 
       @include onBigDesktop {
         font-size: 52px;
@@ -2129,9 +2147,26 @@ body {
     padding-inline: 8px;
     margin-bottom: 6px;
 
+    @include onTablet {
+      justify-content: flex-start;
+    }
+
+    p {
+      max-width: 286px;
+
+      @include onBigDesktop {
+        max-width: none;
+      }
+    }
+
     & img {
       width: 24px;
       height: 30px;
+
+      @include onBigDesktop {
+        width: 40px;
+        height: 47px;
+      }
 
       @include onBiggestDesktop {
         width: 60px;
@@ -2144,7 +2179,7 @@ body {
     }
 
     @include onBigDesktop {
-      padding-inline: 15px;
+      padding-inline: 30px;
       height: 80px;
       margin-bottom: 20px;
     }
@@ -2396,6 +2431,26 @@ body {
       margin-bottom: 82px;
     }
 
+    > :nth-child(1) {
+      @include onBigDesktop {
+        line-height: 40px;
+      }
+
+      @include onBiggestDesktop {
+        line-height: 80px;
+      }
+    }
+
+    > :nth-child(n + 4) {
+      @include onBigDesktop {
+        line-height: 40px;
+      }
+
+      @include onBiggestDesktop {
+        line-height: 80px;
+      }
+    }
+
     > :nth-child(-n + 4) {
       max-width: 50%;
 
@@ -2462,7 +2517,7 @@ body {
 
   &_block {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-self: center;
     flex-direction: column;
     font-family: $namu_normal_font;
@@ -2470,18 +2525,19 @@ body {
     border-radius: 8px;
     background: rgba(58, 58, 58, 1);
     text-align: center;
-    line-height: 25px;
+    line-height: 30px;
     flex-grow: 1;
     color: #F3F3F3;
+    padding-top: 4px;
 
     @include onBigDesktop {
       height: 80px;
-      line-height: 30px;
+      line-height: 40px;
     }
 
     @include onBiggestDesktop {
       height: 133px;
-      line-height: 70px;
+      line-height: 80px;
       border-radius: 21px;
       padding-bottom: 18px;
     }
@@ -2603,7 +2659,7 @@ body {
 
     @include onBigDesktop {
       font-size: 52px;
-      background: linear-gradient(to right, black 0%, gray 70%, white 100%);
+      background: linear-gradient(to right, black 0%, gray 80%, white 100%);
       background-clip: text;
       color: transparent;
     }
@@ -2681,6 +2737,11 @@ body {
     gap: 10px;
     position: relative;
 
+    img {
+      width: 231px;
+      height: 150px;
+    }
+
     @include onSmallTablet {
       zoom: 1.2;
     }
@@ -2688,6 +2749,7 @@ body {
     @include onTablet {
       align-items: center;
       zoom: 1;
+      width: 100%;
     
       img {
         width: 280px;
@@ -2773,6 +2835,7 @@ body {
   @include onBigDesktop {
     height: 288px;
     width: 105px;
+    border-radius: 21px;
   }
 
   @include onBiggestDesktop {
@@ -2878,7 +2941,9 @@ body {
         }
 
         @include onBiggestDesktop {
-          top: -10px;
+          top: 90px;
+          width: 97px;
+          height: 97px;
         }
       }
     }
@@ -2916,6 +2981,12 @@ body {
           right: -14px;
           top: -16px;
         }
+
+        @include onBiggestDesktop {
+          width: 97px;
+          height: 97px;
+          top: -20px;
+        }
       }
     }
 
@@ -2949,7 +3020,7 @@ body {
     border-radius: 8px;
     background-color: rgba(58, 58, 58, 1);
     color: #F3F3F3;
-    line-height: 14px;
+    line-height: 18px;
     padding-left: 8px;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -3070,7 +3141,6 @@ body {
 
     & span {
       font-family: $inter_bold_italic;
-      font-style: italic;
       font-size: 12px;
       font-weight: bold;
 
