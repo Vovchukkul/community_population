@@ -233,6 +233,8 @@ body {
     position: relative;
     z-index: 1;
   }
+
+  background-color: #F3F3F3;
 }
 
 .wrapper {
@@ -1735,6 +1737,7 @@ body {
   padding-top: 32px;
   position: relative;
   background: #fff;
+  background-color: #fff;
   box-shadow:
     0px -8px 17px 0px rgba(192, 192, 192, 0.1),
     0px -31px 31px 0px rgba(192, 192, 192, 0.09),
@@ -1757,7 +1760,7 @@ body {
   }
 
   @include onBiggestDesktop {
-    margin-top: -650px;
+    margin-top: -500px;
     padding-top: 82px;
     margin-bottom: 148px
   }
@@ -2061,6 +2064,8 @@ body {
   justify-content: center;
   gap: 6px;
   margin-bottom: 32px;
+  background-color: #fff;
+
 
   @include onTablet {
     flex-direction: row;
@@ -2393,6 +2398,10 @@ body {
 
 .active {
   fill:#127CFF;
+  
+  text {
+    fill:white;
+  }
 }
 
 .btn {
@@ -2405,6 +2414,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 32px;
+  background-color: #fff;
 
   @include onBiggestDesktop {
     margin-bottom: 148px
@@ -2623,9 +2633,12 @@ body {
       font-size: 12px;
       max-width: 272px;
 
+      @include onTablet {
+        max-width: none;
+      }
+
       @include onBigDesktop {
         font-size: 20px;
-        max-width: none;
         font-family: $namu_font;
       }
 
@@ -2640,6 +2653,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 32px;
+  background-color: #fff;
   overflow: hidden;
 
   @include onTablet {
@@ -2728,6 +2742,7 @@ body {
       width: 233px;
       height: 60px;
       font-size: 20px;
+      font-family: $namu_font
     }
 
     @include onDesktop {
@@ -2766,6 +2781,7 @@ body {
       img {
         width: 280px;
         height: 180px;
+        z-index: 100000;
 
         @include onBigTablet {
           height: 220px;
@@ -2799,7 +2815,7 @@ body {
       height: 87px;
       background: rgba(18, 124, 255, 1);
       filter: blur(50px);
-      z-index: -1;
+      z-index: 1000;
 
       @include onSmallTablet {
         left: 360px;
@@ -3137,6 +3153,7 @@ body {
         height: 60px;
         font-size: 20px;
         min-width: 231px;
+        font-family: $namu_font;
       }
 
       @include onDesktop {
@@ -3220,6 +3237,7 @@ body {
 
 .info_header {
   margin-bottom: 50px;
+  z-index: -10000000000000;
 }
 
 .h {
